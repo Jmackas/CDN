@@ -195,8 +195,8 @@ div#wsb-element-9b337398-da23-45c6-871f-fe09e30f842e a {
 
 /* Slideshow Arrow Positioning */
 .wsb-media-gallery-arrows-right-arrow {
-        transform: translate(-38px, 0px);
-    z-index: 999;
+        transform: translate(-38px, 242px);
+        z-index: 999;
 }
 
 .wsb-media-gallery-arrows-left-arrow {
