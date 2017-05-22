@@ -200,7 +200,7 @@ div#wsb-element-9b337398-da23-45c6-871f-fe09e30f842e a {
 }
 
 .wsb-media-gallery-arrows-left-arrow {
-    transform: translate(38px, 0px);
+    transform: translate(38px, 242px);
     z-index: 999;
 }
 
@@ -240,3 +240,4 @@ div#wsb-element-9b337398-da23-45c6-871f-fe09e30f842e a {
     font-family: Viner Hand ITC;
     background: rgba(255,255,255,0) !important;
 }
+
