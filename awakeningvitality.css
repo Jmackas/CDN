@@ -216,12 +216,25 @@ div#wsb-element-9b337398-da23-45c6-871f-fe09e30f842e a {
 }
 */
 
+/* 22-May-2017 1705 Redundancy
 .wsb-media-gallery-caption {
     transform: translate(817px, -224px) rotate(90deg);
     width: initial !important;
     border-radius: 5px;
-    color: #d5ffad;
+    color: green;
     font-size: 239%;
     font-family: Viner Hand ITC;
     background: rgba(100,0,7,0) !important;
 }
+*/
+
+.wsb-media-gallery-caption {
+    transform: translate(817px, -224px) rotate(90deg);
+    width: initial !important;
+    border-radius: 5px;
+    color: green;
+    font-size: 239%;
+    font-family: Viner Hand ITC;
+    background: rgba(100,0,7,0) !important;
+}
+
