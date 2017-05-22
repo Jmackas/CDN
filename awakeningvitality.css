@@ -229,14 +229,15 @@ div#wsb-element-9b337398-da23-45c6-871f-fe09e30f842e a {
 */
 
 .wsb-media-gallery-caption {
-    transform: translate(123px, -179px);
-    width: 255px !important;
+    transform: translate(-1px, -159px);
+    width: 120px !important;
     /* width: 39px; */
     border-radius: 5px;
     text-align: center;
+    /* z-index: 99999999999999999; */
     color: green;
-    font-size: 239%;
+    font-size: 216%;
     font-family: Viner Hand ITC;
-    background: rgba(255,255,255,0.4) !important;
+    background: rgba(255,255,255,0) !important;
 }
 
