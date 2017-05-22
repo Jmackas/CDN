@@ -1,15 +1,17 @@
 /* CDN Link: 
 
-https://gitcdn.xyz/repo/Jmackas/CDN/master/test.css 
+https://rawgit.com/Jmackas/CDN/master/test.css
 
 */
 
 h1 {
-  color: aqua;
+  color: green;
+  background: red;
 }
 
 h2 {
   color: aqua;
+  background: gray;
 }
 
 .testclass {
