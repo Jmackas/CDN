@@ -94,8 +94,11 @@ input.form-submit.form-button-disabled {
 }
 
 /* Main Page Text */
-
-
+/*
+#wsb-element-696a49a0-5239-4a3b-a45b-ba713f359175 .txt {
+  background: linear-gradient(to right, white, #66d866, white) !important;
+}
+*/
 /* Music Player */
 .wsb-htmlsnippet-element audio {
     position: fixed;
@@ -113,6 +116,62 @@ input.form-submit.form-button-disabled {
     height: initial !important;
 }
 
+/*
+@media screen and (max-width: 480px) {
+    div#wsb-element-78723d55-b631-4481-8620-9bb53091e474 {
+        display: none;
+    }
+}
+
+div#desktop-audioplayer-78723d55-b631-4481-8620-9bb53091e474 {
+   animation: fadein 2s;
+}
+		@keyframes fadein {
+				from {
+					opacity:0;
+				}
+				to {
+					opacity:1;
+				}
+			}
+ 
+
+
+.wsb-media-audioplayer-controls.jp-state-playing {
+  position: fixed;
+  z-index: 999999 !important;
+  
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+  .wsb-media-audioplayer-controls.jp-state-playing {
+  position: initial;
+}
+
+}
+
+.wsb-shape.customStyle {
+    border-radius: 5px;
+}
+
+.wsb-media-audioplayer-details {
+  display: none;
+}
+
+.wsb-media-audioplayer,
+.wsb-media-audioplayer-controls {
+  border: initial;
+  border-top: initial;
+}
+
+.wsb-media-audioplayer-controls div.progress-time,
+.wsb-media-audioplayer-controls div.progress {
+  display: none;
+}
+
+
+
+*/
 /* Minor Touchups */
 div#wsb-element-9b337398-da23-45c6-871f-fe09e30f842e a {
     color: #c1a52e;
@@ -162,5 +221,5 @@ div#wsb-element-9b337398-da23-45c6-871f-fe09e30f842e a {
     width: initial !important;
     border-radius: 5px;
     font-size: 239%;
-    background: rgba(100,0,7,0.7) !important;
+    background: rgba(100,0,7,0) !important;
 }
