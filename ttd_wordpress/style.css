@@ -58,6 +58,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 body {
 	color: #3c4858;
 	background-color: #e5e5e5;
+	display:none;
 }
 
 blockquote p {
