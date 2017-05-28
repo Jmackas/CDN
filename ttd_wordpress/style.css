@@ -5258,3 +5258,8 @@ li.yith_magnifier_thumbnail a {
 .description .default-link {
 	color: #999;
 }
+
+/* James' Edits */
+.col-md-8.col-md-offset-2.text-center .buttons {
+    display: none;
+}
