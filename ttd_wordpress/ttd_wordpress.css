@@ -1,4 +1,16 @@
 
+/* Parallax header image */
+.page-header.header-filter {
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    min-height: 614px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
 /* Removal of main header raised */
 .main-raised {
 	margin: 0;
@@ -6,3 +18,5 @@
 	-webkit-box-shadow: initial;
 	box-shadow: initial;
 }
+
+
