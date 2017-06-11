@@ -15,13 +15,13 @@
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
 	.page-header.header-filter {
-		text-align: center;
-    width: 100%;
-    background-size: cover;
-    min-height: 614px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+		text-align: initial;
+    width: initial;
+    background-size: initial;
+    min-height: initial;
+    background-attachment: initial;
+    background-position: initial;
+    background-repeat: initial;
 	}
   
 }
