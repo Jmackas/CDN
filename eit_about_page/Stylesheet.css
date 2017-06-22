@@ -1,0 +1,111 @@
+.aboutPage h2 {
+	font-size: 215% !important;
+	text-transform: initial !important;
+	text-align: center;
+	color: #136FD2;
+}
+
+.aboutPage p,
+.aboutPage ul {
+	font-size: 150%;
+}
+
+.profCert,
+.diploma,
+.adDip,
+.bacSc,
+.gradCert,
+.gradDip,
+.mastEng {
+	/* padding: 30px; */
+	height: 150px;
+	/* vertical-align: middle !important; */
+	text-align: center;
+	width: 200px;
+	font-size: 200%;
+	cursor: pointer;
+	user-select: none;
+	transition: .3s ease-in-out;
+	filter: brightness(100%);
+	border: 2px solid #c5c5c5;
+	border-radius: 8px;
+	text-shadow: 1.5px 1.5px 1.5px black;
+	/* background-size: cover; */
+}
+
+.aboutPage .courseCat a {
+	color: white !important;
+	text-decoration: none;
+}
+
+.profCert:hover,
+.diploma:hover,
+.adDip:hover,
+.bacSc:hover,
+.gradCert:hover,
+.gradDip:hover,
+.mastEng:hover {
+	filter: brightness(200%);
+}
+
+.profCert:active,
+.diploma:active,
+.adDip:active,
+.bacSc:active,
+.gradCert:active,
+.gradDip:active,
+.mastEng:active {
+	transform: translate(0px, 3px);
+}
+
+.profCert {
+	/* background: linear-gradient(to right, black, maroon); */
+}
+
+.diploma {
+	background: linear-gradient(to right, black, #4f5b00);
+}
+
+.adDip {
+	background: linear-gradient(to right, black, #006005);
+}
+
+.bacSc {
+	background: linear-gradient(to right, black, #007472);
+}
+
+.gradCert {
+	background: linear-gradient(to right, black, #000c7a);
+}
+
+.gradDip {
+	background: linear-gradient(to right, black, #530052);
+}
+
+.mastEng {
+	background: linear-gradient(to right, black, #7a3600);
+}
+
+.aboutPage hr {
+	height: 0px;
+	border: 1px lightgray dashed !important;
+}
+
+.idcMention a:hover {
+	text-decoration: underline !important;
+}
+
+.aboutPage .moreInfo {
+	padding: 5px;
+	background: #4484ce;
+	border-radius: 4px;
+	transition: .3s ease-in-out;
+	width: 63px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.aboutPage .moreInfo:hover {
+	background: dodgerblue;
+}
