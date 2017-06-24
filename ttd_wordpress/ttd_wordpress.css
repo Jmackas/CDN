@@ -53,6 +53,22 @@ a.navbar-brand::before {
     }
 }
 
+.sec1, .sec3 {
+	background: aqua;
+}
+
+.sec2 {
+	background: lightgray;
+}
+
+
+
+/* 
+########################################################################
+Packages Page
+#########################################################################
+*/
+
 /* Packages page consistent heights */
 .woocommerce .product .card-product {
     height: 300px;
