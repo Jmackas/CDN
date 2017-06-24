@@ -3,7 +3,6 @@
 General Fixes
 #########################################################################
 */
-
 /* Parallax header image */
 .page-header.header-filter {
     width: 100%;
@@ -15,22 +14,22 @@ General Fixes
 }
 
 @media only screen and (max-width: 500px) {
-	.page-header.header-filter {
-		text-align: initial;
-    width: initial;
-    min-height: initial;
-    background-attachment: initial;
-    background-position: initial;
-    background-repeat: initial;
-	}
+    .page-header.header-filter {
+        text-align: initial;
+        width: initial;
+        min-height: initial;
+        background-attachment: initial;
+        background-position: initial;
+        background-repeat: initial;
+    }
 }
 
 /* Removal of main header raised */
 .main-raised {
-	margin: 0;
-	border-radius: 0px;
-	-webkit-box-shadow: initial;
-	box-shadow: initial;
+    margin: 0;
+    border-radius: 0px;
+    -webkit-box-shadow: initial;
+    box-shadow: initial;
 }
 
 /* Addition of logo on top menu */
@@ -39,7 +38,7 @@ a.navbar-brand::before {
 }
 
 .navbar .navbar-brand h1, .navbar .navbar-brand p {
-	margin: 4px 0 0 11px;
+    margin: 4px 0 0 11px;
 }
 
 @media (min-width: 768px) {
@@ -50,8 +49,14 @@ a.navbar-brand::before {
 
 @media (max-width: 768px) {
     a.navbar-brand::before {
-    content: initial;
-}
+        content: initial;
+    }
 }
 
-
+/* Packages page consistent heights */
+.woocommerce .product .card-product {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
