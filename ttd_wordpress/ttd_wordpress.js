@@ -1,5 +1,5 @@
 
-/* Fade in Words */
+/* Fade in Elements */
   $(window).scroll(function() {
     $(".title").each(function(i) {
       var bottom_of_object = $(this).offset().top + $(this).outerHeight();
