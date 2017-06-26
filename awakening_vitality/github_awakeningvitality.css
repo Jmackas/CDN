@@ -89,7 +89,9 @@ div#wsb-element-b91a4d4f-c71e-43f8-b223-776f6ce3fcd7 span {
     color: black;
 }
 
-
+#wsb-element-89faeba7-7552-40c3-a89c-8b467b8076ed .wsb-shape {
+    opacity: 0 !important;
+}
 
 .form-value {
     background: white;
