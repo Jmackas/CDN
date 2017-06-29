@@ -1,6 +1,5 @@
 
 // Fade in Elements
-/*
   $(window).scroll(function() {
     $(".h1.font_8").each(function(i) {
       var bottom_of_object = $(this).offset().top + $(this).outerHeight();
@@ -12,4 +11,3 @@
     });
   });
 });
-*/
