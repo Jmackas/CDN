@@ -1,7 +1,7 @@
 
 /* Fade in Elements */
   $(window).scroll(function() {
-    $(".title").each(function(i) {
+    $(".h1.font_8").each(function(i) {
       var bottom_of_object = $(this).offset().top + $(this).outerHeight();
       var bottom_of_window = $(window).scrollTop() + $(window).height();
 
