@@ -229,7 +229,7 @@ div.jsn-modulescontainer5.jsn-horizontallayout div.jsn-modulecontainer:last-chil
 
 #jsn-master {
 	background: repeat-x fixed left top;
-	overflow-x: hidden;
+	overflow-x: initial;
 }
 
 #jsn-page {
