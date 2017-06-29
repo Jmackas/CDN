@@ -689,8 +689,8 @@ div[id*=jsn-pos-stick-right] {
 	color: #D4D4D4;
 	padding-top: 3px;
 	position: relative;
-	border-bottom: 5px solid #404040;
-	background: #595959 url(../images/backgrounds/bg-promo.jpg) left top repeat-x
+	border-bottom: initial;
+	background: initial;
 }
 
 #jsn-content-top h3.jsn-moduletitle {
