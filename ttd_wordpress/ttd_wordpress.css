@@ -70,6 +70,7 @@ Packages Page
 */
 
 /* Packages page consistent heights */
+/*
 .woocommerce .product .card-product {
     height: 300px;
     display: flex;
