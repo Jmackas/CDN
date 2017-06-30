@@ -264,3 +264,9 @@ div#wsb-element-9b337398-da23-45c6-871f-fe09e30f842e a {
     background: rgba(255,255,255,0) !important;
 }
 
+/* blocks to cover annoying overflow scroll bars */
+#wsb-element-23920955-008e-4e7a-8535-f0f9a38a0b05 {
+    transform: translate(-150px,-15px);
+    /* background: #3a2222; */
+}
+
