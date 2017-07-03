@@ -105,7 +105,9 @@ Packages Page
 }
 
 .packageDeals:hover {
-	background: lightblue;
+	background: #02265b;
+	border: 1px solid rgba(0,0,0,0);
+	color: white;
 }
 
 .packageDeals h3 {
