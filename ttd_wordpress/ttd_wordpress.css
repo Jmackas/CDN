@@ -122,5 +122,11 @@ Packages Page
 }
 
 .websiteServices .combo {
-	width: 100%;
+	width: 97%;
+	margin: 0 0 0 2px;
+	text-align: center;
+}
+
+.websiteServices .combo:hover {
+	background: #ecb200;
 }
