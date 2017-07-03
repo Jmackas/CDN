@@ -96,6 +96,8 @@ Packages Page
     float: left;
     width: 48%;
     min-height: 359px;
+	    transition: .3s ease-in-out;
+	
 }
 
 .packageDeals:hover {
