@@ -98,6 +98,10 @@ Packages Page
     min-height: 359px;
 }
 
+.packageDeals:hover {
+	background: lightblue;
+}
+
 .packageDeals h3 {
     margin: 0 0 10px 0;
 }
