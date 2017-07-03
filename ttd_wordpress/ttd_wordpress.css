@@ -88,6 +88,10 @@ Packages Page
 /website-services
 ######
 */
+.websiteServices {
+	color: black;
+}
+
 .packageDeals {
     border: 1px solid lightblue;
     padding: 10px;
@@ -96,7 +100,7 @@ Packages Page
     float: left;
     width: 48%;
     min-height: 359px;
-	    transition: .3s ease-in-out;
+	    transition: .4s ease-in-out;
 	
 }
 
