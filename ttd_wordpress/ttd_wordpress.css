@@ -95,6 +95,7 @@ Packages Page
     border-radius: 3px;
     float: left;
     width: 48%;
+    min-height: 495px;
 }
 
 .packageDeals h3 {
