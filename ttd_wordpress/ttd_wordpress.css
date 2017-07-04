@@ -113,8 +113,32 @@ Packages Page
     }
 }
 
+
+.pDeals1:hover {
+	background: #227bff;
+} 
+
+
+.pDeals2:hover {
+	background: #005de6;
+} 
+
+.pDeals3:hover {
+
+}
+
+.pDeals4:hover {
+background: #003f9b;
+} 
+
+.pDeals5:hover {
+	
+}
+
+
+
+
 .pDeals1:hover, .pDeals2:hover, .pDeals3:hover, .pDeals4:hover, .pDeals5:hover {
-	background: #02265b;
 	border: 1px solid rgba(0,0,0,0);
 	color: white;
 }
