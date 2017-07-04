@@ -32,6 +32,12 @@ h2 {
     display: none;
 }
 
+@media screen and (max-device-width: 480px) {
+        iframe {
+			 height: 673px;
+ }
+
+
 div#wsb-element-e60df7e2-129f-4005-85be-ba7c41351275 {
     display: none;
 }
