@@ -113,10 +113,6 @@ Packages Page
     }
 }
 
-.pDeals3 {
-	background-image: url('http://i.imgur.com/YO3gfYh.jpg');
-}
-
 .pDeals1:hover, .pDeals2:hover, .pDeals3:hover, .pDeals4:hover, .pDeals5:hover {
 	background: #02265b;
 	border: 1px solid rgba(0,0,0,0);
