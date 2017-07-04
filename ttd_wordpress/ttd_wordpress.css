@@ -92,7 +92,7 @@ Packages Page
 	color: black;
 }
 
-.packageDeals {
+.pDeals1, .pDeals2, .pDeals3, .pDeals4, .pDeals5 {
     border: 1px solid lightblue;
     padding: 10px;
     margin: 0 3px 6px 3px;
@@ -104,20 +104,22 @@ Packages Page
 	
 }
 
+
+
 @media only screen and (max-width: 644px) {
-    .packageDeals {
+    .pDeals1, .pDeals2, .pDeals3, .pDeals4, .pDeals5 {
         float: initial;
 		width: 100%;
     }
 }
 
-.packageDeals:hover {
+.pDeals1:hover, .pDeals2:hover, .pDeals3:hover, .pDeals4:hover, .pDeals5:hover {
 	background: #02265b;
 	border: 1px solid rgba(0,0,0,0);
 	color: white;
 }
 
-.packageDeals h3 {
+.websiteServices h3 {
     margin: 0 0 10px 0;
 }
 
