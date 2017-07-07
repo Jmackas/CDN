@@ -5,11 +5,11 @@ li.has-children a, div#wsb-nav-c26dc80f-ff19-497c-b701-834606485dec {
 }
 */
 
-/*
+/****************
 
 General Elements 
 
-*/
+****************/
 
 h1 {
     font-size: 40px !important;
@@ -122,7 +122,11 @@ input.form-submit.form-button-disabled {
     border: 1px solid #836f94;
 }
 
-/* Main Page Text */
+/****************
+
+Main Page Text 
+
+****************/
 /*
 #wsb-element-696a49a0-5239-4a3b-a45b-ba713f359175 .txt {
   background: linear-gradient(to right, white, #66d866, white) !important;
@@ -205,6 +209,10 @@ div#desktop-audioplayer-78723d55-b631-4481-8620-9bb53091e474 {
 div#wsb-element-9b337398-da23-45c6-871f-fe09e30f842e a {
     color: #c1a52e;
     text-decoration: underline;
+}
+
+div#wsb-element-62cce872-8a36-452e-a455-e02a35a676a8 {
+    display: none;
 }
 
 /* Mobile Edits */
