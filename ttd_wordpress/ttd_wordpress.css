@@ -28,6 +28,11 @@ General Fixes
     }
 }
 
+/* Removal of Copyright */
+.copyright.pull-right {
+    display: none;
+}
+
 /* Removal of main header raised */
 .main-raised {
     margin: 0;
@@ -148,3 +153,5 @@ Packages Page
         text-align: initial;
     }
 }
+
+
