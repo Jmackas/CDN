@@ -13,3 +13,10 @@ div#text-7 {
     display: none;
 }
 
+/*****************
+Products Page
+*****************/
+
+ul.products h2 {
+	    line-height: 2em;
+}
