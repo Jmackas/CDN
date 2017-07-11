@@ -9,8 +9,8 @@ Universal Elements
 *****************/
 
 /* Logo sizing */
-.col-sm-4.col-xs-8 img {
-    width: 10em;
+.col-sm-4.col-xs-8 img:hover {
+    opacity: 0.5;
 }
 
 /*****************
