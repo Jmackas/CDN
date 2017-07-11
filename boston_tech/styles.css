@@ -8,12 +8,31 @@ Two main colours:
 General
 *****************/
 
+/*****************
+About Us
+*****************/
+
+/* Removal of random image I can't seem to remove on Wordpress */
+img.attachment-illdy-blog-list.size-illdy-blog-list.wp-post-image {
+    display: none;
+}
 
 
 /*****************
-Products Page
+Blog
+*****************/
+
+
+/*****************
+Contact
+*****************/
+
+
+/*****************
+Shop
 *****************/
 
 ul.products h2 {
 	    line-height: 2em;
 }
+
