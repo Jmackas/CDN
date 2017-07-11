@@ -5,11 +5,16 @@ Two main colours:
 */
 
 /*****************
-General
+Universal Elements
 *****************/
 
 /*****************
-About Us
+Home Page
+*****************/
+
+
+/*****************
+About Us Page
 *****************/
 
 /* Removal of random image I can't seem to remove on Wordpress */
@@ -17,19 +22,13 @@ img.attachment-illdy-blog-list.size-illdy-blog-list.wp-post-image {
     display: none;
 }
 
-
 /*****************
-Blog
+Contact Page
 *****************/
 
 
 /*****************
-Contact
-*****************/
-
-
-/*****************
-Shop
+Shop Page
 *****************/
 
 ul.products h2 {
