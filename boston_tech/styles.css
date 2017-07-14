@@ -3,11 +3,9 @@ Two main colours:
 - Blue:     #0099ff
 - Orange:   #ffa407
 */
-
 /*****************
 Universal Elements
 *****************/
-
 /* Header image overwrite */
 header {
     background-image: url(http://bostontechnology.com.au/wp-content/uploads/2017/07/board-453758_960_720.jpg) !important;
@@ -22,16 +20,16 @@ header {
     opacity: 0.7;
 }
 
-
 /*****************
 Home Page
 *****************/
 
 
+
+
 /*****************
 About Us Page
 *****************/
-
 /* Removal of random image I can't seem to remove on Wordpress */
 img.attachment-illdy-blog-list.size-illdy-blog-list.wp-post-image {
     display: none;
@@ -40,7 +38,6 @@ img.attachment-illdy-blog-list.size-illdy-blog-list.wp-post-image {
 /*****************
 Contact Page
 *****************/
-
 .contactForm {
     width: 100%;
     height: 1079px;
@@ -62,29 +59,27 @@ Contact Page
 }
 
 @media only screen and (max-width: 1128px) {
-   .overflowAuto iframe {
-       float: initial;
-   }
+    .overflowAuto iframe {
+        float: initial;
+    }
 
-   .overflowAuto {
-       text-align: center;
-       margin: 0;
-   }
+    .overflowAuto {
+        text-align: center;
+        margin: 0;
+    }
 
-   .overflowAuto ul {
-       float: initial;
-   }
+    .overflowAuto ul {
+        float: initial;
+    }
 
-   .contactPage li {
-    list-style: none !important;
-	}
+    .contactPage li {
+        list-style: none !important;
+    }
 }
 
 /*****************
 Shop Page
 *****************/
-
 ul.products h2 {
-	    line-height: 2em;
+    line-height: 2em;
 }
-
