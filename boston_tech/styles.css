@@ -20,14 +20,14 @@ header {
     opacity: 0.7;
 }
 
+/* Footer credit hidden */
+.bottom-footer {
+    display: none;
+}
+
 /*****************
 Home Page
 *****************/
-
-
-
-
-
 /*****************
 About Us Page
 *****************/
