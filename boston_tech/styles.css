@@ -76,7 +76,7 @@ Contact Page
    }
 
    .contactPage li {
-    list-style: none;
+    list-style: none !important;
 	}
 }
 
