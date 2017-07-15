@@ -3,6 +3,13 @@
 General Fixes
 ***************
 */
+
+/* Div that centres elements via flex */
+.centerElement {
+	display: flex;
+	justify-content: center;
+}
+
 /* Parallax header image */
 .page-header.header-filter {
     width: 100%;
