@@ -8,9 +8,10 @@ Universal Elements
 *****************/
 
 /* Hide the 'stylesheet' module on the page */
-div#text-7 {
+div#text-16 {
     display: none;
 }
+
 
 /* Header image overwrite */
 header {
