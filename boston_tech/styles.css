@@ -32,6 +32,11 @@ header {
     display: none;
 }
 
+/* Display inline footer Copyright */
+.footerCopyright div {
+		display: inline;
+}
+
 /*****************
 Home Page
 *****************/
