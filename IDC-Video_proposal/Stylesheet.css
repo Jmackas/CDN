@@ -24,3 +24,14 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li > a {
     border-top-color: #4c4c4c;
     background-color: #4c4c4c;
 }
+
+div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
+    border-top-color: #232323;
+    background-color: #232323;
+}
+
+/* Richbox1 */
+   div.richbox-1 div.jsn-modulecontainer_inner {
+	background: #6e6e6e;
+	border: initial;
+}
