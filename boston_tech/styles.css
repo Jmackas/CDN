@@ -6,6 +6,12 @@ Two main colours:
 /*****************
 Universal Elements
 *****************/
+
+/* Hide the 'stylesheet' module on the page */
+div#text-7 {
+    display: none;
+}
+
 /* Header image overwrite */
 header {
     background-image: url(http://bostontechnology.com.au/wp-content/uploads/2017/07/board-453758_960_720.jpg) !important;
