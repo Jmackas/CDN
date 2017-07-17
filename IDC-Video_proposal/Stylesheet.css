@@ -6,7 +6,8 @@
 /* Top Menu */
 #jsn-menu {
     background: #6e6e6e;
-    box-shadow: initial;
+    -webkit-box-shadow: initial;
+            box-shadow: initial;
     border: initial;
 }
 
@@ -31,7 +32,7 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
 }
 
 /* Richbox1 */
-   div.richbox-1 div.jsn-modulecontainer_inner {
-	background: #6e6e6e;
-	border: initial;
+div.richbox-1 div.jsn-modulecontainer_inner {
+    background: #6e6e6e;
+    border: initial;
 }
