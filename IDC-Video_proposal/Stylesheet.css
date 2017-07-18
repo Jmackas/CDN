@@ -1,4 +1,8 @@
+/**********
+Universal Elements
+**********/
 /* Header */
+
 #idchead {
     background: #1c6eb8;
 }
@@ -18,12 +22,12 @@ div.jsn-modulecontainer ul.menu-mainmenu >li >a {
 
 div.jsn-modulecontainer ul.menu-mainmenu ul li:hover > a {
     border-top-color: rgba(0,0,0,0);
-    background-color: #838383;
+    background-color: #5d5d5d;
 }
 
 div.jsn-modulecontainer ul.menu-mainmenu ul li > a {
-    border-top-color: #4c4c4c;
-    background-color: #4c4c4c;
+    border-top-color: #808080;
+    background-color: #808080;
 }
 
 div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
