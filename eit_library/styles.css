@@ -1,0 +1,49 @@
+/**********
+General Changes
+**********/
+/* Size of Page */
+#jsn-page {
+    width: 90%;
+}
+
+/* Background */
+#jsn-master {
+    background: #136fd2;
+}
+
+#jsn-menu {
+    background: #808080;
+    -webkit-box-shadow: initial;
+    box-shadow: initial;
+    border: initial;
+	border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+div.jsn-modulecontainer ul.menu-mainmenu >li >a {
+    border-right: none;
+    color: white;
+}
+
+div.jsn-modulecontainer ul.menu-mainmenu ul li:hover > a {
+    border-top-color: rgba(0,0,0,0);
+    background-color: #5d5d5d;
+}
+
+div.jsn-modulecontainer ul.menu-mainmenu ul li > a {
+    border-top-color: #808080;
+    background-color: #808080;
+}
+
+div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
+    border-top-color: #232323;
+    background-color: #232323;
+}
+
+/* Login Button Styling */
+.ial-select:before, .loginBtn, .loginBtn:hover:active, .selectBtn:hover .leftBtn {
+    background-color: red;
+    background-image: initial;
+    background-image: initial;
+    background-image: initial;
+    background-image: initial;
+}
