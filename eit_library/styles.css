@@ -41,20 +41,16 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
 
 /* Login Button Styling */
 
-.loginBtn,
-.selectBtn:active .rightBtn {
+.loginBtn {
 	-webkit-box-shadow: initial;
 	box-shadow: initial;
 }
 
-.ial-select:before, .loginBtn, .loginBtn:hover:active, .selectBtn:hover .leftBtn {
+=.loginBtn, .loginBtn:hover:active {
     background-color: grey;
+	  border: initial;
     background-image: initial;
     background-image: initial;
     background-image: initial;
     background-image: initial;
-}
-
-.loginBtn {
-  border: initial;
 }
