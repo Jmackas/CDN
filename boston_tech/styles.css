@@ -26,8 +26,7 @@ header {
 }
 
 .col-sm-4.col-xs-8 img:hover {
-      transform: scale(1.1) rotate(3deg);
-	  
+      transform: scale(1.05) rotate(1deg);
 }
 
 /* Footer credit hidden */
