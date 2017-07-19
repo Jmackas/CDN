@@ -20,13 +20,15 @@ header {
 
 /* Logo sizing */
 .col-sm-4.col-xs-8 img {
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 }
 
 .col-sm-4.col-xs-8 img:hover {
-      -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+      transform: scale(1.1);
 }
 
 /* Footer credit hidden */
