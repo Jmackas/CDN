@@ -54,12 +54,12 @@ img.attachment-illdy-blog-list.size-illdy-blog-list.wp-post-image {
     display: none;
 }
 
-.Blocks {
+.aboutPage .Blocks {
 	margin: auto;
 	text-align: center;
 }
 
-.Blocks div {
+.aboutPage .Blocks div {
 	display: inline-block;
 	margin: 10px 10px 10px 10px;
 }
