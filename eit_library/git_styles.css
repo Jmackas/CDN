@@ -16,7 +16,7 @@ General Changes
     -webkit-box-shadow: initial;
     box-shadow: initial;
     border: 1px solid rgba(0,0,0,0);
-	border-bottom: 1px solid rgba(0, 0, 0, 0);
+	border-bottom: 1px solid rgb(89, 89, 89);
 }
 
 div.jsn-modulecontainer ul.menu-mainmenu >li >a {
