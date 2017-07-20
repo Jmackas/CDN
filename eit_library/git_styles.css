@@ -39,8 +39,7 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
     background-color: #232323;
 }
 
-/* Login Button Styling */
-
+/* Login Button */
 .loginBtn {
 	-webkit-box-shadow: initial;
 	box-shadow: initial;
@@ -53,4 +52,10 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
     background-image: initial;
     background-image: initial;
     background-image: initial;
+}
+
+/* Header Module */
+
+#jsn-content-top {
+    background: #595959;
 }
