@@ -70,3 +70,12 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
 .jsn-joomla-30 .page-header {
     border: initial;
 }
+
+/* Footer */
+div#jsn-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
