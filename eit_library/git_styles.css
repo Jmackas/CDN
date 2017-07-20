@@ -59,4 +59,5 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
 
 #jsn-content-top {
     background: #595959;
+	border-bottom: 5px solid #404040;
 }
