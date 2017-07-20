@@ -73,7 +73,7 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
 
 /* Footer */
 div#jsn-footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
