@@ -52,10 +52,6 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
     background-image: initial;
 }
 
-.loginBtn:hover, .selectBtn:hover .rightBtn {
-    background-color: #acacac;
-}
-
 .leftBtn {
 	padding: 13px;
 }
