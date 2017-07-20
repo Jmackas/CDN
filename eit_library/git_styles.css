@@ -52,6 +52,14 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
     background-image: initial;
 }
 
+.leftBtn {
+	padding: 13px;
+}
+
+.rightBtn {
+	padding: 13px;
+}
+
 /* Header Module */
 
 #jsn-content-top {
