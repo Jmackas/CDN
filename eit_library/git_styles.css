@@ -66,3 +66,8 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
     background: #595959;
 	border-bottom: none;
 }
+
+/* Article */
+.page-header {
+    border: initial;
+}
