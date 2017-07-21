@@ -19,6 +19,7 @@ Front Page
 /* Top box */
 .jbbox-shadow {
     box-shadow: initial;
+    border-radius: initial;
 }
 
 /* 'Mentee' and 'Investor' boxes */
