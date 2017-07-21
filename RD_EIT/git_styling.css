@@ -32,15 +32,22 @@ Front Page
 }
 
 .userrole-name.text-center h2 {
-	color: white;
+	/* color: white; */
 	margin: 0 0 0 0;
 	padding: 0 0 10px 0;
-	border-bottom: 1px dashed #cccccc;
+	border-bottom: 1px dashed #e3e3e3;
 	text-shadow: 1px 1px 1px black;
 	font-size: 260%;
 }
 
 .span6.well.well-small.white.userrole {
-    background-color: rgba(128, 128, 128, 0.15);
-background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);
+  background-color:rgb(86, 86, 86);
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+color: white;
 }
