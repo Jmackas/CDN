@@ -71,6 +71,13 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
     border: initial;
 }
 
+/* Right Menu */
+div#jsn-rightsidecontent li {
+    background: red;
+    list-style-type: none;
+    margin: 0 0 0 0;
+}
+
 /* Footer */
 div#jsn-footer {
     position: relative;
