@@ -43,9 +43,9 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
 /* Login Button */
 .loginBtn, .loginBtn:hover:active .selectBtn:hover .leftBtn {
     -webkit-box-shadow: initial;
-	box-shadow: initial;
-	background-color: grey;
-	border: initial;
+    box-shadow: initial;
+    background-color: grey;
+    border: initial;
     background-image: initial;
     background-image: initial;
     background-image: initial;
@@ -53,17 +53,17 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
 }
 
 .leftBtn {
-	padding: 13px;
+    padding: 13px;
 }
 
 .rightBtn {
-	padding: 13px;
+    padding: 13px;
 }
 
 /* Header Module */
 #jsn-content-top {
     background: #595959;
-	border-bottom: none;
+    border-bottom: none;
 }
 
 /* Article */
@@ -73,9 +73,22 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
 
 /* Right Menu */
 div#jsn-rightsidecontent li {
-    background: red;
     list-style-type: none;
     margin: 0 0 0 0;
+    transition: .4s ease-in-out;
+
+}
+
+div#jsn-rightsidecontent li a {
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    color: #595959;
+}
+
+div#jsn-rightsidecontent li:hover {
+    background: rgba(19, 111, 210, 0.35);
+    color: white;
 }
 
 /* Footer */
