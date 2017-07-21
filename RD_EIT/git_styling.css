@@ -2,6 +2,7 @@
 Front Page
 *************/
 .usergroup-table .userrole {
+	transition: all 1s ease 0s;
     border-radius: initial;
 }
 
