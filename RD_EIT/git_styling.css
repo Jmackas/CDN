@@ -1,10 +1,18 @@
 /*************
+Universal Elements
+*************/
+
+
+
+/*************
 Front Page
 *************/
+/* Top box */
 .jbbox-shadow {
     box-shadow: initial;
 }
 
+/* 'Mentee' and 'Investor' boxes */
 .usergroup-table .userrole {
 	transition: all 1s ease 0s;
     border-radius: initial;
