@@ -1,23 +1,31 @@
 /*************
 Front Page
 *************/
+/* Top box */
 .jbbox-shadow {
     box-shadow: initial;
 }
 
+/* Middle 'Mentee' and 'Investor' boxes */
 .usergroup-table .userrole {
-	transition: all 1s ease 0s;
     border-radius: initial;
     box-shadow: initial;
 }
 
 .userrole-name.text-center {
-   background: initial;
+    background: initial;
 }
 
 .userrole-name.text-center h2 {
-	color: black;
-	margin: 0 0 0 0;
-	padding: 0 0 10px 0;
-	border-bottom: 1px dashed #e3e3e3;
+    color: black;
+    margin: 0 0 0 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px dashed #e3e3e3;
 }
+
+.span6.well.well-small.white.userrole {
+    background-color: #fff;
+    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee .1em, transparent .1em);
+    background-size: 100% 1.2em;
+}
+
