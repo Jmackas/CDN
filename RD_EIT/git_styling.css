@@ -8,6 +8,10 @@ Universal Elements
 	box-shadow: initial;
 }
 
+.btn-primary:hover {
+    background: green;
+}
+
 /*************
 Front Page
 *************/
