@@ -28,6 +28,10 @@ Front Page
 	 color: white;
 }
 
+.usergroup-table .userrole hr {
+	visibility: hidden;
+}
+
 .userrole-name.text-center {
     background: initial;
 }
@@ -38,6 +42,10 @@ Front Page
     border-bottom: 1px dashed #e3e3e3;
     text-shadow: 1px 1px 1px black;
     font-size: 260%;
+}
+
+.span6.well.well-small.white.userrole h3 {
+    color: white;
 }
 
 .span6.well.well-small.white.userrole {
