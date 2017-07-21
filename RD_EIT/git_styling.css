@@ -3,13 +3,13 @@ Universal Elements
 *************/
 /* Primary Button */
 .btn-primary {
-    background: red;
+    background: #136fd2;
     border-radius: initial;
 	box-shadow: initial;
 }
 
 .btn-primary:hover {
-    background: green;
+    background: #0d4581;
 }
 
 /*************
