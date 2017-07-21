@@ -6,6 +6,7 @@ Universal Elements
     background: #136fd2;
     border-radius: initial;
 	box-shadow: initial;
+	    transition: .3s ease-in-out;
 }
 
 .btn-primary:hover {
