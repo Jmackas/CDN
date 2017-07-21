@@ -8,5 +8,9 @@ Front Page
 .usergroup-table .userrole {
 	transition: all 1s ease 0s;
     border-radius: initial;
+    box-shadow: initial;
 }
 
+.userrole-name.text-center {
+    box-shadow: 0 0 10px #5e95cc;
+}
