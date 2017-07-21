@@ -5,6 +5,7 @@ Universal Elements
 .btn-primary {
     background: red;
     border-radius: initial;
+	box-shadow: initial;
 }
 
 
