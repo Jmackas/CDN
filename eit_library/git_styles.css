@@ -99,3 +99,87 @@ div#jsn-footer {
     right: 0;
     text-align: center;
 }
+
+/*******************
+Index Page
+*******************/
+
+.libColl {
+    display: flex;
+    justify-content: center;
+}
+
+.b1, .b2, .b3, .b4, .b5 {
+    background: white;
+    float: left;
+    width: 16.3em;
+    margin: 0 2px 0 2px;
+    border: 2px solid lightblue;
+    text-align: center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: .4s ease-in-out;
+}
+
+.b1 {
+    background-image: url('../elements/knovel_logo.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.b2 {
+    background-image: url('../elements/ieee_logo.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.b3 {
+    background-image: url('../elements/eit_logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.b4 {
+    background-image: url('../elements/academic_onefile_logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.b5 {
+    background-image: url('../elements/google_scholar_logo.PNG');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.b1 a, .b2 a, .b3 a, .b4 a, .b5 a {
+    display: block;
+    padding: 50px 0 50px 0;
+    color: black;
+    text-decoration: none;
+}
+
+.b1:hover, .b2:hover, .b3:hover, .b4:hover, .b5:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+@media only screen and (max-width: 658px) {
+    .libColl {
+        display: initial;
+        justify-content: initial;
+    }
+
+    .b1, .b2, .b3, .b4, .b5 {
+        width: 100%;
+        margin: -3px 0 10px 0;
+        padding: 0;
+        border: none;
+        border-top: 1px solid lightblue;
+        border-bottom: 1px solid lightblue;
+    }
+}
