@@ -1,6 +1,10 @@
 /*************
 Universal Elements
 *************/
+/* Primary Button */
+.btn-primary {
+    background: red;
+}
 
 
 
