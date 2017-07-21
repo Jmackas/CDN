@@ -6,7 +6,7 @@ Universal Elements
     background: #136fd2;
     border-radius: initial;
 	box-shadow: initial;
-	transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
 }
 
 .btn-primary:hover {
@@ -32,10 +32,12 @@ Front Page
 }
 
 .userrole-name.text-center h2 {
-	color: black;
+	color: white;
 	margin: 0 0 0 0;
 	padding: 0 0 10px 0;
 	border-bottom: 1px dashed #e3e3e3;
+	text-shadow: 1px 1px 1px black;
+	font-size: 260%;
 }
 
 .span6.well.well-small.white.userrole {
