@@ -18,7 +18,6 @@ Front Page
 
 /* 'Mentee' and 'Investor' boxes */
 .usergroup-table .userrole {
-	transition: all 1s ease 0s;
     border-radius: initial;
     box-shadow: initial;
 }
@@ -33,7 +32,6 @@ Front Page
 	padding: 0 0 10px 0;
 	border-bottom: 1px dashed #e3e3e3;
 }
-
 
 .span6.well.well-small.white.userrole {
     background-color: rgba(128, 128, 128, 0.15);
