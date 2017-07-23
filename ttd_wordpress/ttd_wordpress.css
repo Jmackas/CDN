@@ -1,8 +1,6 @@
-/* 
-***************
+/****************
 General Fixes
-***************
-*/
+****************/
 
 /* Div that centres elements via flex */
 .centerElement {
@@ -77,20 +75,16 @@ a.navbar-brand::before {
     background: lightgray;
 }
 
-/* 
-***************
+/****************
 Packages Page
-***************
-*/
+****************/
 
 
 
 
-/*
-***************
+/****************
 /website-services
-***************
-*/
+****************/
 .websiteServices a {
     color: black;
 }
@@ -155,12 +149,10 @@ Packages Page
     }
 }
 
-/*
-*******
-Woocommerce elements
-*******
-*/
 
+/****************
+Woocommerce elements
+/***************/
 .woocommerce ul.products li.product a img {
     width: 100%;
     height: 200px;
