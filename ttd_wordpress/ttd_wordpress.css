@@ -2,6 +2,12 @@
 General Fixes
 ****************/
 
+/* Hiding the div that encapsulates this CSS */
+.col-md-4 {
+    display: none;
+}
+
+
 /* Div that centres elements via flex */
 .centerElement {
 	display: flex;
