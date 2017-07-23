@@ -76,6 +76,21 @@ a.navbar-brand::before {
 }
 
 /****************
+Index Page
+****************/
+.contactInfo h4 {
+    font-weight: bold;
+}
+
+.contactInfo a {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+
+/****************
 Packages Page
 ****************/
 
