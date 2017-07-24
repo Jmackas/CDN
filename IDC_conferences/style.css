@@ -6,12 +6,13 @@ Universal Element Changes
 /********************************
 Index Page
 *********************************/
-/* Main Header Title Size */
+/* Main header title size */
 div#jsn-pos-promo h3 {
     font-size: xx-large;
     margin: 15px 0 0 0;
 }
 
+/* Main header title line height */
 div#jsn-pos-promo .jsn-moduletitle span {
     line-height: 1.4em;
 }
