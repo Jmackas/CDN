@@ -13,6 +13,11 @@ Universal Elements
     background: #0d4581;
 }
 
+/* Footer padding */
+#jsn-footer #jsn-footermodules {
+    padding: 10px;
+}
+
 /*******************************************
 Front Page
 *******************************************/
