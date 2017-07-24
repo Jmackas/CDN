@@ -1,4 +1,13 @@
 /********************************
+Universal Element Changes
+*********************************/
+/* Stylesheet hiding */
+h3.jsn-moduletitle {
+    display: none;
+}
+
+
+/********************************
 Index Page
 *********************************/
 /* Main Header Title Size */
@@ -6,3 +15,5 @@ Index Page
     font-size: xx-large;
     margin: 15px 0 0 0;
 }
+
+
