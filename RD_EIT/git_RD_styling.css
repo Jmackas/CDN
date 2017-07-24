@@ -87,7 +87,7 @@ Contact Us Page
 .overflowAuto ul {
     float: left;
     list-style-type: none;
-    margin: 0 0 0 -40px;
+    margin: -6px 0 0 -23px;
 }
 
 @media only screen and (max-width: 1128px) {
@@ -105,6 +105,6 @@ Contact Us Page
     }
 
     .contactPage li {
-        list-style: none !important;
+        list-style: none;
     }
 }
