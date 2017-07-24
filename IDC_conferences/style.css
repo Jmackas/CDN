@@ -3,9 +3,6 @@ Universal Element Changes
 *********************************/
 
 
-
-
-
 /********************************
 Index Page
 *********************************/
@@ -15,4 +12,7 @@ div#jsn-pos-promo h3 {
     margin: 15px 0 0 0;
 }
 
+div#jsn-pos-promo .jsn-moduletitle span {
+    line-height: 1.4em;
+}
 
