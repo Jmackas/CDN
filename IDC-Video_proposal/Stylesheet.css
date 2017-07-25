@@ -62,3 +62,21 @@ div.richbox-2 div.jsn-modulecontainer_inner {
     background: #04c;
 	border: none;
 }
+
+/* Index Page */
+.frontPage h2 {
+	text-align: center;
+}
+
+.frontPage .Blocks {
+	margin: auto;
+	text-align: center;
+}
+
+.frontPage .Blocks div {
+	display: inline-block;
+	padding: 55px;
+	background: red;
+	margin: 10px 10px 10px 10px;
+
+}
