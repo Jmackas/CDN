@@ -1,6 +1,6 @@
-/**********
+/***************************
 Universal Elements
-**********/
+***************************/
 /* Header */
 
 #idchead {
@@ -56,4 +56,6 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 .ial-select:hover:before, .loginBtn:hover, .selectBtn:hover .rightBtn {
 	background: rgb(82, 139, 191);
 }
+
+/* Index Page */
 
