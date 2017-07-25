@@ -50,5 +50,10 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 /* Login button */
 .ial-select:before, .loginBtn, .loginBtn:hover:active, .selectBtn:hover .leftBtn {
     background: #1c6eb8;
+	box-shadow: none;
+}
+
+.ial-select:hover:before, .loginBtn:hover, .selectBtn:hover .rightBtn {
+	background: rgb(82, 139, 191);
 }
 
