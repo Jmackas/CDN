@@ -1,6 +1,6 @@
-/**********
+/*****************
 Universal Elements
-**********/
+******************/
 /* Header */
 
 #idchead {
@@ -73,7 +73,6 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 
 .frontPage .Blocks div {
 	display: inline-block;
-	/* background: red; */
 	border: 1px solid black;
 	margin: 10px 10px 10px 10px;
 	border-radius: 10px;
