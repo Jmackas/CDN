@@ -1,9 +1,12 @@
+/*
+
+James M Edits
+
+*/
+
 /********************************
 Universal Element Changes
 *********************************/
-
-
-
 
 
 /********************************
@@ -11,12 +14,11 @@ Index Page
 *********************************/
 /* Main Header Title Size */
 div#jsn-pos-promo h3 {
-    font-size: xx-large;
-    margin: 20px 0 0 0;
+    font-size: xx-large !important;
+    margin: 20px 0 0 0 !important;
 }
 
 div#jsn-pos-promo .jsn-moduletitle span {
-    line-height: 1.4em;
-	color: black;
+    line-height: 1.4em !important;
+	color: black !important;
 }
-
