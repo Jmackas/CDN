@@ -1,6 +1,6 @@
-/***************************
+/**********
 Universal Elements
-***************************/
+**********/
 /* Header */
 
 #idchead {
@@ -57,7 +57,8 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 	background: rgb(82, 139, 191);
 }
 
-/* Index Page */
-.frontPage h2 {
-	text-align: center;
+/* Primary Button */
+.btn-primary {
+    background: #04c;
+	border: none;
 }
