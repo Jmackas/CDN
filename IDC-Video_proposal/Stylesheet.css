@@ -75,8 +75,16 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 
 .frontPage .Blocks div {
 	display: inline-block;
-	padding: 55px;
-	background: red;
+	/* background: red; */
+	border: 1px solid black;
 	margin: 10px 10px 10px 10px;
+	border-radius: 10px;
+}
 
+.frontPage .Blocks div a {
+	display: block;
+}
+
+.frontPage .Blocks div:hover {
+	background: green;
 }
