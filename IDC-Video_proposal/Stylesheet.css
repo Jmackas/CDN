@@ -69,6 +69,8 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 }
 
 .frontPage .Blocks {
+	margin: auto;
+	text-align: center;
 }
 
 .frontPage .Blocks div {
@@ -81,7 +83,9 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 
 .frontPage .Blocks div a {
 	display: block;
-	padding: 80px;
+	/* padding: 80px; */
+	height: 200px;
+	width: 200px;
 }
 
 .frontPage .Blocks div:hover {
