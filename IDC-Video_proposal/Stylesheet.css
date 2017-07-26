@@ -76,11 +76,11 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 .frontPage .Blocks div {
 	display: inline-block;
 	border: 1px solid black;
-	margin: 10px 5px 10px 5px;
+	margin: 5px 3px 5px 3px;
 	border-radius: 10px;
 	background-size: cover;
 	filter: grayscale(100%);
-	    transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .frontPage .Blocks div a {
