@@ -94,6 +94,17 @@ Index Page
 
 
 
+/****************
+Shop Page
+****************/
+/* Hyperlink border-radius */
+#mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link, #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item.mega-current-menu-ancestor > a.mega-menu-link, #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item.mega-current-page-ancestor > a.mega-menu-link {
+    border-radius: 10px 0 0 10px;
+}
+
+
+
+
 
 /****************
 Packages Page
