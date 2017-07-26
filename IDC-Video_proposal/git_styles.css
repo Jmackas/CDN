@@ -227,13 +227,18 @@ Presenters
     height: 100%
 }
 
+/***************** 
+Course List
+*****************/
 
 
-
-
-
-
-
+/***************** 
+Contact Us
+*****************/
+/* Fixed double scroll bar */
+body#jsn-master {
+    overflow: hidden;
+}
 
 
 
