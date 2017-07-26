@@ -150,7 +150,13 @@ div.richbox-2 div.jsn-modulecontainer_inner {
     .frontPage div {
         width: 100%;
     }
+	
+	.frontPage .Blocks div a {
+		width: 100%;
+	}
 }
+
+
 
 
 
