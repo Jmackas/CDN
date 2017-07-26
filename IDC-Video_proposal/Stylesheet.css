@@ -80,6 +80,7 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 	border-radius: 10px;
 	background-size: cover;
 	/* text-align: center; */
+	    filter: grayscale(100%);
 }
 
 .frontPage .Blocks div a {
@@ -94,7 +95,7 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 }
 
 .frontPage .Blocks div:hover {
-	background: red;
+	filter: grayscale(0);
 }
 
 .frontPage .b1 {
