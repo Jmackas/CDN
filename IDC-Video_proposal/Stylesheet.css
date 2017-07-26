@@ -146,7 +146,7 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 595px) {
     .frontPage div {
         width: 100%;
     }
