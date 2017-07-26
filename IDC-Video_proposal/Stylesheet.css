@@ -79,7 +79,17 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 	border: none;
 }
 
-/* Index Page */
+/***************** 
+Index Page
+*****************/
+.frontPage p, .frontPage li {
+    font-size: 150%;
+}
+
+.frontPage li {
+    line-height: 135%;
+}
+
 .frontPage li {
 	list-style-type: initial;
 }
