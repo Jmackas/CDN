@@ -75,7 +75,7 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 
 .frontPage .Blocks div {
 	display: inline-block;
-	margin: 10px 5px 10px 5px;
+	margin: 3px 3px 3px 3px;
 	border-radius: 10px;
 	background-size: cover;
 	filter: grayscale(100%);
@@ -93,6 +93,7 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 	color: white;
 	text-shadow: 1.5px 1.5px 1.5px black;
 	background: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
 	transition: .3s ease-in-out;
 }
 
