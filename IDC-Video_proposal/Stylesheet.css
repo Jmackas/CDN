@@ -92,13 +92,13 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 	font-size: large;
 	color: white;
 	text-shadow: 1.5px 1.5px 1.5px black;
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.7);
 	border-radius: 10px;
 	transition: .3s ease-in-out;
 }
 
 .frontPage .Blocks div a:hover {
-	background: none;
+	background: rgba(0,0,0,0.3);
 }
 
 .frontPage .Blocks div:hover {
