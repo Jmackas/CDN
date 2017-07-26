@@ -79,17 +79,14 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 	margin: 10px 5px 10px 5px;
 	border-radius: 10px;
 	background-size: cover;
-	/* text-align: center; */
-	    filter: grayscale(100%);
+	filter: grayscale(100%);
+	    transition: .3s ease-in-out;
 }
 
 .frontPage .Blocks div a {
-	/* display: block; */
-	/* padding: 80px; */
 	height: 200px;
-	width: 206px;
+	width: 270px;
 	display: flex;
-	/* text-align: center; */
 	align-items: center;
 	justify-content: center;
 }
