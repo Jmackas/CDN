@@ -89,6 +89,9 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-size: x-large;
+	color: white;
+	text-shadow: 1.5px 1.5px 1.5px black;
 }
 
 .frontPage .Blocks div:hover {
