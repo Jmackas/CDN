@@ -3,19 +3,19 @@ Universal Elements
 ******************/
 /* Titles */
 h1 {
-	font-size: 375%;
+    font-size: 375%;
 }
 
 h2 {
-	font-size: 235%;
+    font-size: 235%;
 }
 
 h3 {
-	font-size: 200%;
+    font-size: 200%;
 }
 
 h4 {
-	font-size: 150%;
+    font-size: 150%;
 }
 
 /* Header */
@@ -27,7 +27,7 @@ h4 {
 #jsn-menu {
     background: #808080;
     -webkit-box-shadow: initial;
-            box-shadow: initial;
+    box-shadow: initial;
     border: initial;
 }
 
@@ -59,24 +59,23 @@ div.richbox-1 div.jsn-modulecontainer_inner {
 
 /* Richbox-2 */
 div.richbox-2 div.jsn-modulecontainer_inner {
-	background: #1c6eb8;
-    
+    background: #1c6eb8;
 }
 
 /* Login button */
 .ial-select:before, .loginBtn, .loginBtn:hover:active, .selectBtn:hover .leftBtn {
     background: #1c6eb8;
-	box-shadow: none;
+    box-shadow: none;
 }
 
 .ial-select:hover:before, .loginBtn:hover, .selectBtn:hover .rightBtn {
-	background: rgb(82, 139, 191);
+    background: rgb(82, 139, 191);
 }
 
 /* Primary Button */
 .btn-primary {
     background: #04c;
-	border: none;
+    border: none;
 }
 
 /***************** 
@@ -88,107 +87,104 @@ Index Page
 
 .frontPage li {
     line-height: 135%;
-	list-style-type: initial;
+    list-style-type: initial;
 }
 
 .frontPage h2 {
-	text-align: center;
+    text-align: center;
 }
 
 .frontPage .Blocks {
-	margin: auto;
-	text-align: center;
+    margin: auto;
+    text-align: center;
 }
 
 .frontPage .Blocks div {
-	display: inline-block;
-	margin: 3px 3px 3px 3px;
-	border-radius: 10px;
-	background-size: cover;
-	filter: grayscale(100%);
-	transition: .3s ease-in-out;
-	overflow: hidden;
+    display: inline-block;
+    margin: 3px 3px 3px 3px;
+    border-radius: 10px;
+    background-size: cover;
+    filter: grayscale(100%);
+    transition: .3s ease-in-out;
+    overflow: hidden;
 }
 
 .frontPage .Blocks div a {
-	height: 200px;
-	width: 270px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-size: large;
-	color: white;
-	text-shadow: 1.5px 1.5px 1.5px black;
-	background: rgba(0, 0, 0, 0.7);
-	border-radius: 10px;
-	transition: .3s ease-in-out;
+    height: 200px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color: white;
+    text-shadow: 1.5px 1.5px 1.5px black;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    transition: .3s ease-in-out;
 }
 
 .frontPage .Blocks div a:hover {
-	background: rgba(0,0,0,0.3);
+    background: rgba(0,0,0,0.3);
 }
 
 .frontPage .Blocks div:hover {
-	filter: grayscale(0);
+    filter: grayscale(0);
 }
 
 .frontPage .b1 {
-	background-image: url(http://idc-online.com/video/images/stories/guru/categories/ee.jpg);
+    background-image: url(http://idc-online.com/video/images/stories/guru/categories/ee.jpg);
 }
 
 .frontPage .b2 {
-	background-image: url(http://idc-online.com/video/images/stories/guru/categories/COVE_Instrumentation.jpg);
+    background-image: url(http://idc-online.com/video/images/stories/guru/categories/COVE_Instrumentation.jpg);
 }
 
 .frontPage .b3 {
-	background-image: url(http://idc-online.com/video/images/stories/guru/categories/IDC_LMS_category_thumbnail_8.jpg);
+    background-image: url(http://idc-online.com/video/images/stories/guru/categories/IDC_LMS_category_thumbnail_8.jpg);
 }
 
 .frontPage .b4 {
-	background-image: url(http://idc-online.com/video/images/stories/guru/categories/IDC_LMS_category_thumbnail_3.jpg);
+    background-image: url(http://idc-online.com/video/images/stories/guru/categories/IDC_LMS_category_thumbnail_3.jpg);
 }
 
 .frontPage .b5 {
-	background-image: url(http://idc-online.com/video/images/stories/guru/categories/Silego_clock_generatorsss.JPG);
+    background-image: url(http://idc-online.com/video/images/stories/guru/categories/Silego_clock_generatorsss.JPG);
 }
 
 .frontPage .b6 {
-	background-image: url(http://idc-online.com/video/images/stories/guru/categories/Manufacturing_equipment_104sss.jpg);
+    background-image: url(http://idc-online.com/video/images/stories/guru/categories/Manufacturing_equipment_104sss.jpg);
 }
 
 .frontPage .b7 {
-	background-image: url(http://idc-online.com/video/images/stories/guru/categories/016833_4484d757.jpg);
+    background-image: url(http://idc-online.com/video/images/stories/guru/categories/016833_4484d757.jpg);
 }
 
 .frontPage .b8 {
-	background-image: url(http://idc-online.com/video/images/stories/guru/categories/Fibre-optic_cable_in_a_Telstra_pit.jpg);
+    background-image: url(http://idc-online.com/video/images/stories/guru/categories/Fibre-optic_cable_in_a_Telstra_pit.jpg);
 }
 
 .frontPage .b9 {
-	background-image: url(http://idc-online.com/video/images/stories/guru/categories/6053042920_f5d01173fb_b.jpg);
+    background-image: url(http://idc-online.com/video/images/stories/guru/categories/6053042920_f5d01173fb_b.jpg);
 }
 
 .frontPage .Blocks .b10 {
-	background-image: url(http://idc-online.com/video/images/stories/guru/categories/maxresdefault.jpg);
+    background-image: url(http://idc-online.com/video/images/stories/guru/categories/maxresdefault.jpg);
 }
 
 .frontPage .Blocks .b11 {
-	background-image: url(http://idc-online.com/video/images/stories/guru/categories/25_anniversary_dreamstime_100.png);
+    background-image: url(http://idc-online.com/video/images/stories/guru/categories/25_anniversary_dreamstime_100.png);
 }
 
 .frontPage .Blocks .b12 {
-	background-image: url(http://idc-online.com/video/images/stories/guru/categories/Victorinox-Spartan-Swiss-Army-Knife.jpg);
+    background-image: url(http://idc-online.com/video/images/stories/guru/categories/Victorinox-Spartan-Swiss-Army-Knife.jpg);
 }
-
 
 @media only screen and (max-width: 595px) {
     .frontPage div {
         width: 100%;
     }
-	
-	.frontPage .Blocks div a {
-		width: 100%;
-	}
+
+    .frontPage .Blocks div a {
+        width: 100%;
+    }
 }
-
-
