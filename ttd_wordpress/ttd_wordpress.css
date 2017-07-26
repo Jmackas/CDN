@@ -204,7 +204,7 @@ ul.products {
 }
 
 /* Woocommerce header shadow change */
-header.woocommerce-products-header {
+.content-sidebar-left.col-md-9 header.woocommerce-products-header {
     box-shadow: 
 	0 16px 38px -12px rgba(0, 0, 0, 0.56), 
 	0 4px 25px 0 rgba(0, 0, 0, 0.12), 
