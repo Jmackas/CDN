@@ -1,8 +1,24 @@
 /*****************
 Universal Elements
 ******************/
-/* Header */
+/* Titles */
+h1 {
+	font-size: 375%;
+}
 
+h2 {
+	font-size: 235%;
+}
+
+h3 {
+	font-size: 200%;
+}
+
+h4 {
+	font-size: 150%;
+}
+
+/* Header */
 #idchead {
     background: #1c6eb8;
 }
