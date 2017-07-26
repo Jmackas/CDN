@@ -145,6 +145,14 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 	background-image: url(http://idc-online.com/video/images/stories/guru/categories/maxresdefault.jpg);
 }
 
+.frontPage .Blocks .b11 {
+	background-image: url(http://idc-online.com/video/courses/engineering/29-general.html);
+}
+
+.frontPage .Blocks .b12 {
+	background-image: url(http://idc-online.com/video/courses/engineering/30-swiss-army-knife-breakdown.html);
+}
+
 
 @media only screen and (max-width: 595px) {
     .frontPage div {
