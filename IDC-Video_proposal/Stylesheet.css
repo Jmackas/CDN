@@ -90,6 +90,7 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 	display: flex;
 	/* text-align: center; */
 	align-items: center;
+	justify-content: center;
 }
 
 .frontPage .Blocks div:hover {
