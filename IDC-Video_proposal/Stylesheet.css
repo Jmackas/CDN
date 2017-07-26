@@ -75,7 +75,6 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 
 .frontPage .Blocks div {
 	display: inline-block;
-	border: 1px solid black;
 	margin: 10px 5px 10px 5px;
 	border-radius: 10px;
 	background-size: cover;
@@ -90,11 +89,15 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: x-large;
+	font-size: large;
 	color: white;
 	text-shadow: 1.5px 1.5px 1.5px black;
-	/* overflow: hidden; */
-	/* padding: 10px; */
+	background: rgba(0, 0, 0, 0.5);
+	transition: .3s ease-in-out;
+}
+
+.frontPage .Blocks div a:hover {
+	background: none;
 }
 
 .frontPage .Blocks div:hover {
