@@ -80,6 +80,10 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 }
 
 /* Index Page */
+.frontPage li {
+	list-style-type: initial;
+}
+
 .frontPage h2 {
 	text-align: center;
 }
