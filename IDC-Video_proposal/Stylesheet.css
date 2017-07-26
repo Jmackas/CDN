@@ -75,11 +75,13 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 
 .frontPage .Blocks div {
 	display: inline-block;
-	margin: 5px 3px 5px 3px;
+	border: 1px solid black;
+	margin: 10px 5px 10px 5px;
 	border-radius: 10px;
 	background-size: cover;
 	filter: grayscale(100%);
 	transition: .3s ease-in-out;
+	overflow: hidden;
 }
 
 .frontPage .Blocks div a {
@@ -89,14 +91,10 @@ div.richbox-2 div.jsn-modulecontainer_inner {
 	align-items: center;
 	justify-content: center;
 	font-size: x-large;
-	background: rgba(0, 0, 0, 0.5);
 	color: white;
 	text-shadow: 1.5px 1.5px 1.5px black;
-	transition: .3s ease-in-out;
-}
-
-.frontPage .Blocks div a:hover {
-	background: none;
+	/* overflow: hidden; */
+	/* padding: 10px; */
 }
 
 .frontPage .Blocks div:hover {
