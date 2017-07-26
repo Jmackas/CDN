@@ -194,12 +194,12 @@ About Us
 *****************/
 
 .about-us li {
-    font-size: 200%;
+    font-size: 160%;
     line-height: 150%;
+    /* text-decoration: none; */
     list-style-type: none;
     margin: 0 0 0 0;
     border-bottom: 1px dashed rgba(28, 110, 184, 0.5);
-
 }
 
 .about-us li a {
