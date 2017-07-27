@@ -245,3 +245,8 @@ GURU Course Page
 	margin-bottom: -10px;
 }
 
+.course_view_description li {
+    line-height: 150%;
+}
+
+
