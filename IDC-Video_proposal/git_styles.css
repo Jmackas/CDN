@@ -242,7 +242,8 @@ Contact Us
 GURU Course Page
 *****************/
 .course_view_description p {
-	margin-bottom: -10px;
+	margin: 15px 0 0 0;
+	padding: 0;
 }
 
 .course_view_description li {
