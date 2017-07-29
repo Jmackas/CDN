@@ -200,7 +200,7 @@ Shop Page
 ****************/
 /* Adding spacing between the products and header bar */
 ul.products {
-    margin: 20px 0 0 10px !important;
+    margin: 5px 0 0 5px !important;
 }
 
 /* Woocommerce header shadow change */
