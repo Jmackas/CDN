@@ -1,3 +1,7 @@
 /*
-<link href="" rel="stylesheet"> 
+<link href="https://rawgit.com/Jmackas/CDN/master/general_styles/formatting.css" rel="stylesheet"> 
 */
+
+h1 {
+	color: red;
+}
