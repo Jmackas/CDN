@@ -8,17 +8,28 @@ James M Edits
 Universal Element Changes
 *********************************/
 
+/********************************
+Upcoming Conferences Page
+*********************************/
+
+/* Individual course styles */
+.span6.eb-category-1 {
+    border: 1px dashed rgba(28, 110, 184, 0.5);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 10px 10px 0;
+}
 
 /********************************
 Index Page
 *********************************/
 /* Main Header Title Size */
 div#jsn-pos-promo h3 {
-    font-size: xx-large !important;
-    margin: 20px 0 0 0 !important;
+    font-size: xx-large;
+    margin: 20px 0 0 0;
 }
 
 div#jsn-pos-promo .jsn-moduletitle span {
-    line-height: 1.4em !important;
-	color: black !important;
+    line-height: 1.4em;
+	color: black;
 }
