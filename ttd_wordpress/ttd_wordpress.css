@@ -79,6 +79,11 @@ a.navbar-brand::before {
 /****************
 Index Page
 ****************/
+/* Removal of testimonials (temporarily) */
+section#testimonials {
+    display: none;
+}
+
 .contactInfo h4 {
     font-weight: bold;
 }
