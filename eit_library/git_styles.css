@@ -110,6 +110,13 @@ div#jsn-footer {
 Index Page
 *******************/
 
+
+/* Styling of search box */
+.highedInd input, .highedInd .btn-primary {
+    border-radius: 0;
+}
+
+/* Styling of library options */
 .libColl {
     display: flex;
     justify-content: center;
