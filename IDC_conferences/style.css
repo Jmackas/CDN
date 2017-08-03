@@ -33,3 +33,11 @@ div#jsn-pos-promo .jsn-moduletitle span {
     line-height: 1.4em;
 	color: black;
 }
+
+/********************************
+Conference Page
+*********************************/
+
+.row-fluid .span6 {
+    width: 100%;
+}
