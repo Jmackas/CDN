@@ -40,7 +40,7 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
     background-color: #232323;
 }
 
-/* Login Button */
+/* Buttons */
 .loginBtn, .loginBtn:hover:active .selectBtn:hover .leftBtn, .btn-primary {
     -webkit-box-shadow: initial;
     box-shadow: initial;
@@ -58,6 +58,12 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
 
 .rightBtn {
     padding: 13px;
+}
+
+/* Center element styling */
+.centerElement {
+    margin: auto;
+    text-align: center;
 }
 
 /* Header Module */
