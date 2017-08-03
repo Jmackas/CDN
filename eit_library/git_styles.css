@@ -41,7 +41,7 @@ div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
 }
 
 /* Login Button */
-.loginBtn, .loginBtn:hover:active .selectBtn:hover .leftBtn {
+.loginBtn, .loginBtn:hover:active .selectBtn:hover .leftBtn, .btn-primary {
     -webkit-box-shadow: initial;
     box-shadow: initial;
     background-color: grey;
