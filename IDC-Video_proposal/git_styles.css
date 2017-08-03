@@ -219,20 +219,12 @@ About Us
 Courses
 *****************/
 
-.uk-width-large-1-2.uk-width-medium-1-2 {
-    width: 200px !important;
-}
-
 .uk-panel-teaser.gru-panel-teaser.uk-cover-background {
     background-position: center !important;
     background-size: initial !important;
     background: #e9e9e9;
 }
 
-.uk-grid {
-    display: flex;
-    justify-content: center;
-}
 
 /***************** 
 Presenters
