@@ -1,3 +1,4 @@
+
 /* James M Edits 03-Aug-2017 */
 
 /*****************
@@ -39,45 +40,45 @@ div.jsn-modulecontainer ul.menu-mainmenu >li >a {
 }
 
 div.jsn-modulecontainer ul.menu-mainmenu ul li:hover > a {
-    border-top-color: rgba(0,0,0,0);
-    background-color: #5d5d5d;
+    border-top-color: rgba(0,0,0,0) !important;
+    background-color: #5d5d5d !important;
 }
 
 div.jsn-modulecontainer ul.menu-mainmenu ul li > a {
-    border-top-color: #808080;
-    background-color: #808080;
+    border-top-color: #808080 !important;
+    background-color: #808080 !important;
 }
 
 div.jsn-modulecontainer ul.menu-mainmenu ul li.active > a {
-    border-top-color: #232323;
-    background-color: #232323;
+    border-top-color: #232323 !important;
+    background-color: #232323 !important;
 }
 
 /* Richbox-1 */
 div.richbox-1 div.jsn-modulecontainer_inner {
-    background: #6e6e6e;
+    background: #6e6e6e !important;
     border: initial;
 }
 
 /* Richbox-2 */
 div.richbox-2 div.jsn-modulecontainer_inner {
-    background: #1c6eb8;
+    background: #1c6eb8 !important;
 }
 
 /* Login button */
 .ial-select:before, .loginBtn, .loginBtn:hover:active, .selectBtn:hover .leftBtn {
-    background: #1c6eb8;
-    box-shadow: none;
+    background: #1c6eb8 !important;
+    box-shadow: none !important;
 }
 
 .ial-select:hover:before, .loginBtn:hover, .selectBtn:hover .rightBtn {
-    background: rgb(82, 139, 191);
+    background: rgb(82, 139, 191) !important;
 }
 
 /* Primary Button */
 .btn-primary {
-    background: #04c;
-    border: none;
+    background: #04c !important;
+    border: none !important;
 }
 
 /***************** 
@@ -257,5 +258,3 @@ GURU Course Page
 .course_view_description li {
     line-height: 150%;
 }
-
-
