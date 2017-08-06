@@ -5,8 +5,8 @@ Front Page
 ***********************/
 
 .text {
-	border-top: 1px solid #4a8aba;
-	border-bottom: 1px solid #4a8aba;
+	border-top: 1px dashed rgba(92, 154, 193, 0.54);
+	border-bottom: 1px dashed rgba(92, 154, 193, 0.54);
 	float: left;
 	display: flex;
 	align-items: center;
