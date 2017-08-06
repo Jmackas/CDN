@@ -13,12 +13,16 @@ Front Page
 	/* justify-content: center; */
 }
 
-.text div {
-	display: block;
+.text h3 {
+	margin: 0;
 }
 
 .text p {
-  vertical-align: middle;
+	margin: 1% 0 0 0;
+}
+
+.text div {
+	display: block;
 }
 
 .hexagon {
