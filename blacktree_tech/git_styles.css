@@ -12,10 +12,15 @@ Front Page
 }
 
 .hexagon {
-	width: 20%;
+	width: 30%;
 	float: left;
 	padding: 10px 15px 10px 0;
 }
 
+@media only screen and (max-width: 730px) {
+    .hexagon {
+        display: none;
+    }
+}
 
 
