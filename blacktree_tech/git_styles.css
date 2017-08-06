@@ -23,5 +23,9 @@ Front Page
 	padding: 5px 15px 5px 0;
 }
 
-
+@media only screen and (max-width: 500px) {
+    .hexagon {
+       display: none;
+    }
+}
 
