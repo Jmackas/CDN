@@ -4,7 +4,7 @@
 Front Page
 ***********************/
 
-.text {
+.frontPage .text {
 	border-top: 1px dashed rgba(92, 154, 193, 0.54);
 	border-bottom: 1px dashed rgba(92, 154, 193, 0.54);
 	float: left;
@@ -17,19 +17,19 @@ Front Page
 	        align-items: center;
 }
 
-.text h3 {
+.frontPage .text h3 {
 	margin: 0;
 }
 
-.text p {
+.frontPage .text p {
 	margin: 1% 0 0 0;
 }
 
-.text .blockDis {
+.frontPage .text .blockDis {
 	display: block;
 }
 
-.hexagon {
+.frontPage .hexagon {
 	width: 50%;
 	opacity: 0.4;
 	float: left;
