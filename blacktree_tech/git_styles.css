@@ -1,1 +1,21 @@
 /* Use Wordpress CSS as the primary CSS style. The offline one is just a backup */
+
+/***********************
+Front Page
+***********************/
+
+.text {
+	border-top: 1px solid #4a8aba;
+	border-bottom: 1px solid #4a8aba;
+	float: left;
+	
+}
+
+.hexagon {
+	width: 20%;
+	float: left;
+	padding: 10px 15px 10px 0;
+}
+
+
+
