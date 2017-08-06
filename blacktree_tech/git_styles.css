@@ -8,8 +8,9 @@ Front Page
 	border-top: 1px solid #4a8aba;
 	border-bottom: 1px solid #4a8aba;
 	float: left;
-
-	
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
 }
 
 .text p {
