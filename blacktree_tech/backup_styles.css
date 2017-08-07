@@ -1,6 +1,13 @@
 /* Use Wordpress CSS as the primary CSS style. The offline one is just a backup */
 
 /***********************
+Universal Elements
+***********************/
+.copyright {
+    display: none;
+}
+
+/***********************
 Front Page
 ***********************/
 
