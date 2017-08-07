@@ -1,5 +1,4 @@
 /* Use Wordpress CSS as the primary CSS style. The offline one is just a backup */
-
 /***********************
 Universal Elements
 ***********************/
@@ -10,49 +9,47 @@ Universal Elements
 /***********************
 Front Page
 ***********************/
-
 .frontPage .text {
-	border-top: 1px dashed rgba(92, 154, 193, 0.54);
-	border-bottom: 1px dashed rgba(92, 154, 193, 0.54);
-	float: left;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	margin: 0 0 10% 0;
-	-webkit-box-align: center;
-	    -ms-flex-align: center;
-	        align-items: center;
+    border-top: 1px dashed rgba(92, 154, 193, 0.54);
+    border-bottom: 1px dashed rgba(92, 154, 193, 0.54);
+    float: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 10% 0;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .frontPage .text h3 {
-	margin: 0;
+    margin: 0;
 }
 
 .frontPage .text p {
-	margin: 1% 0 0 0;
+    margin: 1% 0 0 0;
 }
 
 .frontPage .text .blockDis {
-	display: block;
-padding: 5px;
+    display: block;
+    padding: 5px;
 }
 
 .frontPage .hexagon {
-	width: 50%;
-	opacity: 0.4;
-	float: left;
-	padding: 5px 15px 5px 0;
+    width: 50%;
+    opacity: 0.4;
+    float: left;
+    padding: 5px 15px 5px 0;
 }
 
 @media only screen and (max-width: 762px) {
     .hexagon {
-       display: none;
+        display: none;
     }
-	
-	.frontPage .text {
-		border: none;
-margin: 0 0 5% 0;
-		padding: 5px 15px 5px 0;
-	}
-}
 
+    .frontPage .text {
+        border: none;
+        margin: 0 0 5% 0;
+        padding: 5px 15px 5px 0;
+    }
+}
