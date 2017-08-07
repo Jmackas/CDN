@@ -14,7 +14,7 @@ Universal Elements
 
 @media only screen and (max-width: 762px) {
     .metaslider.metaslider-flex.metaslider-380.ml-slider {
-		margin: initial;
+		margin: initial !important;
 	}
 }
 
