@@ -1,3 +1,14 @@
+Saved Close
+
+
+
+
+
+
+Back
+Customizing
+Additional CSS
+Help 
 /* Use Wordpress CSS as the primary CSS style. The offline one is just a backup */
 /***********************
 Universal Elements
@@ -5,6 +16,15 @@ Universal Elements
 .copyright {
     display: none;
 }
+
+/* Background image */
+div#content {
+    background: url(http://i.imgur.com/1mx5ft2.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
 
 
 /* Pushed the image slider higher */
@@ -75,3 +95,13 @@ Front Page
         padding: 5px 15px 5px 0;
     }
 }
+
+
+
+
+
+
+
+ Hide Controls
+Enter desktop preview mode  Enter tablet preview mode  Enter mobile preview mode
+
