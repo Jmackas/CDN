@@ -1,0 +1,27 @@
+/*******************
+Universal Elements
+*******************/
+.jEnt {
+	font-family: calibri;
+}
+
+h2 {
+	background: #dedede;
+}
+
+.jEnt header {
+	border-bottom: 1px dashed lightblue;
+}
+
+.jEnt pre {
+	display: inline;
+}
+
+.jEnt img {
+	width: 100%;
+}
+
+
+.navPaletteTitle {
+    background: #191919 !important;
+}
