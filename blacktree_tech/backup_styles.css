@@ -18,6 +18,15 @@ Universal Elements
 	}
 }
 
+/* News Marquee */
+.mtphr-dnt-wrapper.mtphr-dnt-clearfix {
+    color: white;
+    font-size: 130%;
+    font-weight: bold;
+    padding: 10px;
+    background: #4a5b8f;
+    font-family: helvetica;
+}
 
 /***********************
 Front Page
