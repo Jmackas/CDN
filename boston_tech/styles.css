@@ -76,9 +76,11 @@ img.attachment-illdy-blog-list.size-illdy-blog-list.wp-post-image {
 /*****************
 Contact Page
 *****************/
-.contactForm {
-    width: 100%;
-    height: 1079px;
+/* Contact Form */
+.contactPage div#nf-form-1-cont {
+    border: 1px solid #ebebeb;
+    padding: 0 20px 0 20px;
+    background: rgba(235, 235, 235, 0.39);
 }
 
 .overflowAuto {
