@@ -13,9 +13,13 @@ div#content {
     background-position: right bottom;
 }
 
-/* Header top */
-.header-top {
+/* Header contact info removsal */
+ul.header-info-links {
 	visibility: hidden;
+}
+
+.header-top {
+	background: rgba(0,0,0,0);
 }
 
 
