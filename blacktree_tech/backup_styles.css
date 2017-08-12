@@ -96,3 +96,23 @@ Front Page
         padding: 5px 15px 5px 0;
     }
 }
+
+/***********************
+Contact Page
+***********************/
+/* Send Button */
+input#nf-field-16 {
+    padding: 20px 30px;
+    background: #e2e2e2;
+    border: none;
+}
+
+input#nf-field-16:hover {
+    background: rgb(204, 204, 204);
+}
+
+@media only screen and (max-width: 400px) {
+    input#nf-field-16 {
+		width: 100%;
+	}
+}
