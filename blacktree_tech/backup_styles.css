@@ -13,6 +13,10 @@ div#content {
     background-position: right bottom;
 }
 
+/* Header colour */
+.header-bottom {
+	background-color: #ffffff;
+}
 
 
 /* Pushed the image slider higher */
