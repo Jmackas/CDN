@@ -38,10 +38,6 @@ General Fixes
     }
 }
 
-/* Removal of Copyright */
-.copyright.pull-right {
-    display: none;
-}
 
 /* Removal of main header raised */
 .main-raised {
@@ -72,12 +68,9 @@ a.navbar-brand::before {
     }
 }
 
-.sec1, .sec3 {
-    background: aqua;
-}
-
-.sec2 {
-    background: lightgray;
+/* Removal of Copyright */
+.copyright.pull-right {
+    display: none;
 }
 
 /****************
@@ -105,28 +98,8 @@ section#testimonials {
 }
 
 
-
-
 /****************
-Shop Page
-****************/
-/* Hyperlink border-radius */
-#mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link, #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item.mega-current-menu-ancestor > a.mega-menu-link, #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item.mega-current-page-ancestor > a.mega-menu-link {
-    border-radius: 10px 0 0 10px;
-}
-
-
-
-
-/****************
-Packages Page
-****************/
-
-
-
-
-/****************
-/website-services
+website-services
 ****************/
 .websiteServices a {
     color: black;
@@ -194,32 +167,13 @@ Packages Page
 
 
 /****************
-Woocommerce elements
-/***************/
-/*
-.woocommerce ul.products li.product a img {
-    width: 100%;
-    height: 200px;
-    display: block;
-    margin: 0 0 1em;
-    box-shadow: none;
-}
-*/
-
-
-
-/****************
-Shop Page
+Unknown Code
 ****************/
-/* Adding spacing between the products and header bar */
-ul.products {
-    margin: 5px 0 0 5px !important;
+
+.sec1, .sec3 {
+    background: aqua;
 }
 
-/* Woocommerce header shadow change */
-/*
-.content-sidebar-left.col-md-9 header.woocommerce-products-header {
-    box-shadow: 
-	0 16px 38px -12px rgba(0, 0, 0, 0.56), 
-	0 4px 25px 0 rgba(0, 0, 0, 0.12), 
-	0 8px 10px -5px rgba(0, 0, 0, 0.2);
+.sec2 {
+    background: lightgray;
+}
