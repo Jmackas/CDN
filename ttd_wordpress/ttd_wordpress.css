@@ -78,8 +78,19 @@ Index Page
 ****************/
 /* Second parallax styling */
 section#about {
-    height: 400px;
+    height: 450px;
     filter: saturate(120%);
+}
+
+@media only screen and (max-width: 500px) {
+    section#about {
+        text-align: initial;
+        width: initial;
+        min-height: initial;
+        background-attachment: initial;
+        background-position: initial;
+        background-repeat: initial;
+    }
 }
 
 
