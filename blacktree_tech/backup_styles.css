@@ -18,6 +18,12 @@ div#content {
 	visibility: hidden;
 }
 
+/* Language plugin styling */
+div#glt-translate-trigger {
+    background: #4a5b8f;
+    bottom: -1px;
+}
+
 
 /* Header colour */
 .header-bottom {
