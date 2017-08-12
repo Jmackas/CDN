@@ -81,6 +81,10 @@ Front Page
     padding: 5px 15px 5px 0;
 }
 
+.frontPage .opacityOne {
+	background: rgba(255,255,255,0.8);
+}
+
 @media only screen and (max-width: 762px) {
     .hexagon {
         display: none;
