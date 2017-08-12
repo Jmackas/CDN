@@ -2,6 +2,11 @@
 General Fixes
 ****************/
 
+/* Text Color Changes */
+.description, .info p {
+    color: #3C4858;
+}
+
 
 /* Div that centres elements via flex */
 .centerElement {
