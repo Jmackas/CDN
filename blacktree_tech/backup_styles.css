@@ -50,8 +50,6 @@ div#content {
 Front Page
 ***********************/
 .frontPage .text {
-    border-top: 1px dashed rgba(92, 154, 193, 0.54);
-    border-bottom: 1px dashed rgba(92, 154, 193, 0.54);
     float: left;
     display: -webkit-box;
     display: -ms-flexbox;
