@@ -24,6 +24,11 @@ div#glt-translate-trigger {
     bottom: -1px;
 }
 
+@media only screen and (max-width: 570px) {
+    div#glt-translate-trigger {
+	display: none;
+}
+
 
 /* Header colour */
 .header-bottom {
