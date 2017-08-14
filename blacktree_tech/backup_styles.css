@@ -82,9 +82,12 @@ Front Page
 }
 
 .frontPage .hexagon {
-    width: 50%;
     float: left;
     padding: 5px 15px 5px 0;
+}
+
+.frontPage .hexagon img {
+	width: 800px;
 }
 
 .frontPage .opacityOne {
