@@ -22,6 +22,10 @@ ul.header-info-links {
 	background: rgb(255,255,255);
 }
 
+/* Menu items moved */
+.menu-primary {
+    margin: 108px 0 0 0;
+}
 
 /* Header colour */
 .header-bottom {
