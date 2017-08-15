@@ -53,9 +53,13 @@ ul.header-info-links {
 /***********************
 Front Page
 ***********************/
+.frontPage .topBlurb p {
+    line-height: 200%;
+}
+
 .frontPage .topBlurb {
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
     padding: 0 10% 0 10%;
     margin: 10% 0 10% 0;
     border-top: 1px solid lightgray;
