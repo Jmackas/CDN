@@ -53,6 +53,14 @@ ul.header-info-links {
 /***********************
 Front Page
 ***********************/
+.frontPage .topBlurb {
+    text-align: center;
+    font-size: x-large;
+    margin: 6% 0 6% 0;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
 .frontPage .text {
     float: left;
     display: -webkit-box;
