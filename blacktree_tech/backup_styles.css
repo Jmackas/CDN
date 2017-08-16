@@ -17,34 +17,10 @@ div#content {
 	display: none;
 }
 
-/* Fixing the menu header to the top */
-/*
-header#masthead {
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-	 margin: 0 0 20% 0;
+/* Fixing the menu header to the top (slight hack) */
+.header-inner-wrapper {
+    transform: initial !important;
 }
-*/
-
-/* Pushing the content down to accommodate the fixed menu header */
-/*
-.entry-content {
-    margin: 28% 0 0 0;
-}
-
-@media only screen and (max-width: 991px) {
-    .entry-content {
-    	margin: 50% 0 0 0;
-    }
-}
-
-@media only screen and (max-width: 532px) {
-    .entry-content {
-    	margin: 70% 0 0 0;
-    }
-}
-*/
 
 /* Header colour */
 .header-bottom {
