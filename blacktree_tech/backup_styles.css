@@ -29,6 +29,18 @@ header#masthead {
     margin: 28% 0 0 0;
 }
 
+@media only screen and (max-width: 991px) {
+    .entry-content {
+    	margin: 50% 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 532px) {
+    .entry-content {
+    	margin: 70% 0 0 0;
+    }
+}
+
 /* Menu items moved */
 .menu-primary {
     margin: 108px 0 0 0;
