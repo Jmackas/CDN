@@ -24,7 +24,12 @@ div#content {
 
 /* Header colour */
 .header-bottom {
-	/* background-color: #ffffff; */
+	background-color: #b9b9b9;
+}
+
+/* Header border removes */
+nav#site-navigation {
+    border: none;   
 }
 
 
