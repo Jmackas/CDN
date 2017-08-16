@@ -19,7 +19,14 @@ ul.header-info-links {
 }
 
 .header-top {
-	background: #f9f9f9;
+	background: rgb(255,255,255);
+}
+
+/* Fixing the menu header to the top */
+header#masthead {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 /* Menu items moved */
