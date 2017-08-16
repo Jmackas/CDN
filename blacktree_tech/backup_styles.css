@@ -18,11 +18,14 @@ div#content {
 }
 
 /* Fixing the menu header to the top */
+/*
 header#masthead {
     position: fixed;
     width: 100%;
     z-index: 999;
+	 margin: 0 0 20% 0;
 }
+*/
 
 /* Pushing the content down to accommodate the fixed menu header */
 /*
