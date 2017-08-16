@@ -13,13 +13,8 @@ div#content {
     background-position: right bottom;
 }
 
-/* Header contact info removsal */
-ul.header-info-links {
-	visibility: hidden;
-}
-
 .header-top {
-	display: none;
+	background: rgb(255,255,255);
 }
 
 /* Fixing the menu header to the top */
@@ -27,6 +22,11 @@ header#masthead {
     position: fixed;
     width: 100%;
     z-index: 999;
+}
+
+/* Pushing the content down to accommodate the fixed menu header */
+.entry-content {
+    margin: 28% 0 0 0;
 }
 
 /* Menu items moved */
