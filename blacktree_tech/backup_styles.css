@@ -11,7 +11,7 @@ div#content {
 	background: url(http://i.imgur.com/lOr69Ey.png);
     background-size: 60%;
     background-repeat: no-repeat;
-    background-position: right bottom;
+   /* background-position: right bottom; */
 }
 
 .header-top {
