@@ -7,12 +7,31 @@ Universal Elements
 
 /* Background image */
 div#content {
-    background: url(http://i.imgur.com/tP8Hrf2.png);
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: right bottom;
+     background: url(http://i.imgur.com/Onc5kz1.png);
+	/* background: url(http://i.imgur.com/lOr69Ey.png); */
+    background-size: 130%;
+    background-repeat: repeat;
+   /* background-position: right bottom; */
 }
 
+.header-top {
+	display: none;
+}
+
+/* Fixing the menu header to the top (slight hack) */
+.header-inner-wrapper {
+    transform: initial !important;
+}
+
+/* Header colour */
+.header-bottom {
+	background-color: #e2e2e2;
+}
+
+/* Header border removes */
+nav#site-navigation {
+    border: none;   
+}
 
 
 /* Pushed the image slider higher */
@@ -39,17 +58,32 @@ div#content {
 /***********************
 Front Page
 ***********************/
+.frontPage .topBlurb p {
+    line-height: 200%;
+}
+
+.frontPage .topBlurb {
+    text-align: center;
+    font-size: x-large;
+    padding: 0 10% 0 10%;
+    margin: 10% 0 10% 0;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
 .frontPage .text {
-    border-top: 1px dashed rgba(92, 154, 193, 0.54);
-    border-bottom: 1px dashed rgba(92, 154, 193, 0.54);
     float: left;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 0 0 10% 0;
+    margin: 5% 0 5% 0;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.frontPage hr {
+	border: 1px solid rgba(211, 211, 211, 0.38);
 }
 
 .frontPage .text h3 {
@@ -66,10 +100,16 @@ Front Page
 }
 
 .frontPage .hexagon {
-    width: 50%;
-    opacity: 0.4;
     float: left;
     padding: 5px 15px 5px 0;
+}
+
+.frontPage .hexagon img {
+	width: 800px;
+}
+
+.frontPage .opacityOne {
+	background: rgba(255,255,255,0.8);
 }
 
 @media only screen and (max-width: 762px) {
@@ -82,4 +122,25 @@ Front Page
         margin: 0 0 5% 0;
         padding: 5px 15px 5px 0;
     }
+}
+
+/***********************
+Contact Page
+***********************/
+/* Send Button */
+input#nf-field-16 {
+    padding: 20px 30px;
+    background: #466cf4;
+    border: none;
+    color: white;
+}
+
+input#nf-field-16:hover {
+    background: rgba(70, 108, 244, 0.5);
+}
+
+@media only screen and (max-width: 400px) {
+    input#nf-field-16 {
+		width: 100%;
+	}
 }
