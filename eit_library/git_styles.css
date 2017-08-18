@@ -215,3 +215,11 @@ Index Page
         border-bottom: 1px solid lightblue;
     }
 }
+
+/******************
+Knovel Page
+*******************/
+.knovelBanner {
+	display: flex; 
+	justify-content: center;
+}
