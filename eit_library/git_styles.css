@@ -11,6 +11,11 @@ video {
 	width: 100%;
 }
 
+/* Menu item sub items */
+.parent a:before {
+    content: '->';
+}
+
 /* Background */
 #jsn-master {
     background: #136fd2;
