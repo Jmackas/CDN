@@ -21,6 +21,8 @@ video {
     background: #136fd2;
 }
 
+div.jsn-hasright #jsn-content_inner2{background: #E5E5E5;}
+
 #jsn-menu {
     background: #808080;
     -webkit-box-shadow: initial;
