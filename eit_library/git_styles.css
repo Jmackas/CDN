@@ -223,3 +223,9 @@ Knovel Page
 	display: flex; 
 	justify-content: center;
 }
+
+@media only screen and (max-width: 658px) {
+    .knovelBanner {
+		display: none;
+	}
+}
