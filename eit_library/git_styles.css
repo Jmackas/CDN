@@ -13,7 +13,7 @@ video {
 
 /* Menu item sub items */
 .parent a:before {
-    content: '->';
+    content: '>>';
 }
 
 /* Background */
