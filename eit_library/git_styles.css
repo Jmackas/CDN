@@ -6,6 +6,11 @@ General Changes
     width: 90%;
 }
 
+/* Video forced 100% width */
+video {
+	width: 100%;
+}
+
 /* Background */
 #jsn-master {
     background: #136fd2;
