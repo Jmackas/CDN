@@ -178,3 +178,10 @@ table#wp-calendar {
     display: none;
 }
 
+/* Language settings */
+.languageMenu {
+    position: fixed;
+    transform: translate(284px,-2217px);
+    z-index: 999;
+}
+
