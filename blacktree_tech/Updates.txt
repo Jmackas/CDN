@@ -1,4 +1,4 @@
-19-Aug-2017 
+17-Aug-2017 Meeting:
 Updates:
 	- Menu items have been moved to the left.
 	- The top logo's padding has been reduced. 
@@ -14,3 +14,6 @@ Updates:
 	- The front page images are all the same size.
 Notes:
 	- Is it possible to have a widget in the header? For the language bar purposes.
+	
+
+	
