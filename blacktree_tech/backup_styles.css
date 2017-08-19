@@ -168,3 +168,7 @@ table#wp-calendar {
     color: white;
 }
 
+/* 'CONTACT US' text colour white */
+.footer-widgets .widget p {
+	color: #ffffff;
+}
