@@ -5,6 +5,43 @@ Universal Elements
     display: none;
 }
 
+/* Fade in effect */
+.frontPage {
+    animation: fl-fade-in 5s ease-out;
+    -webkit-animation: fl-fade-in 5s ease-out;
+    -moz-animation: fl-fade-in 5s ease-out;
+}
+
+@keyframes fl-fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fl-fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fl-fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 /* Background image */
 div#content {
      background: url(http://i.imgur.com/Onc5kz1.png);
