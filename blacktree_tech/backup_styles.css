@@ -185,3 +185,7 @@ table#wp-calendar {
     z-index: 999;
 }
 
+/* Removed large margin */
+.site-footer {
+	margin-top: 0px;
+}

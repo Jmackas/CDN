@@ -1,8 +1,11 @@
-19-Aug-2017 Updates:
-- Menu items have been moved to the left.
-- The top logo's padding has been reduced. 
-- The overall website margins have been reduced.
-- The blurb text's title has been bolded.
-- Menu items have been bolded.
-- Calender text colour has been made white + decided to make the 'CONTACT US' text white also.
-- Removed sub menu services in the footer area (via display:none;).
+19-Aug-2017 
+Updates:
+	- Menu items have been moved to the left.
+	- The top logo's padding has been reduced. 
+	- The overall website margins have been reduced.
+	- The blurb text's title has been bolded.
+	- Menu items have been bolded.
+	- Calender text colour has been made white + decided to make the 'CONTACT US' text white also.
+	- Removed sub menu services in the footer area (via display:none;).
+Notes:
+	- Is it possible to have a widget in the header? For the language bar purposes.
