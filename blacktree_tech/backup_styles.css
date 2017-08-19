@@ -28,6 +28,11 @@ div#content {
 	float: initial;
 }
 
+/* Menu items bolded */
+ul#menu-primary-menu li {
+    font-weight: bold;
+}
+
 /* Logo padding reduced */
 .site-identity-container {
     padding: 2px 0 2px 0;
