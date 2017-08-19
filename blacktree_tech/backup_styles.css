@@ -43,7 +43,7 @@ Universal Elements
 }
 
 /* Background image */
-div#content {
+#page {
      background: url(http://i.imgur.com/OJe4ALj.png);
 	/* background: url(http://i.imgur.com/lOr69Ey.png); */
     background-size: 130%;
