@@ -2,4 +2,7 @@
 - Menu items have been moved to the left.
 - The top logo's padding has been reduced. 
 - The overall website margins have been reduced.
-- The blurb text
+- The blurb text's title has been bolded.
+- Menu items have been bolded.
+- Calender text colour has been made white + decided to make the 'CONTACT US' text white also.
+- 

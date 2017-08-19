@@ -164,7 +164,7 @@ input#nf-field-16:hover {
 Footer
 ***********************/
 /* Footer calender text colour white */
-.footer-top {
+table#wp-calendar {
     color: white;
 }
 
