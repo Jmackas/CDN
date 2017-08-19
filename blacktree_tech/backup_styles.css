@@ -23,6 +23,16 @@ div#content {
     transform: initial !important;
 }
 
+/* Menu items moved down */
+.header-bottom .header-bottom-right-section {
+	float: initial;
+}
+
+/* Logo padding reduced */
+.site-identity-container {
+    padding: 2px 0 2px 0;
+}
+
 /* Header colour */
 .header-bottom {
 	background-color: #e2e2e2;
