@@ -159,3 +159,12 @@ input#nf-field-16:hover {
 		width: 100%;
 	}
 }
+
+/***********************
+Footer
+***********************/
+/* Footer calender text colour white */
+.footer-top {
+    color: white;
+}
+
