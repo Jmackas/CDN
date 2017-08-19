@@ -1,0 +1,5 @@
+19-Aug-2017 Updates:
+- Menu items have been moved to the left.
+- The top logo's padding has been reduced. 
+- The overall website margins have been reduced.
+- The blurb text
