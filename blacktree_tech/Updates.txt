@@ -5,4 +5,4 @@
 - The blurb text's title has been bolded.
 - Menu items have been bolded.
 - Calender text colour has been made white + decided to make the 'CONTACT US' text white also.
-- 
+- Removed sub menu services in the footer area (via display:none;).

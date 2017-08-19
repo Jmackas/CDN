@@ -172,3 +172,9 @@ table#wp-calendar {
 .footer-widgets .widget p {
 	color: #ffffff;
 }
+
+/* Removed sub menu services */
+.footer-navigation ul.sub-menu {
+    display: none;
+}
+
