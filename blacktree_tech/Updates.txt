@@ -9,6 +9,7 @@ Updates:
 	- Removed sub menu services in the footer area (via display:none;).
 	- Changed the background. Made it more transparent, while covering the whole page.
 	- Fixed the background issue displaying weirdly on different pages.
-	- Fixed the offset on the 'Page scroll to ID' plugin. It is loosely based on the height of the header.
+	- Sort of fixed the offset on the 'Page scroll to ID' plugin. It is loosely based on the height of the header (125px).
+	- 
 Notes:
 	- Is it possible to have a widget in the header? For the language bar purposes.
