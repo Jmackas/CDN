@@ -156,8 +156,8 @@ Front Page
     padding: 5px 15px 5px 0;
 }
 
-.frontPage .hexagon img {
-	width: 800px;
+.frontPage img {
+	max-width: initial;
 }
 
 .frontPage .opacityOne {
