@@ -214,7 +214,7 @@ img.youtube-thumb {
 }
 
 .onCampusStudy {
-    background-image: url("/image/FPcontent/image7.jpg ");
+    background-image: url("http://www.eit.edu.au/image/FPcontent/image7.jpg");
     background-size: cover;
     display: block;
     float: left;
@@ -261,7 +261,7 @@ img.youtube-thumb {
 }
 
 .onlineStudy {
-    background-image: url("/image/FPcontent/image7.5.jpg ");
+    background-image: url("http://www.eit.edu.au/image/FPcontent/image7.5.jpg ");
     background-size: cover;
     display: block;
     float: left;
