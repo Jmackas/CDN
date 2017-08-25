@@ -239,6 +239,11 @@ Knovel Page
     }
 }
 
+/* Video Thumbnail */
 .videoThumb {
     border: 1px solid grey;
+}
+
+.videoThumb img {
+	float: left;
 }
