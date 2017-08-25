@@ -242,8 +242,15 @@ Knovel Page
 /* Video Thumbnail */
 .videoThumb {
     border: 1px solid grey;
+    overflow: auto;
 }
 
 .videoThumb img {
 	float: left;
+}
+
+.videoThumb p {
+    padding: 0 0 0 12px;
+    float: left;
+    font-size: 20px;
 }
