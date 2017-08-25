@@ -243,8 +243,10 @@ Knovel Page
 .videoThumb {
     border: 1px solid grey;
     overflow: auto;
-	background: rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.08);
 }
+
 
 .videoThumb img {
 	float: left;
