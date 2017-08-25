@@ -124,6 +124,10 @@ div#jsn-footer {
 /*******************
 Index Page
 *******************/
+/* Top Slideshow */
+.topSlideshow {
+}
+
 /* Styling of search box */
 .highedInd input, .highedInd .btn-primary {
     border-radius: 0;
