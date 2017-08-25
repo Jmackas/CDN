@@ -169,13 +169,13 @@ img.youtube-thumb {
 
 /* First Image */
 .imageOne .homePageImages {
-    background-image: url("/image/FPcontent/image1.jpg");
+    background-image: url("http://i.imgur.com/1oIxkCV.jpg");
     background-size: cover;
 }
 
 /* Second Image */
 .imageTwo .homePageImages {
-    background-image: url("/image/FPcontent/image2.jpg");
+    background-image: url("http://i.imgur.com/9GBKkxB.jpg");
     background-size: cover;
 }
 
@@ -187,19 +187,19 @@ img.youtube-thumb {
 
 /* Fourth Image */
 .imageFour .homePageImages {
-    background-image: url("/image/FPcontent/image4.jpg");
+    background-image: url("http://i.imgur.com/f47AFwj.jpg");
     background-size: cover;
 }
 
 /* Fifth Image */
 .imageFive .homePageImages {
-    background-image: url("/image/FPcontent/image5.jpg");
+    background-image: url("http://i.imgur.com/dlp5Oep.jpg");
     background-size: cover;
 }
 
 /* Sixth Image */
 .imageSix .homePageImages {
-    background-image: url("/image/FPcontent/image6.jpg");
+    background-image: url("http://i.imgur.com/WL01Wx0.jpg");
     background-size: cover;
 }
 
