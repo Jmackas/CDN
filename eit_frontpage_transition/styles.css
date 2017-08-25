@@ -49,7 +49,7 @@ img.youtube-thumb {
 }
 
 .learnMoreBtn {
-    display: block;
+    display: inline-block;
     background: #33abdd;
     font-size: 15pt;
     padding: 15px;
