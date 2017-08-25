@@ -6,6 +6,11 @@ General Changes
     width: 90%;
 }
 
+/* Video forced 100% width */
+video {
+    width: 100%;
+}
+
 /* Menu item sub items */
 /*
 .parent a:before {
@@ -232,4 +237,8 @@ Knovel Page
     .knovelBanner {
         display: none;
     }
+}
+
+.videoThumb {
+    border: 1px solid grey;
 }
