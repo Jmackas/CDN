@@ -134,7 +134,7 @@ img.youtube-thumb {
     width: 177px;
     height: 300px;
     text-align: center;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     -webkit-transition: .3s ease-in-out;
@@ -227,7 +227,7 @@ img.youtube-thumb {
     height: 300px;
     width: 49.1%;
     text-align: center;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     -webkit-filter: saturate(100%);
     filter: saturate(100%);
     -webkit-transition: .3s ease-in-out;
@@ -274,7 +274,7 @@ img.youtube-thumb {
     width: 49.2%;
     height: 300px;
     text-align: center;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     -webkit-filter: saturate(50%);
     filter: saturate(50%);
     -webkit-transition: .3s ease-in-out;
