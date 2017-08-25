@@ -1,4 +1,3 @@
-/* Main Page styling */
 .homePage h1 {
     font-size: 270% !important;
     text-align: center;
@@ -153,27 +152,6 @@ img.youtube-thumb {
     transform: translate(0px, 3px);
 }
 
-/* 
-
-		.homePage br {
-
-			line-height: 200px;
-
-		}
-
-		
-
-		
-
-		#logos {
-
-			display: none;
-
-		}
-
-		
-
-		*/
 .imageText {
     position: relative;
     transform: translatey(118px);
@@ -403,105 +381,6 @@ img.youtube-thumb {
     content: none !important;
 }
 
-/*
-
-.courseCategories {
-
-	margin-bottom: 85px;
-
-}
-
-
-
-.courseDis {
-
-	display: block;
-
-	float: left;
-
-	width: 135.7px;
-
-	text-align: center;
-
-	border-radius: 2px;
-
-	-webkit-filter: brightness(100%);
-
-	filter: brightness(100%);
-
-	-webkit-transition: .3s ease-in-out;
-
-	transition: .3s ease-in-out;
-
-	padding: 2px;
-
-	margin: 5px 5px 0px 0px;
-
-}
-
-
-
-@media only screen and (max-width: 770px) {
-
-	.courseDis {
-
-		width: 100%;
-
-	}
-
-}
-
-
-
-.courseDis span {
-
-	position: relative;
-
-	transform: translatey(33px);
-
-	vertical-align: middle;
-
-	font-weight: bold;
-
-	height: 90px;
-
-	color: white;
-
-	font-size: 140%;
-
-	display: block;
-
-	cursor: pointer;
-
-	user-select: none;
-
-	text-shadow: 1.5px 1.5px 1.5px black;
-
-	overflow: hidden;
-
-}
-
-
-
-.courseDis:hover {
-
-	-webkit-filter: brightness(200%);
-
-	filter: brightness(150%);
-
-}
-
-
-
-.courseDis:active {
-
-	transform: translate(0px, 3px);
-
-}
-
-
-
-*/
 .courseDet {
     float: right;
     background: rgba(19, 111, 210, 0.2);
