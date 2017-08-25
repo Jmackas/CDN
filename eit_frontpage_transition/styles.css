@@ -84,6 +84,7 @@ img.youtube-thumb {
     font-size: 160%;
     padding: 10px;
     overflow: auto;
+	min-height: initial;
 }
 
 .studentStories span {
