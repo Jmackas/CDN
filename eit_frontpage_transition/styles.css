@@ -38,8 +38,14 @@ img.youtube-thumb {
     width: 112% !important;
 }
 
+.centerBlurb {
+	font-size: 125%;
+	text-align: center;
+}
+
 .homePage p {
-    font-size: 135%;
+        text-align: center;
+    font-size: 115%;
 }
 
 .learnMoreBtn {
