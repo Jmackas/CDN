@@ -124,21 +124,6 @@ div#jsn-footer {
 /*******************
 Index Page
 *******************/
-/* Top slideshow */
-.frontPageSlideshow {
-    width: 32em;
-    margin: 10px 0 0 0;
-    border: 1px solid rgba(0,0,0,0);
-    height: 260px;
-}
-
-@media only screen and (max-width: 658px) {
-    .frontPageSlideshow {
-        width: 500px;
-        height: 21em;
-    }
-}
-
 /* Styling of search box */
 .highedInd input, .highedInd .btn-primary {
     border-radius: 0;
