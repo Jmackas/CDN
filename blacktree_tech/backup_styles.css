@@ -42,15 +42,6 @@ Universal Elements
     }
 }
 
-/* Background image */
-#page {
-     background: url(http://i.imgur.com/OJe4ALj.png);
-	/* background: url(http://i.imgur.com/lOr69Ey.png); */
-    background-size: 130%;
-    background-repeat: repeat;
-   /* background-position: right bottom; */
-}
-
 .header-top {
 	display: none;
 }
@@ -128,7 +119,7 @@ Front Page
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 7% 0;
+    padding: 7% 3%;
     background: lightgray;
     -webkit-box-align: center;
     -ms-flex-align: center;
