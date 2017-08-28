@@ -12,9 +12,9 @@ video {
 }
 
 /* Menu item sub items */
-
 span.jsn-menu-toggle + ul .parent li a:before {
-    content: '-->';
+	content:'';
+	margin: 0 25px 0 0;
 }
 
 
