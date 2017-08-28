@@ -127,6 +127,7 @@ Index Page
 /* Top Slideshow */
 .topSlideshow {
 	background-image:url(http://i.imgur.com/PayAqRM.jpg);
+	background-size: cover;
     height: 400px;
 }
 
