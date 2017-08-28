@@ -119,8 +119,8 @@ Front Page
     font-size: x-large;
     padding: 0 3% 0 3%;
     margin: 3% 0 0.4% 0;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    /* border-top: 1px solid lightgray; */
+    /* border-bottom: 1px solid lightgray; */
 }
 
 .frontPage .text {
@@ -128,10 +128,16 @@ Front Page
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-
+	background: lightgray;
+	
+	
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.text.centre {
+    background: white;
 }
 
 .frontPage hr {
@@ -158,10 +164,6 @@ Front Page
 
 .frontPage img {
 	max-width: initial;
-}
-
-.frontPage .opacityOne {
-	background: rgba(255,255,255,0.8);
 }
 
 @media only screen and (max-width: 762px) {
