@@ -12,11 +12,11 @@ video {
 }
 
 /* Menu item sub items */
-/*
-.parent a:before {
-    content: '>>';
+span.jsn-menu-toggle + ul .parent li a:before {
+	content:'';
+	margin: 0 25px 0 0;
 }
-*/
+
 
 /* Background */
 #jsn-master {
@@ -126,7 +126,8 @@ Index Page
 *******************/
 /* Top Slideshow */
 .topSlideshow {
-	background-image:url(https://jmackas.github.io/library_indexing/pages/slideshow_contents/1.jpg);
+	background-image:url(http://i.imgur.com/PayAqRM.jpg);
+	background-size: cover;
     height: 400px;
 }
 
@@ -248,3 +249,4 @@ Knovel Page
     float: left;
     font-size: 20px;
 }
+
