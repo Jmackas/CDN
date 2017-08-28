@@ -42,15 +42,6 @@ Universal Elements
     }
 }
 
-/* Background image */
-#page {
-     background: url(http://i.imgur.com/OJe4ALj.png);
-	/* background: url(http://i.imgur.com/lOr69Ey.png); */
-    background-size: 130%;
-    background-repeat: repeat;
-   /* background-position: right bottom; */
-}
-
 .header-top {
 	display: none;
 }
@@ -107,6 +98,12 @@ nav#site-navigation {
     font-family: helvetica;
 }
 
+/* Fixing the width of the overall margins */
+.container {
+	width: 100%;
+	padding: initial;
+}
+
 /***********************
 Front Page
 ***********************/
@@ -118,9 +115,9 @@ Front Page
     text-align: center;
     font-size: x-large;
     padding: 0 3% 0 3%;
-    margin: 3% 0 3% 0;
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
+    margin: 3% 0 0.4% 0;
+    /* border-top: 1px solid lightgray; */
+    /* border-bottom: 1px solid lightgray; */
 }
 
 .frontPage .text {
@@ -128,10 +125,15 @@ Front Page
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-
+    padding: 7% 3%;
+    background: lightgray;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.text.centre {
+    background: white;
 }
 
 .frontPage hr {
@@ -158,10 +160,6 @@ Front Page
 
 .frontPage img {
 	max-width: initial;
-}
-
-.frontPage .opacityOne {
-	background: rgba(255,255,255,0.8);
 }
 
 @media only screen and (max-width: 762px) {
