@@ -12,11 +12,11 @@ video {
 }
 
 /* Menu item sub items */
-/*
-.parent a:before {
+
+span.jsn-menu-toggle + ul .parent li a:before {
     content: '>>';
 }
-*/
+
 
 /* Background */
 #jsn-master {
