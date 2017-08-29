@@ -1,8 +1,15 @@
 /********************
 Universal
 ********************/
+/* Header size increase */
+nav#site-navigation {
+    padding: 30px;
+}
 
-
+/* Waterseal image size maximum */
+.logo {
+    max-height: 100%;
+}
 
 
 
