@@ -99,10 +99,13 @@ nav#site-navigation {
 }
 
 /* Fixing the width of the overall margins */
-
 .container {
 	width: 100%;
 	padding: initial;
+}
+
+footer#colophon {
+    padding: 0 10px 2px 10px;
 }
 
 
