@@ -66,9 +66,10 @@ ul#menu-primary-menu li {
     padding: 2px 0 2px 0;
 }
 
-/* Header colour */
+/* Header colour + left/right padding */
 .header-bottom {
 	background-color: #e2e2e2;
+	 padding: 0 50px 0 50px;
 }
 
 /* Header border removes */
