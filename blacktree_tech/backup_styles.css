@@ -108,6 +108,10 @@ footer#colophon {
     padding: 0 10px 2px 10px;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 
 /***********************
 Front Page
