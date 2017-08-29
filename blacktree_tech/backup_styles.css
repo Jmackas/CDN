@@ -54,6 +54,11 @@ Universal Elements
 /* Menu items moved down */
 .header-bottom .header-bottom-right-section {
 	float: initial;
+
+}
+
+nav#site-navigation {
+    padding: 18px 0 0 0;
 }
 
 /* Menu items bolded */
