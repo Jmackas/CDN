@@ -41,6 +41,7 @@ ul {
 text-align: left;
 }
 
+/* Styling the homepage header */
 .frontPage h3 {
 	color: #545454;
 }
@@ -131,3 +132,8 @@ ul.products h2 {
 /*****************
 Display Nones
 *****************/
+
+/* Hiding the homepage title */
+.section-header {
+	display: none;
+}
