@@ -72,15 +72,6 @@ nav#site-navigation {
 	}
 }
 
-/* News Marquee */
-.mtphr-dnt-wrapper.mtphr-dnt-clearfix {
-    color: white;
-    font-size: 130%;
-    font-weight: bold;
-    padding: 10px;
-    background: #4a5b8f;
-    font-family: helvetica;
-}
 
 /* Fixing the width of the overall margins */
 .container {
@@ -104,6 +95,11 @@ html {
 /***********************
 Front Page
 ***********************/
+
+/* Top slideshow */
+.topSlideshow {
+	
+}
 
 /* News Slideshow start */
 .newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden .caption-wrap {
