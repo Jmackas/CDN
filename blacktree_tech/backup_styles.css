@@ -105,20 +105,23 @@ html {
 Front Page
 ***********************/
 
-/* News Slideshow */
+/* News Slideshow start */
 .newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden .caption-wrap {
     background: rgba(0,0,0,0);
     color: black;
     font-size: 140%;
+    text-align: center;
 }
 
 .newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden a.rslides_nav.rslides1_nav.prev, .newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden a.rslides_nav.rslides1_nav.next {
-	display: none;
+	background: rgba(0,0,0,0.2);
 } 
 
 .newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden img {
 	height: 29px;
 }
+
+/* News Slideshow end */
 
 
 .frontPage .topBlurb p {
