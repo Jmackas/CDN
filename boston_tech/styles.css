@@ -121,3 +121,10 @@ Shop Page
 ul.products h2 {
     line-height: 2em;
 }
+
+/*****************
+Display Nones
+*****************/
+section#static-page-content {
+    display: none;
+}
