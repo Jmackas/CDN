@@ -127,6 +127,12 @@ ul.products h2 {
 /*****************
 Display Nones
 *****************/
+/* Top Home Page hidden */
 section#static-page-content {
+    display: none;
+}
+
+/* Weird statistics hidden */
+.section-content {
     display: none;
 }
