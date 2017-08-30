@@ -36,8 +36,10 @@ header {
 /*****************
 Home Page
 *****************/
-
-
+/* Lists align left */
+ul {
+text-align: left;
+}
 
 /*****************
 About Us Page
