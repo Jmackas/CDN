@@ -106,10 +106,11 @@ Front Page
 ***********************/
 
 /* newsSlideshow */
-
-.newsSlideshow {
-	
+.newsSlideshow .caption-wrap {
+    display: none;
 }
+
+
 
 .frontPage .topBlurb p {
     line-height: 200%;
