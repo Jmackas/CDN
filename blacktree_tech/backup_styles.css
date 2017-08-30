@@ -104,6 +104,13 @@ html {
 /***********************
 Front Page
 ***********************/
+
+/* newsSlideshow */
+
+.newsSlideshow {
+	
+}
+
 .frontPage .topBlurb p {
     line-height: 200%;
 }
