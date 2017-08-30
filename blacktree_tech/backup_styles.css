@@ -105,11 +105,17 @@ html {
 Front Page
 ***********************/
 
-/* newsSlideshow */
+/* News Slideshow */
+/*
 .newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden .caption-wrap {
     display: none;
 }
 
+*/
+
+.newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden img {
+	height: 29px;
+}
 
 
 .frontPage .topBlurb p {
