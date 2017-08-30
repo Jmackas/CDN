@@ -87,11 +87,6 @@ html {
 	overflow-x: hidden;
 }
 
-
-.alignRight {
-	text-align: right;
-}
-
 /***********************
 Front Page
 ***********************/
@@ -129,8 +124,6 @@ Front Page
     font-size: x-large;
     padding: 0 3% 0 3%;
     margin: 3% 0 0.4% 0;
-    /* border-top: 1px solid lightgray; */
-    /* border-bottom: 1px solid lightgray; */
 }
 
 .frontPage .text {
