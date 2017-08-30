@@ -106,7 +106,7 @@ Front Page
 ***********************/
 
 /* newsSlideshow */
-.newsSlideshow .caption-wrap {
+.newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden .caption-wrap {
     display: none;
 }
 
