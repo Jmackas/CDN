@@ -21,6 +21,11 @@ nav#site-navigation {
 Home Page
 ********************/
 
+/* Filter of top header image */
+div#shapely_home_parallax-7 {
+rgba(0, 82, 123, 0.89);
+}
+
 
 
 
