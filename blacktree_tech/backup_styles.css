@@ -51,7 +51,7 @@ ul#menu-primary-menu li {
 
 /* Header colour + left/right padding */
 .header-bottom {
-	background-color: #e2e2e2;
+	background-color: #d3d3d3;
 	 padding: 0 50px 0 50px;
 }
 
@@ -98,7 +98,7 @@ Front Page
 
 /* News Slideshow start */
 .newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden .caption-wrap {
-    background: rgba(0,0,0,0);
+    background: lightgray;
     color: black;
     font-size: 140%;
     text-align: center;
@@ -109,7 +109,7 @@ Front Page
 } 
 
 .newsSlideshow .metaslider.metaslider-responsive.metaslider-500.ml-slider.nav-hidden img {
-	height: 45px;
+	height: 47px;
 }
 
 /* News Slideshow end */
