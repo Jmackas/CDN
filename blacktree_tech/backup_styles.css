@@ -87,6 +87,12 @@ html {
 	overflow-x: hidden;
 }
 
+/* Centering the titles on other pages */
+.breadcrumbs .container {
+    display: flex;
+    justify-content: center;
+}
+
 /***********************
 Front Page
 ***********************/
