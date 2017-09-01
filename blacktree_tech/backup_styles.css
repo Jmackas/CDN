@@ -130,7 +130,8 @@ Front Page
 
 
 .frontPage .topBlurb p {
-    line-height: 200%;
+    line-height: 194%;
+    font-size: 86%;
 }
 
 .frontPage .topBlurb {
