@@ -44,6 +44,8 @@ ul#menu-primary-menu li {
     font-weight: bold;
 }
 
+
+
 /* Logo padding reduced */
 .site-identity-container {
     padding: 2px 0 2px 0;
@@ -53,6 +55,12 @@ ul#menu-primary-menu li {
 .header-bottom {
 	background-color: #d3d3d3;
 	 padding: 0 50px 0 50px;
+}
+
+/* Menu items pushed to the right */
+
+.navigation-default, .main-navigation-max-mega-menu {
+    float: right;
 }
 
 /* Header border removes */
