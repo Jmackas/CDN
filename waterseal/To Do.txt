@@ -1,0 +1,18 @@
+
+01-September-2017:
+	To Do:
+		General:
+		- Push all the CDN CSS onto a different repository.
+
+		Waterseal:
+		- Make the background of each front page module have a network look.
+		
+		Blacktree:
+		- Menu items need to move to the right, while the logo stays on the left.
+		- The slideshow images need to look profile.
+		
+
+	Notes:
+	
+	
+	
