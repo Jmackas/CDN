@@ -20,6 +20,7 @@ nav#site-navigation {
 /********************
 Home Page
 ********************/
+/* Modules */
 .divOne {
     display: flex;
     justify-content: center;
