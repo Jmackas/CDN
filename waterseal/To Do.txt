@@ -12,6 +12,9 @@
 		Blacktree:
 		- Menu items need to move to the right, while the logo stays on the left.
 		- The slideshow images need to look profile.
+		- The news slider needs to be a gray background as the menu background.
+		- Make the header menu top colour the same as the 'Products and Services' colour.
+		- 'upcoming events' removed.
 		
 
 	Notes:
