@@ -1,74 +1,182 @@
-<div class="knovelBanner">
- <img src="http://i.imgur.com/JVN17Uw.jpg" alt="banner" />
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+html {
+	overflow: hidden;
+}
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+</style>
+
+
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="http://i.imgur.com/iDjBCKX.jpg" style="width:100%">
+  <div class="text">EIT has access to Knovel!</div>
 </div>
 
-
-<h3>EIT has access to IEEE!</h3>
-<p>
- IEEE Xplore is a digital library providing access to the world's highest quality technical literature in electrical engineering, computer science, electronics, and related disciplines. IEEE Xplore contains full-text documents from IEEE journals, magazines, conference proceedings, and standards, in addition to eBooks and educational courses. IEEE Xplore also includes content from select other publishers including the Institution of Engineering and Technology (IET), MIT Press, IBM, Nokia Bell Labs, VDE Verlag, Morgan & Claypool, Tsinghua University Press, American Geophysical Union (AGU), and Beijing Institute of Aerospace Information (BIAI).
-</p>
-
-<br>
-
-<h3>Available IEEE Resources</h3>
-<ul>
-	<li><a href="http://ieeexplore.ieee.org/Xplorehelp/downloads/user-guides/IEEE_Xplore_Searching_and_Saving_Searches.pdf" target="_blank">Getting Started with your search</a></li>
-	<li><a href="http://ieeexplore.ieee.org/Xplorehelp/downloads/user-guides/IEEE_Xplore_Search_and_Save_with_Your_File_Cabinet.pdf" target="_blank">Search and Save your File Cabinet</a></li>
-	<li><a href="http://ieeexplore.ieee.org/Xplorehelp/downloads/user-guides/IEEE_Xplore_Stay_Competitive_with_Saved_Search_Alerts_User_Guide.pdf" target="_blank">Stay Competitive with Saves Search Alerts</a></li>
-	<li><a href="http://www.ieee.org/publications_standards/publications/subscriptions/clientservices/ieee_xplore_search_history_userguide.pdf" target="_blank">Get Started with the New Search History</a></li>
-	<li><a href="http://ieeexplore.ieee.org/Xplorehelp/downloads/user-guides/IEEE_Xplore_English_for_Engineering_User_Guide.pdf" target="_blank">English for Engineering</a></li>
-	<li><a href="http://ieeexplore.ieee.org/Xplorehelp/downloads/user-guides/IEEE_Xplore_eLearning_Library_User_Guide.pdf" target="_blank">Accessing eLearning Courses and Programs</a></li>
-	
-</ul>
-
-
-
-<br>
-
-<h3>Tutorials</h3>
-<!--
-<p>The below tutorials should help with understanding Knovel features</p>
--->
-
-<p>
-  These two minute videos illustrate how to get the most out of your Knovel Acess, including how to confuct a basic search, datasearch, how to access plugins and use interactive tools such as equations.
-</p>
-
-<br id="tutorialVideo">
-
-<a href="http://supportcontent.elsevier.com/RightNow%20Next%20Gen/Knovel/Basic%20Search%20Video%20Tutorial.mp4" target="_blank">
-<div class="videoThumb">
-	<img src="http://i.imgur.com/C4zsID1.png" alt="thumbone" />
-	<p>Basic Search</p>
-	
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="http://i.imgur.com/82TxlXa.jpg" style="width:100%">
+  <div class="text">Ipsum</div>
 </div>
-</a>
 
-<br>
-
-<a href="http://supportcontent.elsevier.com/RightNow%20Next%20Gen/Knovel/Data%20Search%20Video%20Tutorial.mp4" target="_blank">
-<div class="videoThumb">
-	<img src="http://i.imgur.com/tGtFmJp.png" alt="thumbtwo" />
-	<p>Data Search</p>
-	
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="http://i.imgur.com/ud34sZg.png" style="width:100%">
+  <div class="text">Dolar</div>
 </div>
-</a>
 
-<br>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-<a href="http://supportcontent.elsevier.com/RightNow%20Next%20Gen/Knovel/Interactive%20Tools%20Video%20Tutorial.mp4" target="_blank">
-<div class="videoThumb">
-	<img src="http://i.imgur.com/ROiajcO.png" alt="thumbthree" />
-	<p>Interactive Tools</p>
-	
 </div>
-</a>
-
-
-
-<p>Other useful tips can be located <a href="https://service.elsevier.com/app/answers/detail/a_id/13522/c/10545/supporthub/knovel/p/12084/" target="_blank">here</a></p>
 
 <br>
 
-<h3>Frequently Asked Questions (FAQ's)</h3>
-<p>Knovel has a list of Frequently Asked Questions at this <a href="https://service.elsevier.com/app/answers/list/c/10546/supporthub/knovel/" target="_blank">location</a>.</p>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+
+
+
+</script>
+</body>
+
