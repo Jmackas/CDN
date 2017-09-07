@@ -11,6 +11,12 @@ video {
     width: 100%;
 }
 
+/* Element flex center */
+.flexCenter {
+    display: flex;
+    justify-content: center;
+}
+
 /* Menu item sub items */
 span.jsn-menu-toggle + ul .parent li a:before {
 	content:'';
@@ -220,10 +226,6 @@ Index Page
 /******************
 Knovel Page
 *******************/
-.knovelBanner {
-    display: flex;
-    justify-content: center;
-}
 
 @media only screen and (max-width: 658px) {
     .knovelBanner {
