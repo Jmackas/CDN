@@ -2,73 +2,7 @@
 
 
  <div class="centerElement">
-	 
-	 <!--
-	 <br>
-	 <h2>Global Index Search</h2>
-  		<div class="moduletable">
-						
-<script type="text/javascript">
-//<![CDATA[
-	window.addEvent('domready', function() {
-		var value;
 
-		// Set the input value if not already set.
-		if (!document.id('mod-finder-searchword').getProperty('value')) {
-			document.id('mod-finder-searchword').setProperty('value', 'Search ...');
-		}
-
-		// Get the current value.
-		value = document.id('mod-finder-searchword').getProperty('value');
-
-		// If the current value equals the default value, clear it.
-		document.id('mod-finder-searchword').addEvent('focus', function() {
-			if (this.getProperty('value') == 'Search ...') {
-				this.setProperty('value', '');
-			}
-		});
-
-		// If the current value is empty, set the previous value.
-		document.id('mod-finder-searchword').addEvent('blur', function() {
-			if (!this.getProperty('value')) {
-				this.setProperty('value', value);
-			}
-		});
-
-		document.id('mod-finder-searchform').addEvent('submit', function(e){
-			e = new Event(e);
-			e.stop();
-
-			// Disable select boxes with no value selected.
-			if (document.id('mod-finder-advanced') != null) {
-				document.id('mod-finder-advanced').getElements('select').each(function(s){
-					if (!s.getProperty('value')) {
-						s.setProperty('disabled', 'disabled');
-					}
-				});
-			}
-
-			document.id('mod-finder-searchform').submit();
-		});
-
-		/*
-		 * This segment of code sets up the autocompleter.
-		 */
-								var url = '/library/component/finder/?task=suggestions.display&format=json&tmpl=component';
-			var ModCompleter = new Autocompleter.Request.JSON(document.id('mod-finder-searchword'), url, {'postVar': 'q'});
-			});
-//]]>
-</script>
-
-<form id="mod-finder-searchform" action="/library/component/finder/search.html" method="get" class="form-search">
-	<div class="finder">
-		<button class="btn btn-primary hasTooltip finder" type="submit" title="Go"><i class="icon-search icon-white"></i></button><label for="mod-finder-searchword" class="finder"> </label><input type="text" name="q" id="mod-finder-searchword" class="search-query input-medium" size="25" value="" />
-				<input type="hidden" name="Itemid" value="291" />	</div>
-</form>
-		</div>
-	
- </div>
--->
  <br>
 
  <div class="libColl">
