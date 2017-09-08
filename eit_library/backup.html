@@ -1,183 +1,94 @@
+<div class="highedInd">
 
 
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+ <div class="centerElement">
+	 
+	 <!--
+	 <br>
+	 <h2>Global Index Search</h2>
+  		<div class="moduletable">
+						
+<script type="text/javascript">
+//<![CDATA[
+	window.addEvent('domready', function() {
+		var value;
 
-<style>
-html {
-	overflow: hidden;
-}
+		// Set the input value if not already set.
+		if (!document.id('mod-finder-searchword').getProperty('value')) {
+			document.id('mod-finder-searchword').setProperty('value', 'Search ...');
+		}
 
-* {box-sizing:border-box}
-body {font-family: Verdana,sans-serif;margin:0}
-.mySlides {display:none}
+		// Get the current value.
+		value = document.id('mod-finder-searchword').getProperty('value');
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
+		// If the current value equals the default value, clear it.
+		document.id('mod-finder-searchword').addEvent('focus', function() {
+			if (this.getProperty('value') == 'Search ...') {
+				this.setProperty('value', '');
+			}
+		});
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
+		// If the current value is empty, set the previous value.
+		document.id('mod-finder-searchword').addEvent('blur', function() {
+			if (!this.getProperty('value')) {
+				this.setProperty('value', value);
+			}
+		});
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+		document.id('mod-finder-searchform').addEvent('submit', function(e){
+			e = new Event(e);
+			e.stop();
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+			// Disable select boxes with no value selected.
+			if (document.id('mod-finder-advanced') != null) {
+				document.id('mod-finder-advanced').getElements('select').each(function(s){
+					if (!s.getProperty('value')) {
+						s.setProperty('disabled', 'disabled');
+					}
+				});
+			}
 
-/* Caption text */
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    background: rgba(0,0,0,0.8);
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
+			document.id('mod-finder-searchform').submit();
+		});
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-
-
-
-
-</style>
-
-
-</head>
-<body>
-
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="http://i.imgur.com/iDjBCKX.jpg" style="width:100%">
-  <div class="text">EIT has access to Knovel!</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="http://i.imgur.com/82TxlXa.jpg" style="width:100%">
-  <div class="text">Access it Now!</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="http://i.imgur.com/ud34sZg.png" style="width:100%">
-  <div class="text"></div>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-
-
-
-
+		/*
+		 * This segment of code sets up the autocompleter.
+		 */
+								var url = '/library/component/finder/?task=suggestions.display&format=json&tmpl=component';
+			var ModCompleter = new Autocompleter.Request.JSON(document.id('mod-finder-searchword'), url, {'postVar': 'q'});
+			});
+//]]>
 </script>
-</body>
 
+<form id="mod-finder-searchform" action="/library/component/finder/search.html" method="get" class="form-search">
+	<div class="finder">
+		<button class="btn btn-primary hasTooltip finder" type="submit" title="Go"><i class="icon-search icon-white"></i></button><label for="mod-finder-searchword" class="finder"> </label><input type="text" name="q" id="mod-finder-searchword" class="search-query input-medium" size="25" value="" />
+				<input type="hidden" name="Itemid" value="291" />	</div>
+</form>
+		</div>
+	
+ </div>
+-->
+ <br>
+
+ <div class="libColl">
+  <div class="b1">
+   <a href="https://app.knovel.com/web/index.v" target="_blank"></a>
+  </div>
+  <div class="b2">
+   <a href="http://ieeexplore.ieee.org/Xplore/home.jsp" target="_blank"></a>
+  </div>
+  <div class="b3">
+   <a href="http://www.eit.edu.au/library/" target="_blank"></a>
+  </div>
+  <div class="b4">
+   <a href="http://infotrac.galegroup.com/itweb/61eit?db=AONE" target="_blank"></a>
+  </div>
+  <div class="b5">
+   <a href="https://scholar.google.com.au/" target="_blank"></a>
+  </div>
+
+ </div>
+
+
+</div>	</div>
