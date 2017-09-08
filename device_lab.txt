@@ -2,3 +2,5 @@ Recommendations:
   Mobile:
   - Have a simple layout. Only the orange menu bar in mobile available. It can swap in between whiteboard.
   - Should force the display to be landscape.
+  - Detect that it is a mobile device, hence have a 'm.electromeet.com' type URL.
+  - 
