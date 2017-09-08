@@ -5,4 +5,5 @@ Recommendations:
   - Detect that it is a mobile device, hence have a 'm.electromeet.com' type URL.
  
   Everything:
-    - Recordings -> disable the editing tools when rewatching.
+  - Recordings -> disable the editing tools when rewatching.
+  - 'Enter' in chatbox sends message.
