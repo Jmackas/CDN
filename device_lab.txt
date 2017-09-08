@@ -1,1 +1,4 @@
-- On the mobile. 
+Recommendations:
+  Mobile:
+  - Have a simple layout. Only the orange menu bar in mobile available. It can open whiteboard.
+  - Should force the display to be mobile.
