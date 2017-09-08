@@ -1,4 +1,4 @@
 Recommendations:
   Mobile:
-  - Have a simple layout. Only the orange menu bar in mobile available. It can open whiteboard.
+  - Have a simple layout. Only the orange menu bar in mobile available. It can swap in between whiteboard.
   - Should force the display to be landscape.
