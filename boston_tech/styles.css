@@ -12,6 +12,7 @@ Universal Elements
 
 body {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 120%;
 }
 
 /* Header colour */
@@ -20,6 +21,10 @@ body {
     background-image: url('https://raw.githubusercontent.com/Jmackas/CDN/master/boston_tech/elements/header_image.jpg');
     background-size: cover;
     padding: 5% 0 10% 0;
+}
+
+.site-branding h1 {
+    font-size: 250%;
 }
 
 /* Footer styling */
@@ -34,9 +39,10 @@ li {
 }
 
 /* header one styling */
-h1 {
-    font-size: 400%;
+h2 {
+    font-size: 200%;
 }
+
 
 
 
