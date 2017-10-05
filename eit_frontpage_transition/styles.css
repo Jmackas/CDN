@@ -6,6 +6,8 @@
     display: block;
     width: 100%;
     width: calc(100% / 6);
+    color: white;
+    font-size: 140%;
 }
 
 .masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert {
