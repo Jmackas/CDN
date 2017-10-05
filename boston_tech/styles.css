@@ -10,6 +10,10 @@ Github: https://github.com/Jmackas/CDN/tree/master/boston_tech
 Universal Elements
 *****************/
 
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 /* Header colour */
 .site-branding {
     background: #151515;
