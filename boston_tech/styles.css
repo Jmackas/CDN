@@ -24,7 +24,10 @@ footer#colophon {
     border-top: none;
 }
 
-
+/* list dot points pushed right */
+li {
+    margin: 0 0 0 18px;
+}
 
 
 
