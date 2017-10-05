@@ -1,0 +1,6 @@
+/* CSS definition file containing site wide stylesheets */
+A:active { color: rgb(0,153,255); font-weight: bold; text-decoration: none ;}
+ A { color: rgb(0,153,255); font-weight: bold; text-decoration: none ;}
+ .TextNavBar { font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 10px; color: rgb(80,80,80); font-weight: bold;}
+ A:hover { color: rgb(0,0,102); font-weight: bold; text-decoration: underline;}
+ 

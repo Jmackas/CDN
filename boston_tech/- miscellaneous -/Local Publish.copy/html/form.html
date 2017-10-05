@@ -1,0 +1,774 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Contact Form</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<META NAME="Generator" CONTENT="Larry Browning, 12/04">
+<SCRIPT LANGUAGE="JavaScript1.2">
+<!--
+
+function checkMail(emailaddr)
+{
+var filter = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/;
+
+if (!filter.test(emailaddr))
+	{
+	alert('Invalid email address: ' + emailaddr + ' -- please try again.');
+		return false;
+	}
+	return true;
+}
+
+
+function checkrequired(which)
+{
+var pass=true
+
+if (document.images)
+   {
+   for (i=0;i<which.length;i++)
+      {
+      var tempobj=which.elements[i]
+      if (tempobj.name.substring(0,8)=="required")
+         {
+         if (((tempobj.type=="text"||tempobj.type=="textarea")&&tempobj.value=='')||(tempobj.type.toString().charAt(0)=="s"&&tempobj.selectedIndex==-1))
+            {
+            pass=false
+            break
+            }
+         }
+      }
+   }
+
+if (!pass)
+   {
+   alert("Please enter your name, telephone, and e-mail address.  Then click SEND again!")
+   return false
+   }
+else
+   return true
+}
+
+
+function checkscript(formdata)
+{
+validForm = false;
+
+if (checkrequired(formdata))
+   validForm=checkMail(formdata.elements[16].value);
+
+return validForm;
+}
+
+//-->
+</SCRIPT>
+
+<SCRIPT>
+<!--
+function F_loadRollover(){} function F_roll(){}
+//-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="../assets/rollover.js"></SCRIPT>
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../html/style.css">
+<LINK REL=STYLESHEET TYPE="text/css" HREF="../html/site.css">
+<STYLE>
+</STYLE><NOLAYER>
+<STYLE ID="NOF_STYLE_SHEET">
+<!--
+
+-->
+</STYLE>
+
+</NOLAYER>
+</HEAD>
+<BODY NOF="(MB=(Individual, 172, 40, 0, 0), L=(FormLayout, 800, 1340))" STYLE="text-align: center;" TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+    <div align="center">
+
+    <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=LY>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD HEIGHT=3></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD WIDTH=790>
+                <TABLE ID="Table1" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=131>
+                    <TR HEIGHT=129>
+                        <TD WIDTH=327 STYLE="background-image: url('../assets/images/header_t_bg.gif'); border-left: 2px dotted rgb(0,153,255); border-top: 2px dotted rgb(0,153,255);">
+                            <H1><IMG ID="Banner1" HEIGHT=129 WIDTH=315 SRC="../assets/images/autogen/.__Opt-in_Form__._NnBanner.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0 ALT=".: Opt-in Form :." TITLE=".: Opt-in Form :." NOF=B_H></TD>
+                        <TD WIDTH=453 STYLE="background-image: url('../assets/images/header_t_bg.gif'); border-top: 2px dotted rgb(0,153,255); border-right: 2px dotted rgb(0,153,255);">
+                            <H1 STYLE="text-align: right;"><IMG ID="Picture2" HEIGHT=129 WIDTH=453 SRC="../assets/images/header_r2.gif" VSPACE=0 HSPACE=0 ALIGN="TOP" BORDER=0 ALT=""></TD>
+                    </TR>
+                </TABLE>
+            </TD>
+        </TR>
+    </TABLE>
+    <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=LY>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD WIDTH=790>
+                <TABLE ID="Table2" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=36>
+                    <TR HEIGHT=34>
+                        <TD WIDTH=780 STYLE="background-image: url('../assets/images/navbar_bg.gif'); border-left: 2px dotted rgb(0,153,255); border-right: 2px dotted rgb(0,153,255); border-bottom: 2px dotted rgb(0,153,255);">
+                            <H1>
+                                <TABLE WIDTH="100%" BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=TE>
+                                    <TR>
+                                        <TD ALIGN="LEFT">
+                                            <TABLE ID="NavigationBar1" BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=NB_PYHPYY1120 WIDTH=390>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=130><A HREF="../index.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton1','',0);F_roll('NavigationButton1',1)" onMouseOut="F_roll('NavigationButton1',0)"><IMG ID="NavigationButton1" NAME="NavigationButton1" HEIGHT=34 WIDTH=130 SRC="../assets/images/autogen/__START___Nregular_1.gif" onLoad="F_loadRollover(this,'__START___NRregularRollover_1b.gif',0)" BORDER=0 ALT="&gt; START &lt;" TITLE="&gt; START &lt;"></A></TD>
+                                                    <TD WIDTH=130><A HREF="../html/contact.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton2','',0);F_roll('NavigationButton2',1)" onMouseOut="F_roll('NavigationButton2',0)"><IMG ID="NavigationButton2" NAME="NavigationButton2" HEIGHT=34 WIDTH=130 SRC="../assets/images/autogen/Contact_Nregular_2e.gif" onLoad="F_loadRollover(this,'Contact_NRregularRollover_2d.gif',0)" BORDER=0 ALT="Contact" TITLE="Contact"></A></TD>
+                                                    <TD WIDTH=130 HEIGHT=34><A HREF="../html/form.html" style="cursor:hand; text-decoration:none;" onMouseOver="F_loadRollover('NavigationButton3','',0);F_roll('NavigationButton3',1)" onMouseOut="F_roll('NavigationButton3',0)"><IMG ID="NavigationButton3" NAME="NavigationButton3" HEIGHT=34 WIDTH=130 SRC="../assets/images/autogen/Opt-in_Form_Hhighlighted_1.gif" onLoad="F_loadRollover(this,'Opt-in_Form_HRhighlightedRollover_1b.gif',0)" BORDER=0 ALT="Opt-in Form" TITLE="Opt-in Form"></A></TD>
+                                                </TR>
+                                            </TABLE>
+                                        </TD>
+                                    </TR>
+                                </TABLE>
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>
+        </TR>
+    </TABLE>
+    <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=790 NOF=LY>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD HEIGHT=12></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD HEIGHT=1312 WIDTH=790>
+                <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=790 HEIGHT=1312 STYLE="background-image: url('../assets/images/line_rback3-grey2.png');" NOF="PageTable">
+                    <TR ALIGN=LEFT VALIGN=TOP>
+                        <TD>
+                            <FORM NAME="myform" ACTION="http://bostontech.net/cgi-bin/BTformMail.pl"  onsubmit="return checkscript(this)" METHOD=POST>
+                                <INPUT TYPE=HIDDEN NAME="recipient" VALUE="sales@bostontech.net"><INPUT TYPE=HIDDEN NAME="redirect" VALUE="http://bostontech.net/html/success.html"><INPUT TYPE=HIDDEN NAME="required" VALUE="requiredName, requiredTelNo, requiredEmail">
+                                <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                    <TR VALIGN=TOP ALIGN=LEFT>
+                                        <TD WIDTH=790>
+                                            <TABLE ID="Table26" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=67>
+                                                <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                    <TD VALIGN=MIDDLE ALIGN=CENTER STYLE="border-left: 2px dotted rgb(0,153,255); border-top: 2px dotted rgb(0,153,255); border-right: 2px dotted rgb(0,153,255);">
+                                                        <P STYLE="text-align: center;"><B><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(0,0,102);">Please fill out this form to receive a catalogue or to send us a specific enquiry.</SPAN></B></P>
+                                                        <P STYLE="text-align: center;"><B><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);"><SPAN STYLE="color: rgb(0,0,102);">Note: items marked with an asterisk (</SPAN><SPAN STYLE="color: rgb(255,0,0);">*</SPAN><SPAN STYLE="color: rgb(0,0,102);">) are required fields.</SPAN></SPAN></B></P>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                        </TD>
+                                    </TR>
+                                </TABLE>
+                                <TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=790 NOF="PageTable">
+                                    <TR VALIGN=TOP ALIGN=LEFT>
+                                        <TD>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD HEIGHT=1></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=10>
+                                                        <TABLE ID="Table27" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=1244>
+                                                            <TR>
+                                                                <TD WIDTH=6 STYLE="border-left: 2px dotted rgb(0,153,255);">
+                                                                    <P>&nbsp;</P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                        </TD>
+                                        <TD>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=20><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table6" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=221 STYLE="padding: 5px; border-left-style: none; border-top-style: none; border-right-style: none; border-bottom-style: none;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Title:</SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=519 STYLE="padding: 5px;">
+                                                                    <P>
+                                                                        <TABLE WIDTH=62 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD>
+                                                                                    <SELECT ID="Forms Combo Box1" NAME="Title">
+                                                                                        <OPTION VALUE="Mr" SELECTED>Mr</OPTION>
+                                                                                        <OPTION VALUE="Ms">Ms</OPTION>
+                                                                                        <OPTION VALUE="Mrs">Mrs</OPTION>
+                                                                                        <OPTION VALUE="Miss">Miss</OPTION>
+                                                                                        <OPTION VALUE="Dr">Dr.</OPTION>
+                                                                                        <OPTION VALUE="Prof">Prof.</OPTION>
+                                                                                        <OPTION VALUE="Rank:">Rank:</OPTION>
+                                                                                        <OPTION VALUE=":">Other:</OPTION>
+                                                                                    </SELECT>
+                                                                                </TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                        <TABLE WIDTH=104 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><INPUT ID="Forms Edit Field3" TYPE=TEXT NAME="Title-Alt" VALUE="" SIZE=13 MAXLENGTH=10></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=20><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table8" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=221 STYLE="padding: 5px; border-left-style: none; border-top-style: none; border-right-style: none; border-bottom-style: none;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-size: 14pt;"><B><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; color: rgb(255,0,0);">* </SPAN></B></SPAN><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Full Name:</SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=519 STYLE="padding: 5px;">
+                                                                    <P>
+                                                                        <TABLE WIDTH=320 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><INPUT ID="FormsEditField4" TYPE=TEXT NAME="requiredName" VALUE="" SIZE=40 MAXLENGTH=50></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=20><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table9" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=221 STYLE="padding: 5px; border-left-style: none; border-top-style: none; border-right-style: none; border-bottom-style: none;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Company / Business Name:</SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=519 STYLE="padding: 5px;">
+                                                                    <P>
+                                                                        <TABLE WIDTH=320 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><INPUT ID="FormsEditField5" TYPE=TEXT NAME="Company" VALUE="" SIZE=40 MAXLENGTH=50></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=20><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table10" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=221 STYLE="padding: 5px; border-left-style: none; border-top-style: none; border-right-style: none; border-bottom-style: none;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Position / Job Title:</SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=519 STYLE="padding: 5px;">
+                                                                    <P>
+                                                                        <TABLE WIDTH=320 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><INPUT ID="FormsEditField6" TYPE=TEXT NAME="Position" VALUE="" SIZE=40 MAXLENGTH=50></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=20><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table11" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=221 STYLE="padding: 5px; border-left-style: none; border-top-style: none; border-right-style: none; border-bottom-style: none;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Department / Section:</SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=519 STYLE="padding: 5px;">
+                                                                    <P>
+                                                                        <TABLE WIDTH=320 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><INPUT ID="FormsEditField7" TYPE=TEXT NAME="Dept" VALUE="" SIZE=40 MAXLENGTH=50></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=20><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table12" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=221 STYLE="padding: 5px; border-left-style: none; border-top-style: none; border-right-style: none; border-bottom-style: none;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; color: rgb(80,80,80);"><B><SPAN STYLE="font-size: 14pt; color: rgb(255,0,0);"><SPAN STYLE="font-size: 10pt; color: rgb(0,153,0);">*</SPAN> </SPAN></B><SPAN STYLE="font-size: 12pt;">Delivery (Street) Address:</SPAN></SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=519 STYLE="padding: 5px;">
+                                                                    <P>
+                                                                        <TABLE WIDTH=261 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><TEXTAREA WRAP=PHYSICAL ID="Forms Multi-Line1" NAME="Address" ROWS=3 COLS=31></TEXTAREA></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=20><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table13" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=221 STYLE="padding: 5px; border-left-style: none; border-top-style: none; border-right-style: none; border-bottom-style: none;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; color: rgb(80,80,80);"><B><SPAN STYLE="font-size: 14pt; color: rgb(0,153,0);"><SPAN STYLE="font-size: 10pt;">*</SPAN><SPAN STYLE="font-size: 12pt;"> </SPAN></SPAN></B><SPAN STYLE="font-size: 12pt;">Suburb / City / Town:</SPAN></SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=519 STYLE="padding: 5px;">
+                                                                    <P>
+                                                                        <TABLE WIDTH=320 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><INPUT ID="FormsEditField9" TYPE=TEXT NAME="City" VALUE="" SIZE=40 MAXLENGTH=50></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=78 HEIGHT=27><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=78 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=585>
+                                                        <TABLE ID="Table21" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=162 STYLE="padding: 5px; border-left-style: none; border-top-style: none; border-right-style: none; border-bottom-style: none;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; color: rgb(80,80,80);"><B><SPAN STYLE="font-size: 14pt; color: rgb(0,153,0);"><SPAN STYLE="font-size: 10pt;">*</SPAN><SPAN STYLE="font-size: 12pt;"> </SPAN></SPAN></B><SPAN STYLE="font-size: 12pt;">State:</SPAN></SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=124 STYLE="padding: 5px;">
+                                                                    <P>
+                                                                        <TABLE WIDTH=104 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><INPUT ID="FormsEditField10" TYPE=TEXT NAME="State" VALUE="" SIZE=13 MAXLENGTH=3></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=RIGHT WIDTH=108 STYLE="padding: 5px;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; color: rgb(80,80,80);"><SPAN STYLE="font-size: 14pt;"><B><SPAN STYLE="color: rgb(0,153,0);"><SPAN STYLE="font-size: 10pt;">*</SPAN><SPAN STYLE="font-size: 12pt;"> </SPAN></SPAN></B></SPAN><SPAN STYLE="font-size: 12pt;">Post Code:</SPAN></SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=193>
+                                                                    <P>
+                                                                        <TABLE WIDTH=104 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><INPUT ID="FormsEditField11" TYPE=TEXT NAME="PCode" VALUE="" SIZE=13 MAXLENGTH=4></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=12 HEIGHT=20><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=12 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table20" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=221 STYLE="padding: 5px; border-left-style: none; border-top-style: none; border-right-style: none; border-bottom-style: none;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Country:</SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=519 STYLE="padding: 5px;">
+                                                                    <P>
+                                                                        <TABLE WIDTH=107 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD>
+                                                                                    <SELECT ID="Forms Combo Box4" NAME="Country">
+                                                                                        <OPTION VALUE="AU" SELECTED>Australia</OPTION>
+                                                                                        <OPTION VALUE="NZ">New Zealand</OPTION>
+                                                                                    </SELECT>
+                                                                                </TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=20><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table17" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=221 STYLE="padding: 5px; border-left-style: none; border-top-style: none; border-right-style: none; border-bottom-style: none;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-size: 14pt;"><B><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; color: rgb(255,0,0);">* </SPAN></B></SPAN><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Telephone(s) Land/Mobile:</SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=519 STYLE="padding: 5px;">
+                                                                    <P>
+                                                                        <TABLE WIDTH=320 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><INPUT ID="FormsEditField12" TYPE=TEXT NAME="requiredTelNo" VALUE="" SIZE=40 MAXLENGTH=50></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=20><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table18" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=221 STYLE="padding: 5px; border-left-style: none; border-top-style: none; border-right-style: none; border-bottom-style: none;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Facsimile(s):</SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=519 STYLE="padding: 5px;">
+                                                                    <P>
+                                                                        <TABLE WIDTH=320 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><INPUT ID="FormsEditField13" TYPE=TEXT NAME="Fax" VALUE="" SIZE=40 MAXLENGTH=50></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=20><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table19" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=221 STYLE="padding: 5px; border-left-style: none; border-top-style: none; border-right-style: none; border-bottom-style: none;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-size: 14pt;"><B><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; color: rgb(255,0,0);">* </SPAN></B></SPAN><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">E-mail Address:</SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=519 STYLE="padding: 5px;">
+                                                                    <P>
+                                                                        <TABLE WIDTH=320 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><INPUT ID="FormsEditField14" TYPE=TEXT NAME="requiredEmail" VALUE="" SIZE=40 MAXLENGTH=50></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=755 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=30><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD WIDTH=740><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=740 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740 CLASS="TextObject">
+                                                        <P STYLE="text-align: left;"><B><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(0,0,102);">I wish to inquire about a product I’ve seen:</SPAN></B></P>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table22" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR VALIGN=MIDDLE ALIGN=CENTER>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=221 STYLE="padding: 5px; border-left-style: none; border-top-style: none; border-right-style: none; border-bottom-style: none;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Your request:</SPAN></P>
+                                                                </TD>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=519 STYLE="padding: 5px;">
+                                                                    <P>
+                                                                        <TABLE WIDTH=261 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=LEFT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><TEXTAREA WRAP=PHYSICAL ID="FormsMultiLine2" NAME="InfoRequest" ROWS=3 COLS=31></TEXTAREA></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                    </P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=755 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=30><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD WIDTH=740><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=740 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740 CLASS="TextObject">
+                                                        <P STYLE="text-align: left;"><B><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(0,0,102);">I am interested in one or more of these product areas (please tick):</SPAN></B></P>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table23" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=34>
+                                                            <TR>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=332 STYLE="padding: 5px;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Data Acquisition:</SPAN></P>
+                                                                </TD>
+                                                                <TD WIDTH=408>
+                                                                    <P><INPUT ID="Forms Checkbox1" TYPE=CHECKBOX NAME="Int-DAQ" VALUE="x">&nbsp;</P>
+                                                                </TD>
+                                                            </TR>
+                                                            <TR>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER STYLE="padding: 5px;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Data Communications:</SPAN></P>
+                                                                </TD>
+                                                                <TD>
+                                                                    <P><INPUT ID="FormsCheckbox4" TYPE=CHECKBOX NAME="Int-Comms" VALUE="x">&nbsp;</P>
+                                                                </TD>
+                                                            </TR>
+                                                            <TR>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER STYLE="padding: 5px;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Industrial / Embedded PC’s:</SPAN></P>
+                                                                </TD>
+                                                                <TD>
+                                                                    <P><INPUT ID="FormsCheckbox5" TYPE=CHECKBOX NAME="Int-PCs" VALUE="x">&nbsp;</P>
+                                                                </TD>
+                                                            </TR>
+                                                            <TR>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER STYLE="padding: 5px;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Motion Control:</SPAN></P>
+                                                                </TD>
+                                                                <TD>
+                                                                    <P><INPUT ID="FormsCheckbox7" TYPE=CHECKBOX NAME="Int-Motion" VALUE="x">&nbsp;</P>
+                                                                </TD>
+                                                            </TR>
+                                                            <TR>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER STYLE="padding: 5px;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Industrial Ethernet:</SPAN></P>
+                                                                </TD>
+                                                                <TD>
+                                                                    <P><INPUT ID="FormsCheckbox6" TYPE=CHECKBOX NAME="Int-Ethnt" VALUE="x">&nbsp;</P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=755 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=30><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD WIDTH=740><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=740 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=740 CLASS="TextObject">
+                                                        <P STYLE="text-align: left;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; color: rgb(80,80,80);"><B><SPAN STYLE="font-size: 12pt; color: rgb(0,0,102);">I would like to be sent one or more FREE items (please tick below).<BR>Note: details marked with an asterisk (</SPAN></B><B><SPAN STYLE="font-size: 10pt; color: rgb(0,153,0);">*</SPAN></B><B><SPAN STYLE="font-size: 12pt; color: rgb(0,0,102);">) above are also required for delivery.</SPAN></B></SPAN></P>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD WIDTH=740>
+                                                        <TABLE ID="Table4" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=87>
+                                                            <TR>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=332 STYLE="padding: 5px;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">PC Instrumentation Handbook:</SPAN></P>
+                                                                </TD>
+                                                                <TD WIDTH=408>
+                                                                    <P><INPUT ID="FormsCheckbox1" TYPE=CHECKBOX NAME="PCInst" VALUE="x">&nbsp;</P>
+                                                                </TD>
+                                                            </TR>
+                                                            <TR>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER STYLE="padding: 5px;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Product Catalogue(s) on above areas:</SPAN></P>
+                                                                </TD>
+                                                                <TD>
+                                                                    <P><INPUT ID="FormsCheckbox2" TYPE=CHECKBOX NAME="Cats" VALUE="x">&nbsp;</P>
+                                                                </TD>
+                                                            </TR>
+                                                            <TR>
+                                                                <TD VALIGN=MIDDLE ALIGN=CENTER STYLE="padding: 5px;">
+                                                                    <P STYLE="text-align: right;"><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 12pt; color: rgb(80,80,80);">Other information (Please specify):</SPAN></P>
+                                                                </TD>
+                                                                <TD>
+                                                                    <P><INPUT ID="FormsCheckbox3" TYPE=CHECKBOX NAME="Other" VALUE="">&nbsp; <INPUT ID="FormsEditField1" TYPE=TEXT NAME="OtherInfo" VALUE="" SIZE=17 MAXLENGTH=40></P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=166 HEIGHT=30><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=166 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=438>
+                                                        <TABLE ID="Table25" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=30>
+                                                            <TR>
+                                                                <TD STYLE="border-top: 2px dashed rgb(0,153,0); border-bottom: 2px dashed rgb(0,153,0);">
+                                                                    <P>
+                                                                        <TABLE WIDTH=130 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=RIGHT NOF=TE>
+                                                                            <TR>
+                                                                                <TD><INPUT ID="Send" NAME="Send" TYPE=IMAGE BORDER=0 SRC="../assets/images/regular_2d--send.gif"></TD>
+                                                                            </TR>
+                                                                        </TABLE>
+                                                                        <SPAN STYLE="font-size: 24px;"></SPAN>&nbsp;</P>
+                                                                </TD>
+                                                                <TD STYLE="border-top: 2px dashed rgb(0,153,0); border-bottom: 2px dashed rgb(0,153,0);">
+                                                                    <P><SPAN STYLE="font-size: 8px;"><A HREF="javascript:document.myform.reset();"><IMG ID="Clear" HEIGHT=15 WIDTH=130 SRC="../assets/images/regular_2d-mirror--clear.gif" VSPACE=0 HSPACE=0 ALIGN="LEFT" BORDER=0 ALT=""><SPAN STYLE="font-size: 9px;"></SPAN></SPAN>&nbsp;</P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                        </TD>
+                                        <TD>
+                                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF="PageTable">
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD WIDTH=15 HEIGHT=1><IMG SRC="../assets/images/autogen/clearpixel.gif" WIDTH=15 HEIGHT=1 BORDER=0 ALT=""></TD>
+                                                    <TD></TD>
+                                                </TR>
+                                                <TR VALIGN=TOP ALIGN=LEFT>
+                                                    <TD></TD>
+                                                    <TD WIDTH=10>
+                                                        <TABLE ID="Table28" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=1244>
+                                                            <TR>
+                                                                <TD WIDTH=6 STYLE="border-right: 2px dotted rgb(0,153,255);">
+                                                                    <P>&nbsp;</P>
+                                                                </TD>
+                                                            </TR>
+                                                        </TABLE>
+                                                    </TD>
+                                                </TR>
+                                            </TABLE>
+                                        </TD>
+                                    </TR>
+                                </TABLE>
+                            </FORM>
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>
+        </TR>
+    </TABLE>
+    <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=LY>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD WIDTH=790>
+                <TABLE ID="Table29" BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=15>
+                    <TR>
+                        <TD STYLE="border-top: 2px dotted rgb(0,153,255);">
+                            <P><SPAN STYLE="font-size: xx-small;">&nbsp;</SPAN></P>
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>
+        </TR>
+    </TABLE>
+    <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=LY>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD HEIGHT=13></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD WIDTH=790>
+                <TABLE ID="Table3" BORDER=0 BACKGROUND="../assets/images/line_rback3-grey2.png" CELLSPACING=0 CELLPADDING=0 WIDTH="100%" HEIGHT=19>
+                    <TR VALIGN=MIDDLE ALIGN=CENTER>
+                        <TD VALIGN=MIDDLE ALIGN=CENTER WIDTH=395 STYLE="background-color: transparent; padding: 7px; border-left: 2px dotted rgb(0,153,255); border-top: 2px dotted rgb(0,153,255); border-bottom: 2px dotted rgb(0,153,255);">
+                            <P STYLE="text-align: left;"><B><SPAN STYLE="font-family: Tahoma,Verdana,Arial,Helvetica,Sans-serif,sans-serif; font-size: 10px; color: rgb(80,80,80);">.: Copyright .. <A HREF="../html/contact.html#email">Boston Technology</A> .. 2005 :.</SPAN></B></P>
+                        </TD>
+                        <TD VALIGN=MIDDLE ALIGN=RIGHT WIDTH=395 STYLE="padding: 7px; border-top: 2px dotted rgb(0,153,255); border-right: 2px dotted rgb(0,153,255); border-bottom: 2px dotted rgb(0,153,255);">
+                            <P STYLE="text-align: right;">
+                                <TABLE WIDTH=418 BORDER=0 CELLSPACING=0 CELLPADDING=0 ALIGN=RIGHT NOF=TE>
+                                    <TR>
+                                        <TD NOWRAP NOF="NB_FYHTNN122" CLASS="TextNavBar" STYLE="text-align: center;">&nbsp;.: <A HREF="../index.html">&gt; START &lt;</A> :. &nbsp; .: <A HREF="../html/news.html">News</A> :. &nbsp; .: <A HREF="../html/products.html">Products</A> :. &nbsp; .: <A HREF="../html/support.html">Support</A> :. &nbsp; .: <A HREF="../html/contact.html">Contact</A> :. &nbsp; .: <A HREF="../html/download.html">Download</A> :. </TD>
+                                    </TR>
+                                </TABLE>
+                            </P>
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>
+        </TR>
+    </TABLE>
+    </div>
+
+</BODY>
+</HTML>
+ 
