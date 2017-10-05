@@ -9,10 +9,32 @@
 }
 
 .masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert {
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 200px;
 }
 
+.masters {
+    background: red;
+}
+
+.bachelors {
+    background: yellow;
+}
+
+.graduateCert {
+    background: green;
+}
+
+.advDip {
+    background: blue;
+}
+
+.diploma {
+    background: orange;
+}
+
+.profCert {
+    background: purple;
+}
