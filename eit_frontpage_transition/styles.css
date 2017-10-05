@@ -1,9 +1,17 @@
 .eitFrontPage {
     display: flex;
-    justify-content: center;
 }
 
 .masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert {
-    border: 1px solid white;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
     width: calc(100% / 6);
+}
+
+.masters a, .bachelors a, .graduateCert a, .advDip a, .diploma a, .profCert a {
+    display: block;
+    width: 100%;
 }
