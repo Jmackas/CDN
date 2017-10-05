@@ -14,7 +14,14 @@ Universal Elements
 .site-branding {
     background: rgba(40, 0, 60, 0.38);
     background-image: url('https://raw.githubusercontent.com/Jmackas/CDN/master/boston_tech/elements/header_image.jpg');
+    background-size: cover;
     padding: 5% 0 10% 0;
+}
+
+/* Footer styling */
+footer#colophon {
+    background: #151515;
+    border-top: none;
 }
 
 
