@@ -17,3 +17,12 @@ Universal Elements
 /*****************
 Front Page
 *****************/
+
+
+
+/*****************
+Hacky code
+*****************/
+.site-info {
+    display: none;
+}
