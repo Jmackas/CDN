@@ -1,11 +1,11 @@
 /* Encapsulating entire page */
-.eitFrontPage {
+.eitTopModules {
     display: flex;
     margin: 0 0 5px 0;
 }
 
 /* All hyperlinks in page styled */
-.eitFrontPage a {
+.eitTopModules a {
     display: block;
     width: 100%;
     width: calc(100% / 6);
@@ -16,7 +16,7 @@
 }
 
 /* Removal of underline */
-.eitFrontPage a:hover {
+.eitTopModules a:hover {
     text-decoration: none;
 }
 
