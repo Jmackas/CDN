@@ -88,3 +88,10 @@
 .offCampus {
     background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image8.jpg?raw=true');
 }
+
+/* Burb at the top of the page styling */
+.topBlurb {
+    text-align: center;
+    padding: 1%;
+    border-bottom: 1px dashed lightgray;
+}
