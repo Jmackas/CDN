@@ -5,7 +5,7 @@
 */
 /* Encapsulating entire page */
 .eitFrontPage {
-    font-size: 170%;
+    font-size: 150%;
     /* this code has been added to ovewrwrite promo code */
     background: white;
     color: black;
@@ -47,7 +47,7 @@
     border-radius: 5px;
     padding: 5px;
     font-weight: bold;
-    font-size: 110%;
+    font-size: 130%;
     text-shadow: 2px 2px black;
     filter: saturate(50%);
     transition: .4s ease-in-out;
@@ -105,6 +105,7 @@
 /* Burb at the top of the page styling */
 .topBlurb {
     text-align: center;
+    font-size: 120%;
     padding: 1%;
     border-bottom: 1px dashed lightgray;
 }
