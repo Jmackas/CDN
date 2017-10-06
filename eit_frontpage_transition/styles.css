@@ -1,6 +1,7 @@
 /* Before completion:
     - Convert images to website relative link.
-
+    - Convert stylesheet to internal CSS.
+    - Change the photo of the lady on the 'Study Online from Any Location'.
 */
 
 
@@ -8,6 +9,12 @@
 /* Encapsulating entire page */
 .eitFrontPage {
     font-size: 170%;
+}
+
+/* header two centering */
+
+.eitFrontPage h2 {
+    text-align: center;
 }
 
 /* Encapsulating top modules */
@@ -101,4 +108,9 @@
     text-align: center;
     padding: 1%;
     border-bottom: 1px dashed lightgray;
+}
+
+/* 'Our Organisation' module */
+.ourOrganisation {
+
 }
