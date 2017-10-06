@@ -9,6 +9,10 @@
 /* Encapsulating entire page */
 .eitFrontPage {
     font-size: 170%;
+
+    /* this code has been added to ovewrwrite promo code */
+    background: white;
+    color: black;
 }
 
 /* header two centering */
