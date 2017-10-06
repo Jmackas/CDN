@@ -15,28 +15,29 @@
     align-items: center;
     justify-content: center;
     height: 300px;
+    background-size: cover;
 }
 
 .masters {
-    background-image: 
+    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image1.jpg?raw=true');
 }
 
 .bachelors {
-    background: yellow;
+    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image2.jpg?raw=true');
 }
 
 .graduateCert {
-    background: green;
+    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image3.jpg?raw=true');
 }
 
 .advDip {
-    background: blue;
+    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image4.jpg?raw=true');
 }
 
 .diploma {
-    background: orange;
+    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image5.jpg?raw=true');
 }
 
 .profCert {
-    background: purple;
+    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image6.jpg?raw=true');
 }
