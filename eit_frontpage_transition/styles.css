@@ -26,6 +26,7 @@
     text-shadow: 2px 2px black;
 }
 
+/* Individual modules */
 .masters {
     background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image1.jpg?raw=true');
 }
@@ -48,4 +49,9 @@
 
 .profCert {
     background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image6.jpg?raw=true');
+}
+
+/* Modules below */
+.onCampus, .offCampus {
+    
 }
