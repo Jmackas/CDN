@@ -14,6 +14,11 @@
     text-align: center;
 }
 
+/* Removal of underline */
+.eitFrontPage a:hover {
+    text-decoration: none;
+}
+
 /* All course top modules styles */
 .masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert  {
     display: flex;
