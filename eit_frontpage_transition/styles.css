@@ -15,7 +15,7 @@
 }
 
 /* All course top modules styles */
-.masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert {
+.masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert  {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,9 +49,4 @@
 
 .profCert {
     background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image6.jpg?raw=true');
-}
-
-/* Modules below */
-.onCampus, .offCampus {
-    
 }
