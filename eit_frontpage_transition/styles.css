@@ -20,7 +20,7 @@
 }
 
 /* All course top modules styles */
-.masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert  {
+.masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert, .onCampus, .offCampus  {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +30,7 @@
     font-weight: bold;
     text-shadow: 2px 2px black;
 }
+
 
 /* Individual modules */
 .masters {
@@ -54,4 +55,17 @@
 
 .profCert {
     background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image6.jpg?raw=true');
+}
+
+/* Styling for the bottom row of modules */
+.offlineAndOnline a {
+    width: 50%;
+}
+
+.onCampus {
+    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image7.jpg?raw=true');
+}
+
+.offCampus {
+    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image8.jpg?raw=true');
 }
