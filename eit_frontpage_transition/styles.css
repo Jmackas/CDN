@@ -28,11 +28,12 @@
     height: 300px;
     background-size: cover;
     border-radius: 5px;
+    padding: 5px;
     font-weight: bold;
+    font-size: 120%;
     text-shadow: 2px 2px black;
     filter: saturate(80%);
     transition: .4s ease-in-out;
-
 }
 
 /* hover effect */
