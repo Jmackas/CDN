@@ -33,10 +33,12 @@
     filter: saturate(80%);
 }
 
+/* hover effect */
 .masters:hover, .bachelors:hover, .graduateCert:hover, .advDip:hover, .diploma:hover, .profCert:hover, .onCampus:hover, .offCampus:hover {
     filter: saturate(180%);
 }
 
+/* select module effect */
 .masters:active, .bachelors:active, .graduateCert:active, .advDip:active, .diploma:active, .profCert:active, .onCampus:active, .offCampus:active {
     transform: translate(10px, 10px);
 }
