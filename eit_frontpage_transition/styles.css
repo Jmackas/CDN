@@ -1,4 +1,9 @@
 /* Encapsulating entire page */
+.eitFrontPage {
+    font-size: 170%;
+}
+
+/* Encapsulating top modules */
 .eitTopModules {
     display: flex;
     margin: 0 0 5px 0;
@@ -10,7 +15,6 @@
     width: 100%;
     width: calc(100% / 6);
     color: white;
-    font-size: 140%;
     margin: 0 3px;
     text-align: center;
 }
@@ -30,7 +34,7 @@
     border-radius: 5px;
     padding: 5px;
     font-weight: bold;
-    font-size: 120%;
+    font-size: 110%;
     text-shadow: 2px 2px black;
     filter: saturate(50%);
     transition: .4s ease-in-out;
