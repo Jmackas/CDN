@@ -115,6 +115,7 @@ Before completion:
 }
 
 /* 'Our Organisation' module */
-.ourOrganisation {
-
+.ourOrganisation iframe {
+    float: left;
+    padding: 0 20px 0 0;
 }
