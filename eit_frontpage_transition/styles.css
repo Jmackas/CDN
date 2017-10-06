@@ -1,11 +1,11 @@
-/* Encapsulating entire page */ 
+/* Encapsulating entire page */
 .eitFrontPage {
     display: flex;
     margin: 0 0 5px 0;
 }
 
 /* All hyperlinks in page styled */
-.eitFrontPage a{
+.eitFrontPage a {
     display: block;
     width: 100%;
     width: calc(100% / 6);
@@ -21,7 +21,7 @@
 }
 
 /* All course top modules styles */
-.masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert, .onCampus, .offCampus  {
+.masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert, .onCampus, .offCampus {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,6 @@
     font-weight: bold;
     text-shadow: 2px 2px black;
 }
-
 
 /* Individual modules */
 .masters {
@@ -63,6 +62,7 @@
     width: 50%;
 }
 
+/* Individual modules */
 .onCampus {
     background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image7.jpg?raw=true');
 }
