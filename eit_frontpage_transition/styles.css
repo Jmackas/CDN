@@ -1,7 +1,9 @@
+/* Encapsulating entire page */ 
 .eitFrontPage {
     display: flex;
 }
 
+/* All hyperlinks in page styled */
 .eitFrontPage a{
     display: block;
     width: 100%;
@@ -10,6 +12,7 @@
     font-size: 140%;
 }
 
+/* All course top modules styles */
 .masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert {
     display: flex;
     align-items: center;
