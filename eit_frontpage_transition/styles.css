@@ -6,6 +6,13 @@ Before completion:
     - Convert stylesheet to internal CSS.
     - Change the photo of the lady on the 'Study Online from Any Location'.
 */
+
+/* flex div encapsulation */
+.flexBoxDiv {
+    display: flex;
+    justify-content: center;
+}
+
 /* Encapsulating entire page */
 .eitFrontPage {
     font-size: 150%;
