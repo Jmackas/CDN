@@ -70,7 +70,7 @@ Front Page
 }
 
 /*******************************************
-Contact Us Page
+Contact Us
 *******************************************/
 .contactForm {
     width: 100%;
@@ -109,4 +109,14 @@ Contact Us Page
     .contactPage li {
         list-style: none;
     }
+}
+
+/*******************************************
+Buy subscription plan
+*******************************************/
+/* Remove the space above the 'Starter' plan */
+.pricing.comparison ul {
+    margin: 0 0 0 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
