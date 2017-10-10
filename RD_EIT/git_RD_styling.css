@@ -73,26 +73,25 @@ Front Page
 /*******************************************
 Contact Us
 *******************************************/
-.contactForm {
-    width: 100%;
-    height: 1079px;
-}
-
+/* Map overflow issue fix */
 .overflowAuto {
     overflow: auto;
 }
 
+/* Map pushed to left */
 .overflowAuto iframe {
     float: left;
     margin: 0 20px 0 0;
 }
 
+/* Removal of visible dot points */
 .overflowAuto ul {
     float: left;
     list-style-type: none;
     margin: -6px 0 0 -23px;
 }
 
+/* Page look in mobile */
 @media only screen and (max-width: 1128px) {
     .overflowAuto iframe {
         float: initial;
