@@ -58,9 +58,6 @@ h2 {
 /*****************
 Front Page
 *****************/
-
-.frontPage {}
-
 .frontPage {
     padding: 3%;
 }
@@ -69,6 +66,7 @@ Front Page
     padding: 2% 0 2% 0;
 }
 
+/* Border separation between sections */
 .sectionOne, .sectionTwo {
     border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
 }
