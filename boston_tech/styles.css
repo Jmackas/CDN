@@ -25,10 +25,11 @@ body {
     background-image: url('https://raw.githubusercontent.com/Jmackas/CDN/master/boston_tech/elements/header_image.jpg');
     background-size: cover;
     padding: 5% 0 10% 0;
+    /* text-align: left; */
 }
 
 .site-branding h1 {
-    font-size: 250%;
+    font-size: 350%;
 }
 
 
