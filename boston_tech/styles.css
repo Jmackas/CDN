@@ -73,6 +73,9 @@ Front Page
     padding: 2% 0 2% 0;
 }
 
+label {
+    font-weight: normal;
+}
 
 /*****************
 Hacky code
