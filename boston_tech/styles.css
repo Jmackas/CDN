@@ -6,6 +6,8 @@ Two main colours:
 Github: https://github.com/Jmackas/CDN/tree/master/boston_tech
 
 */
+
+
 /*****************
 Universal Elements
 *****************/
@@ -15,7 +17,9 @@ body {
     font-size: 120%;
 }
 
+
 /* Header colour */
+
 .site-branding {
     background: #151515;
     background-image: url('https://raw.githubusercontent.com/Jmackas/CDN/master/boston_tech/elements/header_image.jpg');
@@ -27,18 +31,24 @@ body {
     font-size: 250%;
 }
 
+
 /* Footer styling */
+
 footer#colophon {
     background: #151515;
     border-top: none;
 }
 
+
 /* list dot points pushed right */
+
 li {
     margin: 0 0 0 22px;
 }
 
+
 /* header one styling */
+
 h2 {
     font-size: 300%;
 }
@@ -48,24 +58,21 @@ h2 {
 }
 
 
-
-
 /*****************
 Front Page
 *****************/
-.frontPage {
 
-}
+.frontPage {}
 
 .frontPage {
     padding: 3%;
 }
 
 
-
 /*****************
 Hacky code
 *****************/
+
 .site-info {
     display: none;
 }
