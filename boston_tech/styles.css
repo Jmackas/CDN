@@ -54,10 +54,6 @@ h2 {
     font-size: 300%;
 }
 
-.sectionOne {
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
-}
-
 
 /*****************
 Front Page
@@ -69,8 +65,12 @@ Front Page
     padding: 3%;
 }
 
-.frontPage .sectionTwo, .sectionOne {
+.sectionOne, .sectionTwo, .sectionThree  {
     padding: 2% 0 2% 0;
+}
+
+.sectionOne, .sectionTwo {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
 }
 
 /* Contact form label size reduced */
