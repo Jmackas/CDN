@@ -19,7 +19,6 @@ body {
 
 
 /* Header colour */
-
 .site-branding {
     background: #151515;
     background-image: url('https://raw.githubusercontent.com/Jmackas/CDN/master/boston_tech/elements/header_image.jpg');
@@ -34,7 +33,6 @@ body {
 
 
 /* Footer styling */
-
 footer#colophon {
     background: #151515;
     border-top: none;
@@ -42,14 +40,12 @@ footer#colophon {
 
 
 /* list dot points pushed right */
-
 li {
     margin: 0 0 0 22px;
 }
 
 
 /* header one styling */
-
 h2 {
     font-size: 300%;
 }
@@ -58,7 +54,6 @@ h2 {
 /*****************
 Front Page
 *****************/
-
 .frontPage {
     padding: 3%;
 }
@@ -71,7 +66,6 @@ Front Page
 
 
 /* Border separation between sections */
-
 .sectionOne,
 .sectionTwo {
     border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
@@ -79,7 +73,6 @@ Front Page
 
 
 /* Contact form label size reduced */
-
 label {
     font-weight: normal;
 }
@@ -88,7 +81,6 @@ label {
 /*****************
 Hacky code
 *****************/
-
 .site-info {
     display: none;
 }
