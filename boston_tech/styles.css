@@ -58,23 +58,32 @@ h2 {
 /*****************
 Front Page
 *****************/
+
 .frontPage {
     padding: 3%;
 }
 
-.sectionOne, .sectionTwo, .sectionThree  {
+.sectionOne,
+.sectionTwo,
+.sectionThree {
     padding: 2% 0 2% 0;
 }
 
+
 /* Border separation between sections */
-.sectionOne, .sectionTwo {
+
+.sectionOne,
+.sectionTwo {
     border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
 }
 
+
 /* Contact form label size reduced */
+
 label {
     font-weight: normal;
 }
+
 
 /*****************
 Hacky code
