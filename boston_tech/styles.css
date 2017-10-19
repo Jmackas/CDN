@@ -20,8 +20,8 @@ body {
 
 /* Header colour */
 .site-branding {
-    background: #151515;
-    background-image: url('https://raw.githubusercontent.com/Jmackas/CDN/master/boston_tech/elements/header_image.jpg');
+    background: black;
+    /* background-image: url('https://raw.githubusercontent.com/Jmackas/CDN/master/boston_tech/elements/header_image.jpg'); */
     background-size: cover;
     padding: 5% 0 10% 0;
     /* text-align: left; */
