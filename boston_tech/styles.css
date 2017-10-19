@@ -17,6 +17,11 @@ body {
     font-size: 120%;
 }
 
+/* Background body colour */
+.site-content-contain {
+    background: #131313 !important;
+}
+
 
 /* Header colour */
 .site-branding {
