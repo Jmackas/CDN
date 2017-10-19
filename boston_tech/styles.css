@@ -59,10 +59,12 @@ h2 {
 /*****************
 Front Page
 *****************/
+/* Padding for the front page content */
 .frontPage {
     padding: 0 2% 0 3%;
 }
 
+/* Padding for each individual section */
 .sectionOne,
 .sectionTwo,
 .sectionThree {
