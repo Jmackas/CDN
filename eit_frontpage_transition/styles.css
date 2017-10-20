@@ -78,27 +78,27 @@ Before completion:
 
 /* Individual modules */
 .masters {
-    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image1.jpg?raw=true');
+    background-image: url('/cms/images/image1.jpg');
 }
 
 .bachelors {
-    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image2.jpg?raw=true');
+    background-image: url('/cms/images/image2.jpg');
 }
 
 .graduateCert {
-    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image3.jpg?raw=true');
+    background-image: url('/cms/images/image3.jpg');
 }
 
 .advDip {
-    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image4.jpg?raw=true');
+    background-image: url('/cms/images/image4.jpg');
 }
 
 .diploma {
-    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image5.jpg?raw=true');
+    background-image: url('/cms/images/image5.jpg');
 }
 
 .profCert {
-    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image6.jpg?raw=true');
+    background-image: url('/cms/images/image6.jpg');
 }
 
 /* Styling for the bottom row of modules */
@@ -108,11 +108,11 @@ Before completion:
 
 /* Individual modules */
 .onCampus {
-    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image7.jpg?raw=true');
+    background-image: url('/cms/images/image7.jpg');
 }
 
 .offCampus {
-    background-image: url('https://github.com/Jmackas/CDN/blob/master/eit_frontpage_transition/elements/image8.jpg?raw=true');
+    background-image: url('/cms/images/image8.jpg');
 }
 
 /* Burb at the top of the page styling */
