@@ -65,16 +65,13 @@ Front Page
 }
 
 /* Padding for each individual section */
-.sectionOne,
-.sectionTwo,
-.sectionThree {
+.sectionOne, .sectionTwo, .sectionThree {
     padding: 2% 0 2% 0;
 }
 
 
 /* Border separation between sections */
-.sectionOne,
-.sectionTwo {
+.sectionOne, .sectionTwo {
     border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
 }
 
@@ -82,6 +79,14 @@ Front Page
 /* Contact form label size reduced */
 label {
     font-weight: normal;
+}
+
+
+/*****************
+About Page
+*****************/
+.aboutPage {
+    
 }
 
 
