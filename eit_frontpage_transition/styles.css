@@ -123,6 +123,22 @@ Before completion:
     border-bottom: 1px dashed lightgray;
 }
 
+@media only screen and (max-width: 966px) {
+    .eitTopModules {
+        display: block;
+    }
+
+    .eitTopModules a {
+        width: 100%;
+        height: 100px;
+    }
+
+    .masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert, .onCampus, .offCampus {
+        height: 100px;
+        border: 1px solid white;
+    }
+}
+
 /* 'Our Organisation' module */
 .ourOrganisation {
 
