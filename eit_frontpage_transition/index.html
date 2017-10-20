@@ -1,5 +1,159 @@
 <head>
-    <link href="https://rawgit.com/Jmackas/CDN/master/eit_frontpage_transition/styles.css" rel="stylesheet">
+   <style>
+   /* 
+http://www.eit.edu.au/cms/proposed-front-page
+
+Before completion:
+    - Convert images to website relative link.
+    - Convert stylesheet to internal CSS.
+    - Change the photo of the lady on the 'Study Online from Any Location'.
+    - Change the breakpoints of the top modules.
+
+*/
+
+/* flex div encapsulation */
+.flexBoxDiv {
+    display: flex;
+    justify-content: center;
+}
+
+/* Encapsulating entire page */
+.eitFrontPage {
+    font-size: 150%;
+    /* this code has been added to ovewrwrite promo code */
+    background: white;
+    color: black;
+    padding: 7px 0 0 0;
+}
+
+/* header two centering */
+.eitFrontPage h2 {
+    text-align: center;
+}
+
+/* Encapsulating top modules */
+.eitTopModules {
+    display: flex;
+    margin: 0 0 5px 0;
+}
+
+/* All hyperlinks in page styled */
+.eitTopModules a {
+    display: block;
+    width: 100%;
+    width: calc(100% / 6);
+    color: white;
+    margin: 0 3px;
+    text-align: center;
+}
+
+/* Removal of underline */
+.eitTopModules a:hover {
+    text-decoration: none;
+}
+
+/* All course top modules styles */
+.masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert, .onCampus, .offCampus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-size: cover;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 130%;
+    text-shadow: 2px 2px black;
+    filter: saturate(50%);
+    transition: .4s ease-in-out;
+}
+
+/* hover effect */
+.masters:hover, .bachelors:hover, .graduateCert:hover, .advDip:hover, .diploma:hover, .profCert:hover, .onCampus:hover, .offCampus:hover {
+    filter: saturate(180%);
+}
+
+/* select module effect */
+.masters:active, .bachelors:active, .graduateCert:active, .advDip:active, .diploma:active, .profCert:active, .onCampus:active, .offCampus:active {
+    transform: translate(0, 3px);
+}
+
+/* Individual modules */
+.masters {
+    background-image: url('/cms/images/image1.jpg');
+}
+
+.bachelors {
+    background-image: url('/cms/images/image2.jpg');
+}
+
+.graduateCert {
+    background-image: url('/cms/images/image3.jpg');
+}
+
+.advDip {
+    background-image: url('/cms/images/image4.jpg');
+}
+
+.diploma {
+    background-image: url('/cms/images/image5.jpg');
+}
+
+.profCert {
+    background-image: url('/cms/images/image6.jpg');
+}
+
+/* Styling for the bottom row of modules */
+.offlineAndOnline a {
+    width: 50%;
+}
+
+/* Individual modules */
+.onCampus {
+    background-image: url('/cms/images/image7.jpg');
+}
+
+.offCampus {
+    background-image: url('/cms/images/image8.jpg');
+}
+
+/* Burb at the top of the page styling */
+.topBlurb {
+    text-align: center;
+    font-size: 120%;
+    padding: 1%;
+    border-bottom: 1px dashed lightgray;
+}
+
+@media only screen and (max-width: 966px) {
+    .eitTopModules {
+        display: block;
+    }
+
+    .eitTopModules a {
+        width: 100%;
+        height: 100px;
+    }
+
+    .masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert, .onCampus, .offCampus {
+        height: 100px;
+        border: 1px solid black;
+        border-radius: initial;
+    }
+}
+
+/* 'Our Organisation' module */
+.ourOrganisation {
+
+}
+
+/* Youtube video pushed to the left */
+.ourOrganisation iframe {
+    float: left;
+    padding: 0 20px 0 0;
+}
+
+</style>
 </head>
 <div class="eitFrontPage">
     <!-- Eit Top Modules -->
