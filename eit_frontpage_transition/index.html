@@ -1,223 +1,213 @@
 <head>
-   <style>
-   /* 
-http://www.eit.edu.au/cms/proposed-front-page
-
-Before completion:
-    - Convert images to website relative link.
-    - Convert stylesheet to internal CSS.
-    - Change the photo of the lady on the 'Study Online from Any Location'.
-    - Change the breakpoints of the top modules.
-
-*/
-
-/* flex div encapsulation */
-.flexBoxDiv {
-    display: flex;
-    justify-content: center;
-}
-
-/* Encapsulating entire page */
-.eitFrontPage {
-    font-size: 150%;
-    /* this code has been added to ovewrwrite promo code */
-    background: white;
-    color: black;
-    padding: 7px 0 0 0;
-}
-
-/* header two centering */
-.eitFrontPage h2 {
-    text-align: center;
-}
-
-/* Encapsulating top modules */
-.eitTopModules {
-    display: flex;
-    margin: 0 0 5px 0;
-}
-
-/* All hyperlinks in page styled */
-.eitTopModules a {
-    display: block;
-    width: 100%;
-    width: calc(100% / 6);
-    color: white;
-    margin: 0 3px;
-    text-align: center;
-}
-
-/* Removal of underline */
-.eitTopModules a:hover {
-    text-decoration: none;
-}
-
-/* All course top modules styles */
-.masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert, .onCampus, .offCampus {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    background-size: cover;
-    border-radius: 5px;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 130%;
-    text-shadow: 2px 2px black;
-    filter: saturate(50%);
-    transition: .4s ease-in-out;
-}
-
-/* hover effect */
-.masters:hover, .bachelors:hover, .graduateCert:hover, .advDip:hover, .diploma:hover, .profCert:hover, .onCampus:hover, .offCampus:hover {
-    filter: saturate(180%);
-}
-
-/* select module effect */
-.masters:active, .bachelors:active, .graduateCert:active, .advDip:active, .diploma:active, .profCert:active, .onCampus:active, .offCampus:active {
-    transform: translate(0, 3px);
-}
-
-/* Individual modules */
-.masters {
-    background-image: url('/cms/images/image1.jpg');
-}
-
-.bachelors {
-    background-image: url('/cms/images/image2.jpg');
-}
-
-.graduateCert {
-    background-image: url('/cms/images/image3.jpg');
-}
-
-.advDip {
-    background-image: url('/cms/images/image4.jpg');
-}
-
-.diploma {
-    background-image: url('/cms/images/image5.jpg');
-}
-
-.profCert {
-    background-image: url('/cms/images/image6.jpg');
-}
-
-/* Styling for the bottom row of modules */
-.offlineAndOnline a {
-    width: 50%;
-}
-
-/* Individual modules */
-.onCampus {
-    background-image: url('/cms/images/image7.jpg');
-}
-
-.offCampus {
-    background-image: url('/cms/images/image8.jpg');
-}
-
-/* Burb at the top of the page styling */
-.topBlurb {
-    text-align: center;
-    font-size: 120%;
-    padding: 1%;
-    border-bottom: 1px dashed lightgray;
-}
-
-@media only screen and (max-width: 966px) {
-    .eitTopModules {
-        display: block;
-    }
-
-    .eitTopModules a {
-        width: 100%;
-        height: 100px;
-    }
-
-    .masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert, .onCampus, .offCampus {
-        height: 100px;
-        border: 1px solid black;
-        border-radius: initial;
-    }
-}
-
-/* 'Our Organisation' module */
-.ourOrganisation {
-
-}
-
-/* Youtube video pushed to the left */
-.ourOrganisation iframe {
-    float: left;
-    padding: 0 20px 0 0;
-}
-
-</style>
-</head>
-<div class="eitFrontPage">
-    <!-- Eit Top Modules -->
-    <div class="eitTopModules">
-        <a href="#">
-            <div class="masters">Masters</div>
-        </a>
-        <a href="#">
-            <div class="bachelors">Bachelors</div>
-        </a>
-        <a href="#">
-            <div class="graduateCert">Graduate Certificate</div>
-        </a>
-        <a href="#">
-            <div class="advDip">Advanced Diploma</div>
-        </a>
-        <a href="#">
-            <div class="diploma">Diploma</div>
-        </a>
-        <a href="#">
-            <div class="profCert">Professional Certificate</div>
-        </a>
-    </div>
-    <div class="eitTopModules offlineAndOnline">
-        <a href="#">
-            <div class="onCampus">Study On Campus</div>
-        </a>
-        <a href="#">
-            <div class="offCampus">Study Online</div>
-        </a>
-    </div>
-    <!-- blurb below the modules -->
-    <p class="topBlurb">Our qualifications are designed and presented by an international body of industry experts, ensuring our students graduate with cutting-edge skills that are valued by employers around the world.</p>
-    <!-- 'Our organisation' module -->
-
-<br>
-
-    <div class="ourOrganisation">
-        <h2>Our Organisation</h2>
-        <iframe src="//www.youtube.com/embed/60vBwmVRQ4k?autoplay=0&amp;autohide=2&amp;border=0&amp;wmode=opaque&amp;enablejsapi=1&amp;controls=0&amp;showinfo=0" frameborder="0"></iframe>
-        
-        <p>Wherever you are based in the world we can reach you. We provide leading-edge, distance learning which is live and interactive.</p>
-        <p>Our programs are best suited to students working in industry who require practical, relevant education that is delivered efficiently and flexibly. The online techniques include the live delivery of lectures, remote laboratories and simulation applications.</p>
-        <p>Our range of training and education solutions are comprehensive and allow students to move between the vocational and higher education sectors as required.</p>
-        <p>Students can register for Professional Certificates of Competency or for accredited qualifications ranging from Diplomas, through to Advanced Diplomas, Bachelors of Science, Graduate Certificates, Graduate Diplomas and Master Degrees in engineering and technology.</p>
-
-<br>
-
-        <!-- 'Learn More' button -->
-        <div class="flexBoxDiv"> 
-        <a class="btn" href="http://www.eit.edu.au/about-engineering-institute-technology-eit" itemprop="url" aria-label="Read more:  Spend a Semester in Western Australia"> 
-			Learn More!</a>
+        <style>
+            /* 
+    http://www.eit.edu.au/cms/proposed-front-page
+    
+    Before completion:
+        - Convert images to website relative link.
+        - Convert stylesheet to internal CSS.
+        - Change the photo of the lady on the 'Study Online from Any Location'.
+        - Change the breakpoints of the top modules.
+    
+    */
+            /* flex div encapsulation */
+            .flexBoxDiv {
+                display: flex;
+                justify-content: center;
+            }
+    
+            /* Encapsulating entire page */
+            .eitFrontPage {
+                font-size: 150%;
+                /* this code has been added to ovewrwrite promo code */
+                background: white;
+                color: black;
+                padding: 7px 0 0 0;
+            }
+    
+            /* header two centering */
+            .eitFrontPage h2 {
+                text-align: center;
+            }
+    
+            /* Encapsulating top modules */
+            .eitTopModules {
+                display: flex;
+                margin: 0 0 5px 0;
+            }
+    
+            /* All hyperlinks in page styled */
+            .eitTopModules a {
+                display: block;
+                width: 100%;
+                width: calc(100% / 6);
+                color: white;
+                margin: 0 3px;
+                text-align: center;
+            }
+    
+            /* Removal of underline */
+            .eitTopModules a:hover {
+                text-decoration: none;
+            }
+    
+            /* All course top modules styles */
+            .masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert, .onCampus, .offCampus {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 300px;
+                background-size: cover;
+                border-radius: 5px;
+                padding: 5px;
+                font-weight: bold;
+                font-size: 130%;
+                text-shadow: 2px 2px black;
+                filter: saturate(50%);
+                transition: .4s ease-in-out;
+            }
+    
+            /* hover effect */
+            .masters:hover, .bachelors:hover, .graduateCert:hover, .advDip:hover, .diploma:hover, .profCert:hover, .onCampus:hover, .offCampus:hover {
+                filter: saturate(180%);
+            }
+    
+            /* select module effect */
+            .masters:active, .bachelors:active, .graduateCert:active, .advDip:active, .diploma:active, .profCert:active, .onCampus:active, .offCampus:active {
+                transform: translate(0, 3px);
+            }
+    
+            /* Individual modules */
+            .masters {
+                background-image: url('/cms/images/image1.jpg');
+            }
+    
+            .bachelors {
+                background-image: url('/cms/images/image2.jpg');
+            }
+    
+            .graduateCert {
+                background-image: url('/cms/images/image3.jpg');
+            }
+    
+            .advDip {
+                background-image: url('/cms/images/image4.jpg');
+            }
+    
+            .diploma {
+                background-image: url('/cms/images/image5.jpg');
+            }
+    
+            .profCert {
+                background-image: url('/cms/images/image6.jpg');
+            }
+    
+            /* Styling for the bottom row of modules */
+            .offlineAndOnline a {
+                width: 50%;
+            }
+    
+            /* Individual modules */
+            .onCampus {
+                background-image: url('/cms/images/image7.jpg');
+            }
+    
+            .offCampus {
+                background-image: url('/cms/images/image8.jpg');
+            }
+    
+            /* Burb at the top of the page styling */
+            .topBlurb {
+                text-align: center;
+                font-size: 120%;
+                padding: 1%;
+                border-bottom: 1px dashed lightgray;
+            }
+    
+            @media only screen and (max-width: 966px) {
+                .eitTopModules {
+                    display: block;
+                }
+    
+                .eitTopModules a {
+                    width: 100%;
+                    height: 100px;
+                }
+    
+                .masters, .bachelors, .graduateCert, .advDip, .diploma, .profCert, .onCampus, .offCampus {
+                    height: 100px;
+                    border: 1px solid black;
+                    border-radius: initial;
+                }
+            }
+    
+            /* 'Our Organisation' module */
+            .ourOrganisation {
+            }
+    
+            /* Youtube video pushed to the left */
+            .ourOrganisation iframe {
+                float: left;
+                padding: 0 20px 0 0;
+            }
+        </style>
+    </head>
+    <div class="eitFrontPage">
+        <!-- Eit Top Modules -->
+        <div class="eitTopModules">
+            <a href="#">
+                <div class="masters">Masters</div>
+            </a>
+            <a href="#">
+                <div class="bachelors">Bachelors</div>
+            </a>
+            <a href="#">
+                <div class="graduateCert">Graduate Certificate</div>
+            </a>
+            <a href="#">
+                <div class="advDip">Advanced Diploma</div>
+            </a>
+            <a href="#">
+                <div class="diploma">Diploma</div>
+            </a>
+            <a href="#">
+                <div class="profCert">Professional Certificate</div>
+            </a>
         </div>
-
+        <div class="eitTopModules offlineAndOnline">
+            <a href="#">
+                <div class="onCampus">Study On Campus</div>
+            </a>
+            <a href="#">
+                <div class="offCampus">Study Online</div>
+            </a>
+        </div>
+        <!-- blurb below the modules -->
+        <p class="topBlurb">Our qualifications are designed and presented by an international body of industry experts, ensuring our students graduate with cutting-edge skills that are valued by employers around the world.</p>
+        <!-- 'Our organisation' module -->
         <br>
-
-        <p>We encourage you to find out more about distance learning for engineers and technicians by reading the eBook titled Practical Online Learning and Laboratories For Engineering, Science and Technology written by EIT's Dean of Engineering, Dr Steve Mackay. It is available from the Resources menu of this website - or link through to the eBook <a href="http://www.eit.edu.au/practical-online-learning-ebook">here</a>.</p>
-
-        <!--
-
-            Student story live module goes here...
-
-        -->
-
-
+        <div class="ourOrganisation">
+            <h2>Our Organisation</h2>
+            <iframe src="//www.youtube.com/embed/60vBwmVRQ4k?autoplay=0&amp;autohide=2&amp;border=0&amp;wmode=opaque&amp;enablejsapi=1&amp;controls=0&amp;showinfo=0" frameborder="0"></iframe>
+            <p>Wherever you are based in the world we can reach you. We provide leading-edge, distance learning which is live and interactive.</p>
+            <p>Our programs are best suited to students working in industry who require practical, relevant education that is delivered efficiently and flexibly. The online techniques include the live delivery of lectures, remote laboratories and simulation applications.</p>
+            <p>Our range of training and education solutions are comprehensive and allow students to move between the vocational and higher education sectors as required.</p>
+            <p>Students can register for Professional Certificates of Competency or for accredited qualifications ranging from Diplomas, through to Advanced Diplomas, Bachelors of Science, Graduate Certificates, Graduate Diplomas and Master Degrees in engineering and technology.</p>
+            <br>
+            <!-- 'Learn More' button -->
+            <div class="flexBoxDiv">
+                <a class="btn" href="http://www.eit.edu.au/about-engineering-institute-technology-eit" itemprop="url" aria-label="Read more:  Spend a Semester in Western Australia">Learn More!</a>
+            </div>
+            <br>
+            <p>
+                We encourage you to find out more about distance learning for engineers and technicians by reading the eBook titled Practical Online Learning and Laboratories For Engineering, Science and Technology written by EIT's Dean of Engineering, Dr Steve Mackay. It is available from the Resources menu of this website - or link through to the eBook <a href="http://www.eit.edu.au/practical-online-learning-ebook">here</a>
+                .
+            </p>
+            <!--
+    
+                Student story live module goes here...
+    
+            -->
+        </div>
     </div>
-</div>
+    
