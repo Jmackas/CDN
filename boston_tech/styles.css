@@ -17,6 +17,10 @@ body {
     font-size: 120%;
 }
 
+a {
+    text-decoration: underline;
+}
+
 /* Background body colour */
 .site-content-contain {
     background: #131313 !important;
