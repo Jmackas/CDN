@@ -12,11 +12,6 @@ Universal
     padding: 0 8%;
 }
 
-/* Header styling */
-.site-branding {
-    font-size: 200%;
-}
-
 /* H2 styling */
 h2 {
     font-size: 300%;
@@ -38,3 +33,12 @@ ul {
 /********************
 Header
 ********************/
+/* Header padding */
+.site-branding {
+    font-size: 100%;
+}
+
+/* Header title font size */
+.site-title a {
+    font-size: 150%;
+}
