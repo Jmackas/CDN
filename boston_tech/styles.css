@@ -2,7 +2,7 @@
 Universal
 ********************/
 /* Overall padding */
-.frontPage {
+.frontPage, .aboutPage, .contactPage {
     padding: 2% 8%;
 }
 
