@@ -50,7 +50,7 @@ Front Page
 ********************/
 /* All sections involved */
 .sectionOne, .sectionTwo, .sectionThree {
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px dashed #d2d2d2;
 }
 
 /* Section one */
