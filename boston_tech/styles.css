@@ -9,13 +9,12 @@ Universal
 
 /* Article padding */
 .sectionOne, .sectionTwo, .sectionThree, .aboutPage, .contactPage {
-    padding: 0 8%;
+    padding: 2% 8%;
 }
 
 /* H2 styling */
 h2 {
     font-size: 300%;
-    margin: 3% 0 0 0;
     color: #333;
 }
 
@@ -49,7 +48,12 @@ Header
 /********************
 Front Page
 ********************/
+/* All sections involved */
+.sectionOne, .sectionTwo, .sectionThree {
+    border-bottom: 1px solid #eee;
+}
+
 /* Section one */
 .sectionOne {
-    background: black;
 }
+
