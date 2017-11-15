@@ -37,11 +37,11 @@ Header
 .site-branding {
     font-size: 100%;
     background-image: url('https://i.imgur.com/yAo5wQX.jpg');
-
 }
 
 /* Header title font size */
 .site-title a {
     font-size: 150%;
     color: white;
+    text-shadow: 2px 2px 2px black;
 }
