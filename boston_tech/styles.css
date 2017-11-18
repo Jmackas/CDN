@@ -3,5 +3,5 @@ Universal
 ******************/
 /* Home page header image */
 .header-homepage.color-overlay {
-    background-image: url('https://i.imgur.com/cQjKcoz.jpg');
+    background-image: url('https://i.imgur.com/cQjKcoz.jpg') !important;
 }
