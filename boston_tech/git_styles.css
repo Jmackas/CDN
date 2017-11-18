@@ -5,3 +5,11 @@ Universal
 .header-homepage.color-overlay {
     background-image: url('elements/header-image.jpg') !important;
 }
+
+
+/******************
+Front Page
+******************/
+.frontPage {
+    padding: 2%;
+}
