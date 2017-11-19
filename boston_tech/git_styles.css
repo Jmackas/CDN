@@ -6,6 +6,11 @@ Universal
     background-image: url('elements/header-image.jpg') !important;
 }
 
+/* H2 styling */
+h2 {
+    border-bottom: 1px solid #88888830;
+}
+
 /******************
 Front Page
 ******************/
