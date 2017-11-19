@@ -6,6 +6,16 @@ Universal
     background-image: url('elements/header-image.jpg') !important;
 }
 
+/* Odd colour divider */
+.oddSplit {
+    background: #060138;
+}
+
+/* Even colour divider */
+.evenSplit {
+    background: rgba(0,0,0,0);
+}
+
 
 /******************
 Front Page
