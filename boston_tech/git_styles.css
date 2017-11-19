@@ -11,8 +11,13 @@ h2 {
     border-bottom: 1px solid #88888830;
 }
 
+/* List styling */
+ul {
+    line-height: 200%;
+}
+
 /******************
-Front Page
+ Front Page
 ******************/
 /* Amalgamated colour dividers */
 .oddSplit, .evenSplit {
