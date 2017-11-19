@@ -6,21 +6,32 @@ Universal
     background-image: url('elements/header-image.jpg') !important;
 }
 
+/******************
+Front Page
+******************/
+/* Amalgamated colour dividers */
+.oddSplit, .evenSplit {
+    padding: 3% 15%;
+}
+
 /* Odd colour divider */
 .oddSplit {
     background: #060138;
+    color: white;
+}
+
+/* Odd colour divider H2 */
+.oddSplit h2 {
+    color: white;
 }
 
 /* Even colour divider */
 .evenSplit {
     background: rgba(0,0,0,0);
+    color: black;
 }
 
-
-/******************
-Front Page
-******************/
-/* Encapsulating front page styling */
-.frontPage {
-    padding: 2%;
+/* Even colour divider H2 */
+.evenSplit h2, .evenSplit h3 {
+    color: black;
 }
