@@ -11,6 +11,16 @@ a.button.big.color1.round:hover {
     background: rgba(0,0,0,0);
 }
 
+/* Top left logo */
+.logo_col.col-xs.col-sm-fit {
+    transition: 0.4s;
+}
+
+/* Top left logo zoom in on hover */
+.logo_col.col-xs.col-sm-fit:hover {
+    transform: scale(1.05); 
+}
+
 /* General opaque button hover styling */
 a.button.big.color-white.round.outline:hover {
     background: white;
