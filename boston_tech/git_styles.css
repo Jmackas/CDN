@@ -66,3 +66,12 @@ ul {
 .evenSplit h2, .evenSplit h3 {
     color: black;
 }
+
+/* Media query handling the about us image */
+@media only screen and (max-width: 811px) {
+    .evenSplit img {
+        float: initial !important;
+        text-align: center;
+        margin: initial !important;
+    }
+}
