@@ -2,7 +2,7 @@
 Universal
 ******************/
 /* Universal colour targeting */
-*, .comment-author .fn, h1, h1.title, h2, h3, h4, h5, h6 {
+body, .comment-author .fn, h1, h1.title, h2, h3, h4, h5, h6 {
     color: black;
 }
 
