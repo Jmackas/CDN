@@ -1,6 +1,11 @@
 /******************
 Universal
 ******************/
+/* Universal colour targeting */
+*, .comment-author .fn, h1, h1.title, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
 /* Home page header image */
 .header-homepage.color-overlay {
     background-image: url('elements/header-image.jpg') !important;
