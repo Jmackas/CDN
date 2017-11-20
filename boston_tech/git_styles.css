@@ -6,6 +6,17 @@ Universal
     background-image: url('elements/header-image.jpg') !important;
 }
 
+/* General blue button hover styling */
+a.button.big.color1.round:hover {
+    background: rgba(0,0,0,0);
+}
+
+/* General opaque button hover styling */
+a.button.big.color-white.round.outline:hover {
+    background: white;
+    color: black;
+}
+
 /* H2 styling */
 h2 {
     border-bottom: 1px solid #88888830;
