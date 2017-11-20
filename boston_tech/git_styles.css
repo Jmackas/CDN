@@ -75,7 +75,7 @@ ul {
 }
 
 /* Media query handling the about us image */
-@media only screen and (max-width: 811px) {
+@media only screen and (max-width: 767px) {
     .evenSplit img {
         float: initial;
         margin: initial;
