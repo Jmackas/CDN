@@ -67,11 +67,17 @@ ul {
     color: black;
 }
 
+/* About us image */
+.evenSplit img {
+    width: 326px; 
+    float: left; 
+    margin: 0 33px 4px 0;
+}
+
 /* Media query handling the about us image */
 @media only screen and (max-width: 811px) {
     .evenSplit img {
-        float: initial !important;
-        text-align: center;
-        margin: initial !important;
+        float: initial;
+        margin: initial;
     }
 }
