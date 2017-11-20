@@ -74,8 +74,14 @@ ul {
 }
 
 /* Odd colour divider H2 */
-.oddSplit h2, .oddSplit label {
+.oddSplit h2 {
     color: white;
+}
+
+/* Form labels styled */
+.oddSplit label {
+    color: white;
+    font-weight: bold;
 }
 
 /* Even colour divider */
