@@ -27,6 +27,28 @@ a.button.big.color-white.round.outline:hover {
     color: black;
 }
 
+/* Read more button styling */
+.readMoreButton {
+    background: white;
+    padding: 15px;
+    border: 1px solid #03a9f4;
+    border-radius: 2px;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+}
+
+/* Read more button hover styling */
+.readMoreButton:hover {
+    background: #03a9f4;
+    color: white;
+}
+
+/* Ellipses after the text */
+.readMoreButton:after {
+    content: '...';    
+}
+
 /* H2 styling */
 h2 {
     border-bottom: 1px solid #88888830;
