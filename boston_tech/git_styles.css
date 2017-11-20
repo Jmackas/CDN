@@ -80,4 +80,9 @@ ul {
         float: initial;
         margin: initial;
     }
+
+    li {
+        border-bottom: 1px dashed #00000014;
+        list-style-type: none;
+    }
 }
